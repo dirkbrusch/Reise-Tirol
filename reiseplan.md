@@ -1,7 +1,7 @@
-# Urlaubsdokumentation Wildschönau / Auffach – 21.05.–06.06.2026 (Version 2)
+# Urlaubsdokumentation Wildschönau / Auffach – 21.05.–06.06.2026 (Version 3)
 
 **Reise:** 17 Tage, 4 Erwachsene, Unterkunft in Auffach (Tirol, Österreich)
-**Version:** V2 – Stand 10. Mai 2026 · Erweitert um Inhalte aus dem NotebookLM-Recherchekorpus (67 Quellen). Ergänzungen v. a. im neuen **Abschnitt M** sowie in einzelnen Inline-Präzisierungen (Holzmuseum-Öffnungstage, Bummelzug-Details, Premium-Card-Bonuspartner u. a.).
+**Version:** V3 – Stand 10. Mai 2026 · Wesentliche Änderungen gegenüber V2: **Abschnitt D Wanderungen komplett neu strukturiert** (Kurzwanderungen für den Abend + Tageswanderungen mit Einkehr), **Abschnitt E Bergbahnen** umfassend erweitert um die Bahnen im Umkreis (Hahnenkamm, Hohe Salve, Nordkette, Achensee, Rofan, Karwendel, Zillertal etc.), **neuer Abschnitt I.X Schwimmbäder & Badeseen** mit Saison/Preisen. Entfernt: E-Ladestationen und Kurtaxe (für die Reiseplanung nicht zentral).
 **Quellen:** wildschoenau.com, skijuwel.com, vvt.at, oebb.at, tirol.at, schoenangeralm.at, bergfex.com, alpbachtal.at, festung.kufstein.at, museum-tb.at, achensee.com, bauernladl.at, holzmuseum.com, hotelplatzl.at, sollererwirt.at, koglmoos.at, ski-auffach.at, thaler-sport.at, ski-margreiter.at, kundler-klamm-wildschoenau.de, dr-reinisch.at, apotheke.tirol, raiffeisen.at, mpreis.at, spar.at, hoteltirolerhof.at, hotel-schneeberger.info, hotelwildbach.com, schatzberghaus.at, resortirol.at, sommer-card.at, gaultmillau.at u. a. – jeweils in den entsprechenden Abschnitten verlinkt.
 **Generelle Hinweise:** Alle Preise sind Stand 2025/Anfang 2026 – **bitte vor Reiseantritt verifizieren**. Saisonale Angaben (Bergbahnen, Almen, Bäder) sind als solche gekennzeichnet.
 
@@ -187,41 +187,136 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 
 > ⚠️ **Schneerest-Hinweis Ende Mai/Anfang Juni 2026:** Touren über 1.800 m – besonders Großer Beil (2.309 m), Sonnjoch (2.287 m), Lämpersberg (2.202 m), Joelspitze (1.964 m), Feldalphorn (1.923 m), Breiteggern (1.981 m) – können noch Restschneefelder, vereiste Stellen und schwierige Wegfindung aufweisen. Wetter und Schneelage vorab beim Tourismusbüro Wildschönau (+43 5339 8255) oder via Bergfex prüfen.
 
-## D.1 Leichte Spaziergänge / Themenwege
+## D.1 Kurzwanderungen für den Abend (90–120 Min, max. 200 hm)
 
-| Tour | km | Zeit | hm | Quelle |
+> Ideal für 16:00–18:00 Uhr nach einem späten Mittagessen oder als entspannter Tagesausklang. Alle Touren sind direkt vom Tal startbar, fast keine alpine Technik nötig, gut beschuhte Straßenschuhe genügen meist. Sortiert nach Startort.
+
+### Ab Auffach (direkt vom Quartier-Ort)
+
+| Tour | km | Zeit | hm | Was man sieht / Besonderheit |
 |---|---|---|---|---|
-| **Franziskusweg Niederau ↔ Oberau** (9 Bronzeskulpturen, ganzjährig, kinderwagentauglich) | 3,0 (one-way) | 1 h | 70 | wandern.com / wildschoenau.com |
-| **Auffacher Rundweg** | 3,3 | 1 h | 110 | wildschoenau.com |
-| **Dorfrundwanderweg Mühltal** ("Weg des Vertrauens") | 2,7 | 1 h | 50 | wildschoenau.com |
-| **Krautinger-Themenweg** | 1,7 | 1 h | 58 | wildschoenau.com |
-| **Kundler Klamm** (spektakuläre Schluchtwanderung, kinderwagentauglich) | 6,5 | 3 h | 10↑ / 240↓ | wildschoenau.com |
-| **Wirbelwindweg** (NEU, 6 QR-Naturspielpunkte, Niederau↔Oberau) | 4,3–4,5 | 2 h | 200 | wildschoenau.com |
+| **Auffacher Rundweg (Genuss-Runde #4)** | 3,3 | 1 h | 110 | Klassische Dorfrunde, Pfarrkirche, Bergblick auf Schatzberg |
+| **Holzweg Auffach** (Zentrum → Holzmuseum → zurück) | 4,2 | 1,5 h | 130 | Themenweg mit Holzskulpturen entlang Lanerbach |
+| **Bachpromenade Wildschönauer Ache** (Auffach → Mühltal-Richtung und zurück) | 4–5 | 1–1,5 h | <50 | Eben am Fluss, ideal nach Regen, keine Steigung |
+| **Auffach – Schrattental – Bachpromenade – Auffach** | 5–6 | 1,5 h | 100 | Kleiner Höhenrücken, Rückweg flach am Bach |
+| **Auffach → Schönangeralm-Weg (kurzes Stück, ca. 2 km Richtung Talschluss + zurück)** | 4 | 1,5 h | 80 | Almstraße, Wasserlauf, abends besonders ruhig |
+| **Tegelanger-Lüsenseite** (Wegweiser ab Bushaltestelle Tegelanger) | 3 | 1 h | 90 | Sonnenseite Auffach, Bauernhöfe, Blick ins Tal |
 
-## D.2 Familienfreundliche / gemäßigte Wanderungen
+### Ab Oberau / Mühltal
 
-| Tour | km | Zeit | hm | Bemerkung |
+| Tour | km | Zeit | hm | Was man sieht / Besonderheit |
 |---|---|---|---|---|
-| **Familienwanderung Holzalm Käsealm** (ab Bergstation Markbach) | 4,7 | 1:15 | 107 | Holzalm offen Mitte Mai – Mitte Oktober |
-| **Wald- und Familienweg Thierbach** | 3,2 | 1 h | 161 | Themenstationen, Waldspielplatz |
-| **Koglweg Thierbach (lange Variante mit Steinkreis)** | 5,5 | 1 h | 177 | Aussicht zur Gratlspitze |
-| **Auffach – Schrattental – Bachpromenade – Auffach** | – | – | – | Rundweg |
-| **Markbachjoch – Norderbergalm** | 1,9 | 1 h | 15 | Ab Bergstation |
-| **Familienwanderung Biohof (Niederau Sonnberg)** | 6,8 | – | 227 | Biohof-Führungen erst ab Juni |
+| **Krautinger-Themenweg** | 1,7 | 1 h | 58 | Infotafeln zur Stoppelrübe und Brennrechten – auch als Info-Spaziergang vor Hofverkostung |
+| **Dorfrundwanderweg Mühltal** („Weg des Vertrauens") | 2,7 | 1 h | 50 | 9 Stationen mit Sinnsprüchen, durch Bauernhöfe |
+| **Franziskusweg Niederau ↔ Oberau** (one-way, mit Bus zurück) | 3,0 | 1 h | 70 | 9 Bronzeskulpturen aus dem Sonnengesang des Hl. Franziskus |
+| **Kundler Klamm – nur erstes Stück Mühltal aus** (Tunneleingang + Wasserfall + zurück) | 3 | 1 h | 30 | Spektakulärer Schluchteingang, kühl, hohe Felswände |
+| **Bergbauernmuseum z'Bach + Spaziergang Hauserweg** | 2 | 45 min | 30 | Mit Museumsbesuch (Mi/Fr) als kombinierter Abendprogrammpunkt |
 
-## D.3 Mittelschwere Wanderungen
+### Ab Niederau
 
-| Tour | km | Zeit | hm | Bemerkung |
+| Tour | km | Zeit | hm | Was man sieht / Besonderheit |
 |---|---|---|---|---|
-| **Schatzberg + Joel Rundwanderung** (ab Bergstation Schatzberg) | 7,3 | 3 h | 400 | **Erst ab 04.06.2026** verfügbar; Joelspitze 1.964 m, evtl. Schneerest |
-| **Markbachjoch – Horlerstiegl – Halsgatterl** | 8,2 | 3 h | 271 | Holzalm-Einkehr |
-| **Kragenjoch Runde** (1.425 m, „perfekter Einstieg in den Wanderurlaub") | 7,8 | 3:30 | 500 | Einkehr Achentalalm – Bergwelten |
-| **Wanderung zum Eisstein** (Sonnberg) | 9,7 | 3 h | 389 | – |
-| **Auf den Roßkopf** | 7,2 | 4 h | 327 | Blick auf Wilden Kaiser |
-| **Große Runde um den Roßkopf** | 10 | 4 h | 407 | – |
-| **Dem Käse auf der Spur** | 13 | 5 h | 338↑ / 627↓ | Themenwanderung Holzalm + Schönangeralm |
+| **Wirbelwindweg** (Niederau ↔ Oberau, 6 QR-Naturspielpunkte) | 4,3 | 2 h | 200 | NEU – interaktiv, läuft parallel zum Franziskusweg auf der Sonnenseite |
+| **Auenweg Niederau** (Talboden) | 3 | 1 h | 30 | Flacher Spaziergang am Bach |
 
-## D.4 Anspruchsvollere Bergtouren / Gipfel
+### Ab Thierbach
+
+| Tour | km | Zeit | hm | Was man sieht / Besonderheit |
+|---|---|---|---|---|
+| **Thierbacher Kogl – kurze Variante** | 3,2 | 1 h | 161 | Themenstationen, Waldspielplatz, Aussicht auf Wilder Kaiser |
+| **Thierbach-Dorfrunde** (höchstes Kirchdorf der Kitzbüheler Alpen) | 2 | 45 min | 50 | Bilderbuchdorf, Bergkapelle, kleinste Volksschule Österreichs |
+
+### Mit Bahnunterstützung als Abendprogramm
+
+| Tour | km | Zeit | hm | Besonderheit |
+|---|---|---|---|---|
+| **Markbachjoch – Norderbergalm** (ab Bergstation, Markbachjochbahn bis 17 Uhr) | 1,9 | 1 h | 15 | Eben, Sonnenuntergangsstimmung an klaren Tagen, letzte Talfahrt 17:00 Uhr beachten |
+| **Markbachjoch – Skulpturenpark Bergsee Mittermoosen + Hängemattenpark** | 2,5 | 1 h | 50 | 30 internationale Skulpturen, Hängematten – Foto-Spot |
+
+## D.2 Tageswanderungen mit Einkehr (3–6 h, moderate hm, mit Alm/Hütte unterwegs)
+
+> Halbtages- bis Tagestouren mit klarem Genusswert: Alm oder Wirtshaus auf der Strecke oder am Ziel. Für Mai/Juni 2026 ist der Saisonstatus der Einkehr jeweils vermerkt.
+
+### Tagestouren ab Auffach / Talsohle
+
+**1. Auffach → Schönangeralm und zurück** (Klassiker am Talschluss)
+- Strecke: ~10 km hin/zurück · Gehzeit: 3 h · hm: 310 · Schwierigkeit: leicht
+- Wegführung: Almstraße entlang der Wildschönauer Ache, vorbei am Hintersalcherhof, Schrattental, durch Mischwald zur Alm.
+- **Einkehr unterwegs:** Bummelbahn-Halt (Eisbecher), **Schaukäserei Schönangeralm 1.180 m** als Mittag- oder Nachmittagsstop. Geöffnet ab **09.05.2026**, Mai/Juni **Di Ruhetag**, **nur Bargeld**. Spezialitäten: Schönangerer Kasspatzeln, panierter Bergkäse, Kaspressknödel.
+- Variante: Hin zu Fuß, zurück mit **Wanderbus** (4× tgl. ab 23.05.) oder **Bummelbahn**.
+
+**2. Auffach → Niederkaseralm → Schönangeralm** (etwas anspruchsvoller)
+- ~12 km · 4 h · 450 hm · leicht-mittel
+- Über die Niederkaseralm (1.200 m, Almsommer ab Anfang Juni) zur Schönangeralm.
+- **Einkehr:** Niederkaseralm (sofern offen Ende Mai – vor Ort fragen), Schönangeralm.
+
+**3. Sonnberg-Runde Niederau (Wanderung zum Eisstein)**
+- 9,7 km · 3 h · 389 hm · mittel
+- Ab Niederau auf den Sonnberg, vorbei an Bauernhöfen.
+- **Einkehr:** **Riedlhof** (ab Niederau via Sonnberg erreichbar) – ganzjährig, Riesen-Wiener-Schnitzel, Aussichts-Sonnenterrasse, Tel. +43 5339 8882.
+
+### Tagestouren ab Markbachjochbahn (ab 09.05. in Betrieb)
+
+**4. Markbachjoch – Holzalm Käsealm – Halsgatterl – zurück**
+- 8,2 km · 3 h · 271 hm · leicht-mittel
+- Bergstation 1.500 m → über die Hochalm-Landschaft zur Holzalm Käsealm (1.440 m)
+- **Einkehr:** **Holzalm Käsealm** (offen **ab Mitte Mai** – vormittags Käseproduktion live!), **Markbachjochalm** (Sepp) am Start/Ende. Beide eindeutig im Reisezeitraum offen.
+
+**5. Markbachjoch – Roßkopf – Lahnerköpfl-Runde**
+- 7,5 km · 4 h · 560 hm · mittel
+- Höhepunkt: Blick auf den Wilden Kaiser
+- **Einkehr:** **Rübezahl-Hütte** (1.600 m, **offen Anfang Mai – Ende Oktober**, 2 Min. ab Bergstation, Falstaff 90 Punkte), Markbachjochalm. **Norderbergalm** als Alternative am Schluss (Kaiserschmarrn, Kaspressknödel).
+
+**6. Markbachjoch – Norderbergalm – Holzalm – kombiniert**
+- 6–7 km · 3 h · 200–300 hm · leicht
+- Zwei Almen an einem Tag.
+- **Einkehr:** Norderbergalm (1.364 m – Bergfrühstück auf Reservierung), Holzalm Käsealm.
+
+**7. Markbachjoch – Skulpturenpark – Niederau (Abstieg)**
+- 6,7 km · 2 h · 612 hm Abstieg, kaum Aufstieg
+- Bahn rauf, gemütlich runter durch Hängemattenpark und Skulpturenpark Bergsee Mittermoosen
+- **Einkehr:** Markbachjochalm oben, **Hotel Harfenwirt** an der Talstation (international + tirolerisch).
+
+### Tagestouren ab Schatzbergbahn (erst ab 04.06.2026!)
+
+**8. Schatzberg + Joel Rundwanderung**
+- 7,3 km · 3 h · 400 hm · mittel
+- Joelspitze 1.964 m – Restschnee bis Mitte Juni möglich
+- **Einkehr:** **Schatzbergalm Berggasthof Klingler** (Bergstation, ~1.800 m) und **Gipfö Hit** (Schatzberg-Gipfel 1.898 m) – beide ab 04.06., ebenso **Berghaus Koglmoos** (1.300 m, Mittelstation, Mi/Do Ruhetag im Sommer).
+
+**9. Schatzberg → Koglmoos → Auffach (Abstieg)**
+- 6,3 km · 2 h · 910 hm Abstieg
+- Bahn rauf, komplett zu Fuß runter
+- **Einkehr:** Schatzbergalm oben, Berghaus Koglmoos auf halber Strecke, Restaurants in Auffach am Ziel.
+
+### Tagestouren ohne Bahn
+
+**10. Kragenjoch-Runde** (klassischer „Einstiegstag")
+- 7,8 km · 3:30 h · 500 hm · mittel
+- Ab Oberau Richtung Achentalalm, schöner Aufstieg durch lichten Wald, Aussicht zur Gratlspitze
+- **Einkehr:** **Achentalalm** (~1.400 m, im Sommer geöffnet) – **Mittwochs Schmalznudel-Spezialität**! Bergwelten-Empfehlung: „perfekter Einstieg in den Wanderurlaub".
+
+**11. Auffach → Schönangeralm → Gressensteinwasserfall**
+- 8 km hin/zurück · 3 h · 350 hm · leicht-mittel
+- Vom Talschluss zum imposanten Wasserfall (durch Schneeschmelze Ende Mai besonders kraftvoll)
+- **Einkehr:** Schönangeralm vor und nach der Wasserfall-Schleife.
+
+**12. Hösljoch von Thierbach** (Verbindung ins Alpbachtal)
+- 8 km · 4 h · 600 hm · mittel
+- Ab Thierbach über das Hösljoch
+- **Einkehr:** **Sollererwirt Thierbach** (Speckbacherstube von 1670, ab 4 Pers. vorbestellen), **Gasthof Gradlspitz** (1.200 m, Sonnenterrasse) zum Start oder Ende.
+
+**13. „Dem Käse auf der Spur" – Themenwanderung**
+- 13 km · 5 h · 338 hm↑ / 627 hm↓ · mittel
+- Verbindet Holzalm und Schönangeralm – die zwei Schaukäsereien in einer Runde
+- **Einkehr:** Holzalm Käsealm + Schönangeralm – beide offen im Reisezeitraum.
+
+**14. Kundler Klamm Komplettdurchquerung**
+- 6,5 km one-way (zurück mit Bummelzug ab 29.05.) · 3 h · 10 hm↑/240 hm↓ · leicht
+- Spektakuläre Schluchtwanderung, kinderwagentauglich
+- **Einkehr:** **Hotel Färberwirt** (Mühltal, am Start), Gasthof Klamm-Kundl (am Ziel)
+
+## D.3 Anspruchsvollere Bergtouren / Gipfel
 
 > Alle Gipfel über 1.800 m – im Reisezeitraum mit Vorsicht, Restschnee wahrscheinlich. Trittsicher, schwindelfrei, alpine Erfahrung erforderlich.
 
@@ -233,8 +328,9 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 | **Schönanger – Lämpersberg** | 12 | 8 h | 1.070 | 2.202 m – ⚠️ |
 | **Breiteggern** | 10,3 | 4 h | 838 | 1.981 m – ⚠️ |
 | **Wanderung zum Feldalphorn (ab Markbachjoch)** | 15,4 | 5 h | 650↑ / 813↓ | 1.923 m – ⚠️ |
+| **Wildschönauer Höhenweg (4 Gipfel)** Markbachjoch → Holzalm → Feldalphorn → Schweigberghorn → Breiteggern → Schönangeralm | 14,5 | 6 h | 673↑ / 958↓ | – ⚠️ höhere Abschnitte oft schneeproblematisch Ende Mai |
 
-## D.5 Wanderungen mit Bergbahn-Unterstützung
+## D.4 Wanderungen mit Bergbahn-Unterstützung
 
 > Schatzbergbahn: erst ab 04.06.2026. Markbachjochbahn: ab 09.05.2026.
 
@@ -246,7 +342,7 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 | **Wildschönauer Höhenweg (4 Gipfel)** Markbachjoch → Holzalm → Feldalphorn → Schweigberghorn → Breiteggern → Schönangeralm | 14,5–15,3 | 5–6 h | 673–1.000↑ | Markbachjochbahn – ⚠️ Gipfel oft schneeproblematisch Ende Mai |
 | **Breitegger Runde** | 11 | 5 h | 680 | Markbachjochbahn |
 
-## D.6 Almenwanderungen (Ende Mai/Anfang Juni)
+## D.5 Almenwanderungen (Ende Mai/Anfang Juni)
 
 | Alm | Höhe | Status | Tour ab |
 |---|---|---|---|
@@ -258,7 +354,7 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 | **Schönanger – Gressensteinalm** | 1.700 m | Bewirtschaftung später | Schönangeralm |
 | **Höher gelegene Almen (Vordere/Hintere Feldalm, Baumgarten, Foisching, Breiteggalm)** | 1.500–1.800 m | **Erst ab Mitte Juni** | – |
 
-## D.7 Verbindungswege zwischen den Orten
+## D.6 Verbindungswege zwischen den Orten
 
 - **Niederau – Auffach** (Talwanderung), 8,2 km, 2:30 h, 182 hm
 - **Franziskusweg Niederau – Oberau**, 3 km, 1 h
@@ -290,12 +386,104 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 - Wichtigster Paragleiter-Startplatz
 
 ## E.3 Ski Juwel Alpbachtal Wildschönau im Sommer
-- **4 Sommerbahnen:** Markbachjoch (09.05.–18.10.), Schatzberg (04.06.–04.10.), **Wiedersbergerhornbahn Alpbach** (Saisonstart üblicherweise erst Anfang Juni), **Reitherkogelbahn** (Mitte Mai–Ende September, **Mi Ruhetag**)
+- **4 Sommerbahnen im Verbund:** Markbachjoch (09.05.–18.10.), Schatzberg (04.06.–04.10.), **Wiedersbergerhornbahn Alpbach** (Saisonstart üblicherweise erst Anfang Juni), **Reitherkogelbahn** (Mitte Mai–Ende September, **Mi Ruhetag**)
 - Verbindungswanderung Schatzberg ↔ Alpbach möglich (Schatzberg ist Grenzberg)
 - Lauserland und **Alpine Coaster „Lauser-Sauser"** ganzjährig auf Wiedersberger Horn
 - **Juppi Zauberwald** (2,5 km, 30 Spielstationen) auf Reitherkogel
+- **Mit Premium Card kostenlos** für alle 4 Bahnen.
 
-## E.4 Wildschönau Card vs. Premium Card
+## E.4 Bergbahnen im weiteren Umkreis (Tagesausflüge ab Auffach)
+
+> Alle Distanzen ab Auffach. Saisonstart variiert – manche Bahnen öffnen erst Anfang/Mitte Juni. Vor Anreise unbedingt aktuelle Fahrzeiten prüfen.
+
+### Wilder Kaiser / SkiWelt-Region (~25–35 km)
+
+**Hohe-Salve-Bahn Söll/Hopfgarten** (1.829 m) – ~28 km, 35 Min.
+- Hauptattraktion: Hexenwasser Söll (großes Erlebnis-Areal mit Wasserspielplätzen, Kneipp-Becken, Bauernhof). **Saison Hexenwasser ab ~25.05.2026** (Pfingsten Saisonstart).
+- 360°-Panorama vom Salvenkirchlein aus, mit Blick auf 70 Dreitausender
+- Verbund: Brixen-Hopfgarten-Itter, Söll, Going, Ellmau – Sommerlift-Karte „Sommer-Bergbahnen-Pass"
+- **Mit Wildschönau Card: keine direkten Vorteile**, aber 10 % im Salvenaland Hopfgarten
+
+**Salvistabahn Westendorf** (1.680 m) – ~30 km, 40 Min.
+- Familienbahn mit „Alpinolino"-Kinderpark (Wasserwelt, Erlebnisweg)
+- Verbindung zur Choralpe und Skywalk-Aussichtsplattform
+
+**Astberg Going / Hartkaiserbahn Ellmau** (~35 km, 45 Min.) – Wilder Kaiser Sommer-Erschließung, Astbergsee mit Spielplatz.
+
+### Kitzbüheler Alpen (~35–45 km)
+
+**Hahnenkammbahn Kitzbühel** (1.665 m) – ~35 km, 45 Min.
+- Sommer 2026: voraussichtlich ab Mitte Mai (genaue Daten prüfen unter kitzski.at)
+- **Streif-Themenweg**: original Streif-Abfahrt zu Fuß erleben mit Infotafeln
+- Restaurants: **Hahnenkamm-Stüberl**, **Berghaus Tirol**
+
+**Kitzbüheler Hornbahn** (1.996 m) – ~37 km, 50 Min.
+- **Alpenblumengarten Kitzbüheler Horn** (~120 Pflanzenarten) – aber Ende Mai noch wenig in Blüte, Höhepunkt Juli
+- Gipfelhaus mit Panorama-Restaurant
+
+**Penkenbahn / Ahornbahn Mayrhofen** (Zillertal, ~50 km, 60 Min.)
+- Penkenbahn (1.785 m): Sommer ab ca. 15.05., Adler-Lounge, Mountaincart-Strecke
+- Ahornbahn (1.991 m): „weltgrößtes Pendelseilbahn-Kabinen-Volumen" (160 Pers.)
+- Optional kombinierbar mit Erlebnistherme Zillertal Fügen am Rückweg
+
+### Achensee-Region (~50 km, 60 Min.)
+
+**Karwendel-Bergbahn Pertisau** (1.760 m)
+- Sommer 2026: vermutlich ab Mai (Saisonstart auf karwendel-bergbahn.at)
+- Top-Aussichtsplattform „Adlerhorst", Naturpark Karwendel
+- Bergrestaurant Karwendel-Plumsjoch
+
+**Rofanseilbahn Maurach** (1.840 m)
+- Saison Sommer ab ~15.05.2026
+- **„Airrofan Skyglider"** (Riesenschaukel über die Klamm) und **„Adlerhorst-Plattform"**
+- Wanderwege zum Gschöllkopf, Rosskopf
+
+**Achenseebahn Jenbach – Seespitz** (historische Dampf-Zahnradbahn)
+- **Seit 2026 wieder in Betrieb** nach Renovierung
+- Strecke: Jenbach – Eben – Seespitz (44 Min.), Anschluss an Achenseeschifffahrt
+- Saison Mai–Oktober · Ticket ~25 € einfach, ~35 € retour (Stand 2024 – aktuell prüfen)
+
+### Innsbruck-Region (~80 km, 1 h)
+
+**Hungerburgbahn + Nordkettenbahnen Innsbruck** (Hafelekar 2.256 m)
+- Standseilbahn vom Stadtzentrum (Congress) zur Hungerburg (860 m), dann Seilbahn zur Seegrube (1.905 m), dann zum Hafelekar
+- Ganzjährig in Betrieb, futuristische Stationen von Zaha Hadid
+- Hafelekar-Spitze: 360°-Blick auf Innsbruck und Karwendel
+- Kombiticket ~42 € Erw. Hin/Retour
+
+**Patscherkofelbahn Igls** (~85 km) – Hausberg von Innsbruck (2.246 m), Almenpanorama-Weg.
+
+### Kufstein (~30 km, 35 Min.)
+
+**Kaiserlift Kufstein** (Brentenjoch 1.250 m)
+- Einer der letzten **Einsessellifte** im Alpenraum, Kult-Charakter
+- Saison Mai–Oktober (genaue Tage prüfen – kaiserlift.at)
+- Wanderungen zum Stripsenjoch, Kaisertal
+
+### Saalbach / Pinzgau (~70 km, 1:15 h)
+
+⚠️ **ÖBB-Bauarbeiten 03.06.–28.06.2026** zwischen Wörgl und Zell am See – Bahn-Anreise eingeschränkt!
+
+**Schmittenhöhebahn Zell am See** (1.965 m) und **Asitzbahn Leogang** – nur als Halb-/Tagesausflug mit Auto sinnvoll.
+
+## E.5 Bergbahn-Empfehlungen für die Reise (Auswahl)
+
+| Bahn | Distanz ab Auffach | Saisonstart | Premium-Card-Vorteil | Reise-Empfehlung |
+|---|---|---|---|---|
+| **Markbachjochbahn** | 7 km | 09.05. ✓ | **kostenlos** | Pflicht – mehrfach nutzen |
+| **Schatzbergbahn** | 0 km | 04.06. | **kostenlos** | Letzte 3 Tage der Reise nutzen |
+| **Wiedersbergerhornbahn Alpbach** | 25 km | ~Anfang Juni | **kostenlos** | Verbindung Schatzberg ↔ Alpbach laufen |
+| **Reitherkogelbahn** | 22 km | Mitte Mai ✓ | **kostenlos** | Juppi Zauberwald, regenfest |
+| **Hahnenkammbahn Kitzbühel** | 35 km | Mitte Mai? | −10 % (mit Festungs-Karte) | Streif-Themenweg, Halbtagestour |
+| **Hohe-Salve Söll** + Hexenwasser | 28 km | ab 25.05. | – | Top für Familien, Pfingstferien |
+| **Rofanseilbahn Maurach** | 50 km | ab 15.05. | – | Airrofan Skyglider, Adler-Plattform |
+| **Karwendel-Bergbahn Pertisau** | 55 km | ab Mai | – | Naturpark Karwendel, ruhig |
+| **Achenseebahn (Dampf)** | 50 km | Mai–Okt | – | Nostalgisches Highlight, mit Schiff kombinieren |
+| **Hungerburg + Nordkette Innsbruck** | 80 km | ganzjährig | – | Halb-Stadt, Halb-Berg |
+| **Penkenbahn Mayrhofen** | 50 km | ab 15.05. | – | nur falls Zillertal-Tag |
+| **Kaiserlift Kufstein** | 30 km | Mai–Okt | – | Geheimtipp, Einsessellift-Kult |
+
+## E.6 Wildschönau Card vs. Premium Card
 
 > **WICHTIG (seit Sommer 2025):** Die Sommerbergbahnen sind **nur in der Premium Card** kostenlos – nicht mehr in der Standard-Card.
 
@@ -491,13 +679,7 @@ Im Tal v. a. Frischfleischtheken in den SPAR-Märkten (Oberau besonders); eigens
 
 **Paragliding**: Flugschule Wildschönau (paragliding.at). Tandemflug Markbachjoch ~120 €, Tandemflug Hohe Salve nach Söll/Hopfgarten ~150 €. Startplatz neben Bergstation Markbachjoch (1.500 m), Landeplatz neben Talstation Niederau. ~300 Flugtage/Jahr. Mit Card Ermäßigung.
 
-**Schwimmbäder / Badeseen**:
-- **Freibad „Bergbadl" Oberau** – mit Standard Card frei. Saisoneröffnung **meist erst Mitte/Ende Juni** (witterungsabhängig).
-- **Reintalersee Kramsach** (~25–30 km) – Mai noch zu kalt zum Schwimmen; Spaziergang/Klettersteig möglich.
-- **Atoll Achensee** in Buchau (~50 km) – Top-Hallenbad-Ersatz für Wave Wörgl
-- **Erlebnistherme Zillertal Fügen** (~35 km)
-- **Aquarena Kufstein** (Freibad)
-- **Salvenaland Hopfgarten** (Bonuspartner Card)
+**Schwimmbäder / Badeseen**: siehe ausführlich Abschnitt **I.1** unten.
 
 **Geführte Wanderungen** des Tourismusbüros Mo–Fr (in Card inkl., Anmeldung +43 5339 8255 bis 17 Uhr Vortag): Erlebnis-Bergwanderungen, „Auf den Spuren der Wildschönauer Krautingerrübe", Heilkräuterwanderung dienstags (Mag. Paul Vergörer), Panorama-Wanderungen, Schatzberg–Joelspitze-Tour mittwochs (ab Bahnstart 04.06.). Wochenprogramm: wildschoenau.com/de/info-service/wochenprogramm
 
@@ -508,6 +690,50 @@ Im Tal v. a. Frischfleischtheken in den SPAR-Märkten (Oberau besonders); eigens
 **Was Ende Mai schon möglich ist:**
 ✅ Markbachjochbahn ab 09.05. · ✅ Wanderbus ab 09.05. · ✅ Bummelbahn Schönangeralm · ✅ Kundler Klamm ganzjährig · ✅ Bergbauernmuseum ab 15.05. · ✅ iBIKE BOX ab 07.05. · ✅ Bergblumen, Bachläufe in voller Pracht
 ⚠️ Almauftrieb Anfang Juni · ⚠️ Schatzbergbahn erst ab 04.06. · ⚠️ Schönangeralm-Schaukäserei-Vollbetrieb erst ab Juni · ⚠️ Reitherkogelbahn ab Mitte Mai · ⚠️ Wiedersbergerhornbahn meist ab Anfang Juni · ⚠️ Freibad Wildschönau meist erst Mitte/Ende Juni · ⚠️ Höhere Almen über 1.500 m oft erst Mitte Juni · ⚠️ Restschnee oberhalb 1.700 m
+
+## I.1 Schwimmbäder, Hallenbäder und Badeseen
+
+> Im Reisezeitraum Ende Mai/Anfang Juni sind die meisten **Freibäder noch nicht in Betrieb** (Saisonstart oft erst Mitte/Ende Juni). **Hallenbäder** und **ganzjährige Erlebnisbäder** sind die zuverlässige Alternative – besonders bei Schlechtwetter.
+
+### Im Tal Wildschönau
+
+**Freibad „Bergbadl" Oberau** – Hauserweg 337, Oberau (neben Tourismusbüro)
+- **Saisoneröffnung 2026: voraussichtlich Mitte/Ende Juni** (witterungsabhängig)
+- ⚠️ Im Reisezeitraum mit hoher Wahrscheinlichkeit **noch geschlossen**
+- **Mit Wildschönau Card kostenlos**
+- Beheiztes Becken, Liegewiese, Kinderbecken, Spielplatz
+
+**Hauseigene Hallenbäder von Hotels** (für Hausgäste):
+- **Schatzberg-Haus Auffach** – Hallenbad
+- **Apparthotel & Spa Talhof Oberau** – Hallenbad und Sauna
+- **Hotel Schneeberger Niederau** – Wellness/Schwimmbad
+
+### Im Umkreis (Tagesausflug)
+
+| Bad | Distanz Auffach | Typ | Saison 2026 | Eintritt | Besonderheit |
+|---|---|---|---|---|---|
+| **Atoll Achensee** Buchau | ~50 km, 1 h | Hallen + Outdoor + Wellness | **ganzjährig** | ~25–32 € (Tagesticket) | **Top-Empfehlung Schlechtwetter** – moderner Komplex am Achensee |
+| **Erlebnistherme Zillertal** Fügen | ~35 km, 45 Min. | Hallen + Outdoor + Sauna | **ganzjährig** | ~22 € (4 h)–32 € (Tag) | Erlebnisrutschen, Familienbecken, Saunalandschaft |
+| **Aquarena Kufstein** | ~30 km, 35 Min. | Freibad + Hallenbad | Hallenbad ganzjährig, **Freibad ab ~Mitte Mai** | ~7–11 € | Stadtbad mit Sportbecken, Liegewiese |
+| **Hallenbad Aquarena Kitzbühel** | ~37 km, 50 Min. | Hallenbad | ganzjährig, bis 19:30 | ~10 € | Sportbecken, +43 5356 6951-1711 |
+| **Salvenaland Hopfgarten** | ~22 km, 30 Min. | Freibad | ab ca. **18.05.2026** | ~7 € (**−10 % Premium Card**) | Erlebnisrutschen, Wellnessbereich |
+| **Kaiserbad Ellmau** | ~32 km, 45 Min. | Freibad + Badesee + Beachvolleyball | ab ca. Mitte Mai, bis 21:00 | ~7 € | Großzügige Liegewiese, +43 5358 3811 |
+| **Reintalersee Kramsach** | ~25 km, 35 Min. | Naturbadesee | Badesaison **01.05.–15.09.** | freier Zugang Spaziergang, Strandbad ~5 € | Größter und wärmster See Kramsach (Hochsommer 25–26 °C) – **Mai zu kalt zum Schwimmen, aber Spaziergang/Klettersteig sehr lohnend** |
+| **Krummsee + Frauensee Kramsach** | ~25 km | Naturbadeseen | Mai–September | ~5 € Strandbad | Nachbarseen des Reintalersees |
+| **Berglsteinersee** | ~28 km | Naturbadesee | Mai–Sept | freier Zugang | Stiller Bergsee, kein Strandbad – nur Wandern/Liegewiese |
+| **Thiersee** (oberhalb Kufstein) | ~35 km, 45 Min. | Naturbadesee | Mai–Sept | ~3 € Strandbad | Tretboot, Liegewiese, ruhig |
+| **Astbergsee Going** | ~38 km | Bergsee | Mai–Sept | freier Zugang | Spielplatz, klein, Mountainview |
+| **Schwarzsee Kitzbühel** | ~35 km | Moor-Badesee | Mai–Sept | ~5 € | Wärmster Moorsee Tirols, einer der wenigen mit Hochmoorboden |
+| **Walchsee** | ~45 km | Größerer Badesee | Mai–Sept | ~5 € Strandbad | Stand-up-Paddling, Surfschule |
+| ⚠️ **Wave Wörgl** | – | Erlebnisbad | **dauerhaft geschlossen seit 01.09.2021**, Neubau frühestens 2028 | – | Atoll Achensee als Ersatz |
+
+### Empfehlung für 17 Tage
+
+- **1 Schlechtwettertag → Atoll Achensee** (ganzjährig, Top-Wellness, kombinierbar mit Achensee-Schifffahrt)
+- **1 Familientag bei Sonne → Salvenaland Hopfgarten** (mit Premium-Card-Rabatt)
+- **Spaziergang Reintalersee** als Halbtagestour mit Museum Tiroler Bauernhöfe Kramsach kombinieren
+- **Hallenbad in der Unterkunft** für entspannte Abende nach langen Wandertagen
+- **Freibad Bergbadl Oberau:** nur falls bei Reise-Ende (04.–06.06.) bereits geöffnet – witterungsabhängig
 
 ---
 
@@ -913,12 +1139,7 @@ Zusätzlich zu den in V1 genannten kostenlosen Leistungen (4 Sommerbergbahnen, W
 
 > **Tipp:** Die kumulierten Ermäßigungen rechnen sich – z. B. an einem Innsbruck-Tag (Swarovski + Goldenes Dachl) oder einem Achensee-Tag mit Schiff können sie schnell 10–20 € pro Person ausmachen. Wichtigster Ermäßigungsblock bleibt aber die kostenlose Bergbahnnutzung der 4 Sommerbahnen.
 
-## M.7 Kurtaxe und Kartenausgabe
-
-- **Nächtigungsabgabe (Kurtaxe): 3,50 €/Person/Nacht** (für 17 Tage × 4 Erw. = **238 €** insgesamt). Kinder bis Ende des Kalenderjahres, in dem sie das 15. Lebensjahr vollenden, befreit.
-- **Wildschönau Card** wird beim Vermieter ausgehändigt, ist personengebunden und nicht übertragbar.
-
-## M.8 Mobilitäts-Ergänzungen
+## M.7 Mobilitäts-Ergänzungen
 
 - **VVT Linie 770 ohne Karte:** ca. **3,00 € (Erw.) / 1,50 € (Kind)** Einzelfahrt Tal – falls Begleitperson ohne Karte dabei sein sollte oder Außertal-Strecke (z. B. Wörgl).
 - **Wanderbus Vorsaison 09.–22.05.2026:** Schönangeralm-Linie nur **2× täglich**; ab **23.05.2026** Hauptsaison **4× täglich**. Schon ab Tag 3 der Reise also voller Takt.
@@ -931,7 +1152,7 @@ Zusätzlich zu den in V1 genannten kostenlosen Leistungen (4 Sommerbergbahnen, W
     - Familie H/R: **19,80 €**
 - **Wichtig:** Die **Wanderung durch die Kundler Klamm selbst (7 km Schluchtabschnitt) ist kostenlos** – nur Bummelzug und PKW-Parken in Kundl kosten extra.
 
-## M.9 Ärzte, Apotheke, Therapeuten – präzisiert
+## M.8 Ärzte, Apotheke, Therapeuten – präzisiert
 
 **Dr. Georg Reinisch (Allgemeinmediziner Auffach)** – Tegelanger 237, Auffach, Tel. **+43 5339 21900** · dr-reinisch.at
 - ⚠️ **Nimmt KEINE neuen Patienten mehr auf, außer Notfälle!** (Vor Reiseantritt klären, ob Aufnahme im Bedarfsfall möglich.)
@@ -951,20 +1172,20 @@ Zusätzlich zu den in V1 genannten kostenlosen Leistungen (4 Sommerbergbahnen, W
 - ÖZ präzisiert: **Mo–Fr 8:00–12:30 + 14:00–18:15, Sa 8:00–12:00**
 - **Rufbereitschaft-Garantie: Apotheker max. 20 Minuten vor Ort** in Notfällen
 
-## M.10 Banken, Supermärkte, Bäckereien – präzisiert
+## M.9 Banken, Supermärkte, Bäckereien – präzisiert
 
 - **Raiffeisenbank Auffach** – Dorf 256, +43 5339 8836-79620. **Bankschalter NUR Mo / Mi / Fr 8:00–11:00 Uhr**, Bankomat 24/7.
 - **SPAR Auffach** – Schrattentalweg 54, +43 5339 8937. ÖZ präzisiert: **Mo–Sa 7:00–12:00 + Mo–Fr 14:00–18:00**. **Postschalter integriert.**
 - **MPREIS Niederau** – Niederau 385, +43 5 0321 928039. **Mo–Mi + Fr 7:30–19:00, Sa 7:30–18:00, Do + So zu**. **Café Baguette schließt um 17:00 Uhr.**
 - **Wildschönauer Backstube Oberau** – Kirchen 96, +43 676 846319500. Mo–Sa 7:00–12:00.
 
-## M.11 Sport / Verleih – Ergänzungen
+## M.10 Sport / Verleih – Ergänzungen
 
 - **Ski Auffach** – Dorf 6 (an der Schatzbergbahn) · ski-auffach.at. **24-h-Skidepot:** 10 €/2 Personen oder 20 €/4 Personen. (Auch im Sommer für E-Bikes interessant.)
 - **Sport Thaler** – Dorf 156, Auffach · thaler-sport.at.
 - **Ski & Board Margreiter** – 3 Standorte: Niederau 103, Auffach 273, Oberau 174 · ski-margreiter.at.
 
-## M.12 Drachental / Holzmuseum – Detailprofile
+## M.11 Drachental / Holzmuseum – Detailprofile
 
 **Familienpark Drachental Oberau** – Kirchen 534. Ganzjährig geöffnet, **Eintritt in den Park frei** (nur Attraktionen kosten extra):
 - **Drachenflitzer (Alpine Coaster):** über **2,5 km lang**, bis **25 m hohe Kreisel**
@@ -976,24 +1197,7 @@ Zusätzlich zu den in V1 genannten kostenlosen Leistungen (4 Sommerbergbahnen, W
 
 (Holzmuseum-Details sind oben in Abschnitt H bereits aktualisiert.)
 
-## M.13 E-Ladestationen – vollständige Übersicht
-
-| Standort | Leistung |
-|---|---|
-| **Familienpark Drachental Oberau** | 1× 150 kW CCS + 1× 50 kW CHAdeMO (Schnelllader!) |
-| **Schatzbergbahn Auffach** | bis zu 6 Ladepunkte (mind. 4× 22 kW AC) |
-| **Wiedersbergerhornbahn / Pöglbahn (Alpbach)** | je 4 Ladepunkte |
-| **Freibad Oberau** | 2× 22 kW |
-| **Markbachjochbahn Niederau** | 2 Ladepunkte (11/22 kW) |
-| **Hotel Sonne Niederau** | 2× |
-| **Hotel Schneeberger Niederau** | 2× 22 kW |
-| **Landhotel Tirolerhof Oberau** | 2× 22 kW (400 V, 32 A) |
-| **Hotel Haflingerhof** | 2× |
-| **Sun Valley Auffach** | 2× 22 kW |
-
-Bezahlung 24/7 via QR-Code, RFID, intercharge.
-
-## M.14 Tourismusbüro – Ansprechpartner
+## M.12 Tourismusbüro – Ansprechpartner
 
 **Wildschönau Tourismus** – Hauserweg 337, Oberau, **Mo–Fr 8:30–17:00**, Tel. +43 5339 8255 · wildschoenau.com.
 
@@ -1004,7 +1208,7 @@ Bezahlung 24/7 via QR-Code, RFID, intercharge.
 - Marketing/Presse: Christine Silberberger, Niek Belder
 - Außendienst: Matthias, Toni, Martin, Thomas, Andi
 
-## M.15 Strategische Hinweise (NEU)
+## M.13 Strategische Hinweise
 
 1. **Holzmuseum nur Mi–Fr offen** – Tagesplanung Auffach/Holzweg an einen Mi/Do/Fr legen.
 2. **Premium-Card-Bonuspartner** kumulativ bei Tagesausflügen einplanen (Achensee-Schifffahrt + Atoll Buchau, Innsbruck + Swarovski, Schloss Tratzberg + Rattenberg).
