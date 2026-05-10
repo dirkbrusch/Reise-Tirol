@@ -1,7 +1,7 @@
-# Urlaubsdokumentation Wildschönau / Auffach – 21.05.–06.06.2026 (Version 3)
+# Urlaubsdokumentation Wildschönau / Auffach – 21.05.–06.06.2026 (Version 4)
 
 **Reise:** 17 Tage, 4 Erwachsene, Unterkunft in Auffach (Tirol, Österreich)
-**Version:** V3 – Stand 10. Mai 2026 · Wesentliche Änderungen gegenüber V2: **Abschnitt D Wanderungen komplett neu strukturiert** (Kurzwanderungen für den Abend + Tageswanderungen mit Einkehr), **Abschnitt E Bergbahnen** umfassend erweitert um die Bahnen im Umkreis (Hahnenkamm, Hohe Salve, Nordkette, Achensee, Rofan, Karwendel, Zillertal etc.), **neuer Abschnitt I.X Schwimmbäder & Badeseen** mit Saison/Preisen. Entfernt: E-Ladestationen und Kurtaxe (für die Reiseplanung nicht zentral).
+**Version:** V4 – Stand 10. Mai 2026 · **Neu in V4:** Vollständig auf die A–O-Spezifikation ausgerichtet. **Neuer Abschnitt J Winteraktivitäten** (Ski Juwel, Skipässe, Verleih, Rodeln, Langlauf, Schneeschuh), **Abschnitt N Tagesprogramme** als eigenständige Sektion (2/3/5/7-Tage-Vorschläge), **Abschnitt O Quellenliste** mit konsolidierten Links und Abrufdaten. Sektionen K (Regionale Küche), L (Veranstaltungen), M (Praktische Tipps) entsprechend umbenannt.
 **Quellen:** wildschoenau.com, skijuwel.com, vvt.at, oebb.at, tirol.at, schoenangeralm.at, bergfex.com, alpbachtal.at, festung.kufstein.at, museum-tb.at, achensee.com, bauernladl.at, holzmuseum.com, hotelplatzl.at, sollererwirt.at, koglmoos.at, ski-auffach.at, thaler-sport.at, ski-margreiter.at, kundler-klamm-wildschoenau.de, dr-reinisch.at, apotheke.tirol, raiffeisen.at, mpreis.at, spar.at, hoteltirolerhof.at, hotel-schneeberger.info, hotelwildbach.com, schatzberghaus.at, resortirol.at, sommer-card.at, gaultmillau.at u. a. – jeweils in den entsprechenden Abschnitten verlinkt.
 **Generelle Hinweise:** Alle Preise sind Stand 2025/Anfang 2026 – **bitte vor Reiseantritt verifizieren**. Saisonale Angaben (Bergbahnen, Almen, Bäder) sind als solche gekennzeichnet.
 
@@ -737,7 +737,109 @@ Im Tal v. a. Frischfleischtheken in den SPAR-Märkten (Oberau besonders); eigens
 
 ---
 
-# ABSCHNITT J · Regionale Küche und Spezialitäten
+# ABSCHNITT J · Winteraktivitäten und Skigebiet
+
+> Hinweis: Diese Reise findet im **Frühsommer (21.05.–06.06.2026)** statt. Dieser Abschnitt ist als **Referenz für künftige Winterreisen** und für ganzjährig relevante Informationen (Pisten, Liftverbund, Kontakte) dokumentiert.
+
+## J.1 Skigebiet Ski Juwel Alpbachtal Wildschönau
+
+**Eines der größten Skigebiete Tirols.** Verbund seit 2012/13 zwischen Ski Wildschönau (Schatzberg/Markbachjoch) und Ski Alpbachtal (Wiedersbergerhorn/Reitherkogel).
+
+| Kennzahl | Wert |
+|---|---|
+| Pistenkilometer | **113 km** (47 leicht, 50 mittel, 16 schwer) |
+| Lifte/Bahnen | **45 Anlagen** |
+| Höhenlage | 830–2.025 m |
+| Saison | **Mitte Dezember – Ostern/Mitte April** (skijuwel.com) |
+| Beschneiung | flächendeckend |
+| Funparks | Funpark Schatzberg + Funpark Wiedersberger Horn |
+| Familien-Areale | Lauserland (Wiedersberger Horn), Juppi-Du-Kinderland (Reitherkogel) |
+
+## J.2 Einstieg ab Auffach
+
+**Schatzbergbahn Auffach** (Talstation Dorf 273) ist der Hauptzustieg ab Auffach:
+- Direkter Einstieg in die Schatzberg-/Joelspitze-Pisten
+- Pistenanschluss zur Wiedersbergerhornbahn Alpbach (Verbindungslift)
+- Skidepot **Ski Auffach** (Dorf 6, ski-auffach.at) direkt an der Talstation: 24-h-Depot 10 €/2 Pers. oder 20 €/4 Pers.
+- Großer kostenfreier Parkplatz an der Talstation
+- Skibus Wildschönau ganzjährig im Tal, mit Wildschönau Card kostenlos
+
+**Markbachjochbahn Niederau** (~7 km) als zweiter Einstieg, eher für Ski-Anfänger und Familien.
+
+## J.3 Skipässe Winter
+
+Tageskarten Hauptsaison 2025/26 (skijuwel.com):
+
+| Kategorie | Erwachsene | Jugend (2007–2012) | Kinder (2013–2018) |
+|---|---|---|---|
+| **1 Tag** | 68,50 € | 55,00 € | 34,50 € |
+| 2 Tage | 134,50 € | 108,00 € | 67,50 € |
+| **6 Tage** | **349,50 €** | 280,50 € | 175,00 € |
+| 13 Tage | 671,00 € | 537,00 € | 336,00 € |
+
+> Kinder Jahrgang **2020 und jünger fahren kostenlos** (in Begleitung eines zahlenden Elternteils, Kinderausweis erforderlich).
+
+**Mehr-Tages-Pässe:** Ski Juwel-Pass (gesamtes Verbundgebiet), Snow Card Tirol (alle Tiroler Skigebiete, regional vergünstigt für Tirol-Übernachtungsgäste).
+
+## J.4 Skiverleih und Skischulen
+
+**Skiverleih in Auffach:**
+- **Ski Auffach** – Dorf 6, +43 5339 ... · ski-auffach.at. Verleih + 24-h-Depot direkt an der Talstation.
+- **Sport Thaler** – Dorf 156, thaler-sport.at. Familienunternehmen mit kompletter Verleih-Palette (Ski, Snowboard, Schuhe, Helme).
+- **Ski & Board Margreiter** – 3 Standorte: Niederau 103, Auffach 273 (an der Schatzbergbahn), Oberau 174 · ski-margreiter.at.
+
+**Skischulen Wildschönau:**
+- **Skischule Wildschönau Aktiv** – Niederau, mehrere Treffpunkte
+- **Skischule Auffach** – an der Schatzbergbahn
+- **Skischule Snow Lions** – Niederau
+- Skikurse für Kinder, Jugendliche, Erwachsene, Privatstunden, Race-Camp
+
+## J.5 Rodeln, Winterwandern, Langlauf, Schneeschuh
+
+**Rodelbahnen:**
+- **Schönangeralm Rodelbahn** (Talschluss Auffach) – ca. 3 km, Naturrodelbahn, mit Schönangeralm-Einkehr. Beleuchtet an bestimmten Abenden.
+- **Markbachjoch Rodelbahn** (Niederau) – ab Bergstation, mit Bahn rauf, ~5 km Abfahrt
+- Rodelverleih in den Sportgeschäften der Region
+
+**Winterwandern:**
+- ~30 km geräumte Winterwanderwege im Tal
+- Beliebte Routen: Auffach → Schönangeralm (Almstraße geräumt), Franziskusweg Niederau↔Oberau, Mühltal-Talboden
+- **Geführte Schneeschuhwanderungen** mit Wildschönau Card kostenlos (inkl. Verleih), Anmeldung TVB
+
+**Langlauf:**
+- Loipen im Tal (Talloipen), Loipenkarten und Status auf wildschoenau.com/winter
+- Höhenloipe Markbachjoch (in der Saison – Status prüfen)
+
+**Schneeschuhwanderungen:**
+- Geführte Touren über TVB Wildschönau (in Card kostenlos inkl. Verleih)
+- Eigentouren ab Markbachjoch oder Schatzberg
+
+## J.6 Hütten und Restaurants im Winter
+
+| Hütte | Lage | Winterbetrieb |
+|---|---|---|
+| **Schönangeralm** | 1.180 m | täglich (im Winter ohne Ruhetag bzw. mit Skihüttenstube) |
+| **Schatzbergalm Klingler** | 1.800 m | Mitte Dezember – Ostern, parallel zur Bahn |
+| **Berghaus Koglmoos** | 1.300 m | täglich, warme Küche bis 15:30 |
+| **Markbachjochalm** | 1.500 m | Skihüttenbetrieb |
+| **Rübezahl-Hütte** | 1.600 m | Skihüttenbetrieb |
+| **Gipfö Hit** | 1.898 m | Winterbetrieb mit Bahn |
+
+## J.7 Wildschönau Card Winter
+
+**Wildschönau Card Winter** (in der Kurtaxe enthalten) inkludiert:
+- Skibus
+- **Nightliner** (Fr + Sa Abend, Bring-Service)
+- Geführte Schneeschuhwanderungen + Verleih
+- Bergbauernmuseum z'Bach (Hauptsaison)
+- Holzmuseum Auffach (Wintergruppen ab 15 Personen nach Vereinbarung)
+- Vergünstigung Eislaufplatz Drachental Oberau
+
+**Premium Card im Winter:** Bietet zusätzliche Skipass-Vergünstigung bei einigen Premium-Partner-Hotels (Aufpreis-Modell, vor Ort prüfen).
+
+---
+
+# ABSCHNITT K · Regionale Küche und Spezialitäten
 
 ## Typische Tiroler Gerichte
 **Tiroler Gröstl** (Pfannengericht aus Kartoffeln/Speck/Bratenfleisch mit Spiegelei) · **Speckknödel/Tiroler Knödel** (in Suppe oder mit Sauerkraut) · **Kasspatzln/Kasnocken** (Käsespätzle mit Bergkäse + Röstzwiebeln) · **Kaiserschmarrn** mit Apfelmus oder Zwetschkenröster · **Apfelstrudel** · **Schlutzkrapfen** (Halbmondteigtaschen mit Spinat-Topfen oder Kartoffel-Speck/Graukäse) · **Brettljause/Marend** (Speck, Kaminwurzen, Bergkäse, Graukäse, Bauernbrot, Kren) · **Graukäse** (saurer, magerer Tiroler Käse, geschützte Spezialität) · **Melchermuas** (Almspezialität) · **Käsesuppe**.
@@ -776,7 +878,7 @@ Klarer Edelbrand (38–48 Vol.-%) aus der weißen Stoppelrübe (lokal „Soachru
 
 ---
 
-# ABSCHNITT K · Veranstaltungen 21.05.–06.06.2026
+# ABSCHNITT L · Veranstaltungen 21.05.–06.06.2026
 
 > **Aktueller Veranstaltungskalender** (vor Anreise tagesaktuell prüfen): wildschoenau.com/de/info-service/veranstaltungen
 
@@ -813,7 +915,7 @@ Wildschönau: **Ende Mai bis Anfang Juni** – kein Volksfest, betriebliches Ere
 
 ---
 
-# ABSCHNITT L · Praktische Tipps
+# ABSCHNITT M · Praktische Tipps
 
 ## Vor Anreise buchen
 - **Restaurants Pfingstwochenende + Fronleichnam**: 1–2 Wochen vorher reservieren (besonders Bergkristall, Sollererwirt, Schönangeralm, Marius, Riedlhof, Thalmühle)
@@ -942,6 +1044,26 @@ Praktisch alle Hotels/Pensionen mit Gratis-WLAN. Größere Wirtshäuser ebenfall
 - **Schönangeralm** (1.180 m, offen ab 09.05.) – größte Alm mit Schaukäserei
 - **Riedlhof** (oberhalb Oberau) – ganzjährig, Riesen-Schnitzel mit Aussicht
 
+---
+
+# ABSCHNITT N · Tagesprogramme (Vorschläge)
+
+> Vier Beispielprogramme für unterschiedliche Aufenthaltslängen. Alle Pläne setzen die **Wildschönau Premium Card** voraus (kostenlose Bergbahnen). An Pfingsten (24./25.05.) und Fronleichnam (04.06.) frühzeitig reservieren. Bergtouren-Schneelage Ende Mai vor Ort prüfen.
+
+## 🗓️ Beispielplan 2 Tage (Wochenend-Kurztrip)
+
+**Tag 1 – Talsohle und Schönangeralm**
+- Vormittags: Anreise, Wildschönau Card abholen, kurzer Spaziergang Auffacher Rundweg (1 h)
+- Mittag: Schönangeralm zu Fuß über Almstraße (1,5 h) oder mit Bummelbahn – Schaukäserei + Mittagessen
+- Nachmittag: Bummelbahn zurück, Bachpromenade
+- Abend: **Kellerwirt Oberau** (reserviert) – Tiroler Klassiker im 800-jährigen Gewölbe
+
+**Tag 2 – Markbachjoch + Klamm**
+- Vormittags: Markbachjochbahn rauf, Wanderung zur Holzalm Käsealm (1:15 h, mit Käseproduktion live), Einkehr
+- Mittag: Markbachjochalm
+- Nachmittag: Kundler Klamm (3 h, Bummelzug-Rückfahrt ab 29.05.) **oder** Krautinger-Hofführung Steinerhof
+- Abend: **MM Marius Auffach** oder Heimreise
+
 ## 🗓️ Beispielplan 3 Tage (Kurzbesuch)
 
 **Tag 1 – Ankommen & Auffach kennen**
@@ -978,6 +1100,149 @@ Vormittags Krautinger-Hofführung Steinerhof Oberau. Mittagessen Pizzeria Italia
 
 **Do 28.05. – Achensee oder Rattenberg**
 Tagesausflug Achensee (Schifffahrt + Pertisau + Atoll Buchau) ODER Rattenberg + Glasbläserei + Augustinermuseum + Konditorei Hacker. Abends Thalmühle s'Wirtshaus Mühltal.
+
+## 🗓️ Beispielplan 5 Tage (verlängertes Wochenende)
+
+**Tag 1 – Ankommen**
+Anreise. Card abholen. Auffacher Rundweg + Holzmuseum (falls Mi/Do/Fr). Abends Traditionsgasthof Weißbacher Auffach.
+
+**Tag 2 – Schönangeralm**
+Wanderung über Almstraße zur Schönangeralm (1,5 h). Schaukäserei mit Verkostung. Mittag Schönangeralm. Bummelbahn zurück. Abends **Hotel Bergkristall Mühltal** (reserviert).
+
+**Tag 3 – Markbachjoch + Roßkopf**
+Markbachjochbahn 09:30 rauf. Wanderung Roßkopf-Runde (7,5 km, 4 h, 560 hm) mit Einkehr Rübezahl-Hütte. Abends Sollererwirt Thierbach.
+
+**Tag 4 – Tagesausflug Festung Kufstein**
+Festung + Heldenorgel-Konzert 12 Uhr + Stadtbummel. Mittagessen Altstadt. Abends Kellerwirt Oberau.
+
+**Tag 5 – Klamm + Krautinger + Heimreise**
+Vormittags Kundler Klamm (Bummelzug). Mittagessen Thalmühle Mühltal. Krautinger-Hofführung Steinerhof. Heimreise.
+
+---
+
+# ABSCHNITT O · Quellenliste
+
+> Konsolidierte Liste aller verwendeten Quellen mit URL und Abrufdatum (10. Mai 2026, sofern nicht anders vermerkt). Vor Reiseantritt **stichprobenhaft auf Aktualität prüfen** – Saisonzeiten und Preise ändern sich häufig kurzfristig.
+
+## O.1 Offizielle Tourismus- und Gemeindeseiten
+- **Wildschönau Tourismus** – https://www.wildschoenau.com (Hauptquelle für Card, Wanderwege, Wanderbus, Veranstaltungen, Hofläden)
+- **Wildschönau A–Z** – https://www.wildschoenau.com/de/info-service/wildschoenau-a-z
+- **Wildschönau Wochenprogramm** – https://www.wildschoenau.com/de/info-service/wochenprogramm
+- **Wildschönau Premium Card** – https://www.wildschoenau.com/de/urlaub-planen-buchen/wildschoenau-cards/wildschoenau-premium-card
+- **Gemeinde Wildschönau** – https://www.wildschoenau.gv.at
+- **Tirol-Werbung** – https://www.tirol.at
+- **Alpbachtal Tourismus** – https://www.alpbachtal.at
+- **Achensee Tourismus** – https://www.achensee.com
+- **Wilder Kaiser** – https://www.wilderkaiser.info
+- **Kitzbüheler Alpen** – https://www.kitzbueheler-alpen.com
+
+## O.2 Bergbahnen und Skigebiete
+- **Ski Juwel Alpbachtal Wildschönau** – https://www.skijuwel.com (Schatzberg + Markbachjoch + Wiedersbergerhorn + Reitherkogel)
+- Schatzbergbahn Auffach – https://www.skijuwel.com (Sektion Auffach)
+- Markbachjochbahn Niederau – https://www.skijuwel.com (Sektion Niederau)
+- **Bergfex Wildschönau** – https://www.bergfex.at/wildschoenau/ (Wetter, Webcams, Pistenstatus)
+- **KitzSki Hahnenkamm** – https://www.kitzski.at
+- **Achenseebahn** – https://www.achenseebahn.at
+- **Karwendel-Bergbahn Pertisau** – https://www.karwendel-bergbahn.at
+- **Rofanseilbahn Maurach** – https://www.rofanseilbahn.at
+- **Nordkettenbahnen Innsbruck** – https://www.nordkette.com
+- **Hohe Salve / Hexenwasser** – https://www.hohesalve.at
+- **Kaiserlift Kufstein** – https://www.kaiserlift.at
+
+## O.3 Restaurants, Almen, Hotels (mit eigenen Websites)
+- Schönangeralm – https://www.schoenangeralm.at (Saison, Speisekarte, Schaukäserei)
+- Hotel Bergkristall Mühltal – https://hotel-bergkristall.info
+- Kellerwirt Oberau – https://kellerwirt.at
+- Sollererwirt Thierbach – https://www.sollererwirt.at
+- MM Marius Auffach – https://marius-restaurant.at
+- Hotel Auffacherhof – https://auffacherhof.at
+- Apparthotel Talhof – https://talhof.at
+- Berghaus Koglmoos – https://www.koglmoos.at
+- Traditionsgasthof Weißbacher – https://traditionsgasthof-weissbacher.com
+- Landhotel Tirolerhof Oberau – https://www.hoteltirolerhof.at
+- Dorferwirt Oberau – https://dorferwirt.com
+- Bichlwirt Niederau – https://bichlwirt.com
+- Hotel Färberwirt Mühltal – https://faerberwirt.at
+- Café Moorhof Oberau – https://cafe-moorhof.at
+- Riedlhof Oberau – https://riedlhof.com
+- Thalmühle s'Wirtshaus – https://thalmuehle.at
+- Schatzberg-Haus Auffach – https://www.schatzberghaus.at
+- Hotel Platzl Auffach – https://www.hotelplatzl.at
+- Hotel Schneeberger Niederau – https://www.hotel-schneeberger.info
+- Haus am Wildbach Auffach – https://hotelwildbach.com
+- Resort Tirol Niederau – https://www.resortirol.at
+- Pizzeria Alpino Oberau – https://www.pizzeria-alpino.at
+- Pizzeria Ferrari Niederau – https://pizzeria-ferrari.at
+- **Gault Millau Schönangeralm** – https://www.gaultmillau.at/restaurant/alpengasthof-schonangeralm
+
+## O.4 Sehenswürdigkeiten und Museen
+- 1. Tiroler Holzmuseum Auffach – https://holzmuseum.com
+- Bergbauernmuseum z'Bach – https://bergbauernmuseum.at
+- Festung Kufstein – https://festung.kufstein.at
+- Museum Tiroler Bauernhöfe Kramsach – https://www.museum-tb.at
+- Augustinermuseum Rattenberg – https://www.museum-rattenberg.at
+- Glasbläserei Kisslinger Rattenberg – https://www.kisslinger-kristall.com
+- Swarovski Kristallwelten – https://kristallwelten.swarovski.com
+- Silberbergwerk Schwaz – https://www.silberbergwerk.at
+- Schloss Tratzberg – https://www.schloss-tratzberg.at
+- Schaubergwerk Lehenlahn Thierbach – Tel. +43 5339 2700 (eigene Website nicht durchgängig erreichbar)
+- Kundler Klamm – https://www.kundler-klamm-wildschoenau.de
+- Familienpark Drachental – https://www.wildschoenau.com (Sektion Drachental)
+- Kaisertal – https://www.kaisertal.at
+
+## O.5 Mobilität, Bahn, Bus
+- **VVT Verkehrsverbund Tirol** – https://www.vvt.at (Linie 770 / 4064 Wildschönaubus, Wanderbus)
+- **VVT Fahrplan** – https://fahrplan.vvt.at
+- **ÖBB** – https://www.oebb.at (RailJet, ICE, Nightjet München–Wörgl–Innsbruck)
+- ÖBB Verkehrsmeldungen – https://unsereoebb.at/de/verkehrsmeldungen (⚠️ Bauarbeiten Wörgl–Zell am See 03.06.–28.06.2026)
+- Bummelzug Kundler Klamm – https://www.kundler-klamm-wildschoenau.de
+- Bummelbahn Schönangeralm – https://www.sommer-card.at/de/bummelzug-wildschoenau.html
+
+## O.6 Hofläden, regionale Produkte, Krautinger
+- Bauernladl Wildschönau – https://www.bauernladl.at
+- Tiroler Dorfladl Auffach – Martin Gruber, +43 677 62838293 (kein eigener Online-Shop)
+- Krautinger Steinerhof Oberau – https://www.steinerhof-thaler.at (Familie Thaler)
+- Krautinger Dillentalhof Auffach – Beate Holaus, +43 664 2124988
+- Krautinger Hintersalcherhof – https://www.wildschoenau.com (Eintrag im A–Z)
+- Hinteraltensberg Biohof – https://hinteraltensberg.at
+- Schaukäserei Schönangeralm – https://www.schoenangeralm.at
+
+## O.7 Versorgung
+- SPAR Auffach – https://www.spar.at/standorte/spar-auffach-6313-schrattentalweg-54
+- MPREIS Niederau – https://www.mpreis.at/maerkte/id-8039/mpreis-wildschoenau
+- Apotheke Wildschönau – https://www.apotheke-wildschoenau.at  / https://www.apotheke.tirol
+- Dr. Reinisch Auffach – https://www.dr-reinisch.at
+- Raiffeisenbank Wildschönau – https://www.raiffeisen.at/tirol/wildschoenau
+
+## O.8 Sportgeschäfte, Verleih
+- Ski Auffach – https://www.ski-auffach.at
+- Sport Thaler Auffach – https://www.thaler-sport.at
+- Ski & Board Margreiter – https://www.ski-margreiter.at
+- Sport Blachfelder Niederau – https://sportblachfelder.at
+- iBIKE BOX Drachental – https://ibike-box.com
+
+## O.9 Wetter, Karten, Apps
+- **Komoot** (Wandern, GPX) – https://www.komoot.de
+- **Bergfex** (Wetter, Webcams) – https://www.bergfex.at
+- **Outdooractive** – https://www.outdooractive.com
+- **Meteoblue** – https://www.meteoblue.com
+- **Alpenvereinaktiv** – https://www.alpenvereinaktiv.com
+- **Kompass-Karte Nr. 28** „Vorderes Zillertal, Achensee, Alpbachtal, Wildschönau" – https://www.kompass.de
+- **Skijuwel-App** – Live-Liftstatus
+
+## O.10 Bewertungs- und Reiseportale (ergänzend)
+- TripAdvisor Wildschönau – https://www.tripadvisor.de (nur als Ergänzung)
+- Mamilade Familien-Ausflugstipps – https://www.mamilade.at/urlaubstipp/9-ausflugstipps-der-familienregion-wildschonau
+- Travelinspired Reiseblog – https://travelinspired.de/wildschoenau-wandern
+- Find Ski Holidays – https://www.findskiholidays.com/wildschonau
+
+## O.11 Recherche-Methodik
+
+Die V4-Dokumentation basiert auf einem **NotebookLM-Recherchekorpus von 67 Quellen** (überwiegend aus den Bereichen O.1–O.5), ergänzt durch redaktionelle Einarbeitung der saisonalen Spezifika für den Reisezeitraum 21.05.–06.06.2026. Alle Saisonzeiten, Öffnungstage und Preise sind **Stand 2025/Anfang 2026** und sollten kurz vor Reiseantritt durch einen Telefonat-Stichprobentest beim TVB Wildschönau (+43 5339 8255) verifiziert werden. Bauarbeiten und temporäre Schließungen werden ggf. erst kurzfristig kommuniziert.
+
+---
+
+# ANHANG · Reiseplanungs-Checkliste
 
 ## ✅ Kompakte Checkliste Reiseplanung
 
@@ -1039,7 +1304,7 @@ Tagesausflug Achensee (Schifffahrt + Pertisau + Atoll Buchau) ODER Rattenberg + 
 
 ---
 
-# ABSCHNITT M · Detail-Ergänzungen aus der Quellen-Recherche (NEU in V2)
+# ANHANG · Detail-Profile und Recherche-Ergänzungen
 
 > Dieser Abschnitt sammelt zusätzliche Detailinformationen, die in V1 fehlten oder weniger präzise waren. Reihenfolge folgt den Hauptabschnitten oben.
 

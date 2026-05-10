@@ -630,7 +630,7 @@ a:hover{color:var(--accent-strong);text-decoration:underline;text-underline-offs
     </nav>
 
     <div class="sidebar-footer">
-      <span>V3 · 10.05.2026</span>
+      <span>V4 · 10.05.2026</span>
       <a href="reiseplan.md" download title="Markdown-Original">📄 .md</a>
     </div>
   </aside>
@@ -644,9 +644,9 @@ a:hover{color:var(--accent-strong);text-decoration:underline;text-underline-offs
 
     <div class="content-wrap">
       <section class="hero">
-        <div class="hero-eyebrow">Reise-Guide · V3</div>
+        <div class="hero-eyebrow">Reise-Guide · V4</div>
         <h1>Wildschönau & Auffach</h1>
-        <p class="hero-sub">17 Tage Frühsommer im Tiroler Hochtal: Wandern auf 300 km Wegen, Almen, Krautinger und Bergbahnen. Alles, was wir vor Ort brauchen – kompakt strukturiert.</p>
+        <p class="hero-sub">17 Tage Frühsommer im Tiroler Hochtal: Wandern auf 300 km Wegen, Almen, Krautinger und Bergbahnen. 15 Themen-Kapitel von Übersicht bis Quellenliste – alles, was wir vor Ort brauchen.</p>
         <div class="hero-stats">
           <div class="hero-stat"><span class="hero-stat-num">17</span><span class="hero-stat-label">Reisetage</span></div>
           <div class="hero-stat"><span class="hero-stat-num">300+</span><span class="hero-stat-label">km Wanderwege</span></div>
@@ -671,25 +671,27 @@ a:hover{color:var(--accent-strong);text-decoration:underline;text-underline-offs
 // Section grouping with icons
 const SECTION_GROUPS = [
   {title:"Übersicht",icon:"📍",sections:["A","B"]},
-  {title:"Genuss & Kulinarik",icon:"🍽️",sections:["C","J"]},
-  {title:"Aktivitäten",icon:"🥾",sections:["D","I"]},
+  {title:"Genuss & Kulinarik",icon:"🍽️",sections:["C","K"]},
+  {title:"Aktivitäten",icon:"🥾",sections:["D","I","J"]},
   {title:"Mobilität & Versorgung",icon:"🚌",sections:["E","F","G"]},
-  {title:"Sehenswürdigkeiten",icon:"🏰",sections:["H","K"]},
-  {title:"Praxis",icon:"📋",sections:["L","M"]},
-  {title:"Listen & Tipps",icon:"⭐",sections:["ZUSATZLISTEN","FAZIT"]}
+  {title:"Ausflüge & Events",icon:"🏰",sections:["H","L"]},
+  {title:"Praxis & Programme",icon:"📋",sections:["M","N"]},
+  {title:"Quellen & Anhang",icon:"📚",sections:["O","ZUSATZLISTEN","ANHANG_CHECK","ANHANG_DETAIL","FAZIT"]}
 ];
 
 const SECTION_ICONS = {
-  "A":"🗺️","B":"🏘️","C":"🍴","D":"🥾","E":"🚠","F":"🚌","G":"🛒","H":"🏛️","I":"☀️","J":"🧀","K":"📅","L":"💡","M":"📝"
+  "A":"🗺️","B":"🏘️","C":"🍴","D":"🥾","E":"🚠","F":"🚌","G":"🛒","H":"🏛️",
+  "I":"☀️","J":"❄️","K":"🧀","L":"📅","M":"💡","N":"🗓️","O":"🔗",
+  "ZUSATZLISTEN":"⭐","ANHANG_CHECK":"✅","ANHANG_DETAIL":"📑","FAZIT":"🎯"
 };
 
 const QUICK_LINKS = [
   {icon:"🥾",title:"Wanderungen",desc:"Kurz · Tagestouren · Gipfel",section:"D"},
   {icon:"🚠",title:"Bergbahnen",desc:"Schatzberg, Markbachjoch & Umkreis",section:"E"},
-  {icon:"🍴",title:"Restaurants & Almen",desc:"Auffach, Oberau, Niederau, Thierbach",section:"C"},
+  {icon:"🍴",title:"Restaurants & Almen",desc:"Alle Orte des Tals",section:"C"},
   {icon:"☀️",title:"Sommer-Aktivitäten",desc:"Bäder, Bike, Paragliding",section:"I"},
   {icon:"🏰",title:"Ausflugsziele",desc:"Kufstein, Achensee, Innsbruck",section:"H"},
-  {icon:"📋",title:"Checkliste",desc:"Packen · Reservieren · Apps",section:"L"}
+  {icon:"🗓️",title:"Tagesprogramme",desc:"2 / 3 / 5 / 7 Tage",section:"N"}
 ];
 
 function slugify(text){
@@ -707,6 +709,9 @@ function getSectionLetter(text){
   const m = text.match(/^ABSCHNITT\s+([A-Z])\b/i);
   if(m) return m[1].toUpperCase();
   if(/^ZUSATZLISTEN/i.test(text)) return "ZUSATZLISTEN";
+  if(/^ANHANG\s*·\s*Reiseplanungs/i.test(text)) return "ANHANG_CHECK";
+  if(/^ANHANG\s*·\s*Detail/i.test(text)) return "ANHANG_DETAIL";
+  if(/^ANHANG\b/i.test(text)) return "ANHANG_DETAIL";
   if(/^FAZIT/i.test(text)) return "FAZIT";
   return null;
 }
