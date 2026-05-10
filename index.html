@@ -592,6 +592,208 @@ a:hover{color:var(--accent-strong);text-decoration:underline;text-underline-offs
   #content table th,#content table td{padding:0.45rem 0.6rem}
 }
 
+/* === V5: Polished tour cards + map badges === */
+
+/* Map link badges (📍 / 🗺️) - render inline links as pill buttons */
+#content a.map-link{
+  display:inline-flex;
+  align-items:center;
+  gap:0.35rem;
+  padding:0.18rem 0.65rem;
+  background:var(--accent-soft);
+  border:1px solid var(--accent);
+  color:var(--accent-strong);
+  border-radius:999px;
+  font-size:0.78rem;
+  font-weight:500;
+  text-decoration:none;
+  margin:0.1rem 0.15rem 0.1rem 0;
+  transition:all 0.15s;
+  white-space:nowrap;
+}
+[data-theme="dark"] #content a.map-link{
+  background:var(--accent-soft);
+  color:var(--accent-strong);
+  border-color:var(--accent);
+}
+#content a.map-link:hover{
+  background:var(--accent);
+  color:#fff;
+  text-decoration:none;
+  transform:translateY(-1px);
+  box-shadow:var(--shadow-sm);
+}
+#content a.map-link::before{font-size:0.95em;line-height:1}
+
+/* Map link rows (li that only contains a map link) */
+#content li.map-row{
+  list-style:none;
+  margin-left:-1.5rem;
+  padding:0.4rem 0 0;
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.35rem;
+}
+
+/* Tour cards - numbered hikes in D.2 */
+#content .tour-stats{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.4rem;
+  margin:0.3rem 0 0.7rem;
+  list-style:none;
+  padding:0;
+}
+#content .tour-stats .stat{
+  display:inline-flex;
+  align-items:center;
+  gap:0.3rem;
+  padding:0.22rem 0.65rem;
+  background:var(--bg-soft);
+  border:1px solid var(--border);
+  border-radius:6px;
+  font-size:0.8rem;
+  font-weight:500;
+  color:var(--text-muted);
+  white-space:nowrap;
+}
+#content .tour-stats .stat.km{background:#e8f0ea;color:#1f4029;border-color:#c3dcc9}
+#content .tour-stats .stat.zeit{background:#fff7e0;color:#854d0e;border-color:#fde68a}
+#content .tour-stats .stat.hm{background:#e0ecf7;color:#1e40af;border-color:#bfdbfe}
+#content .tour-stats .stat.diff{background:#f3e8ff;color:#6b21a8;border-color:#e9d5ff}
+[data-theme="dark"] #content .tour-stats .stat.km{background:#1a2e22;color:#a8d4ba;border-color:#2d4a3a}
+[data-theme="dark"] #content .tour-stats .stat.zeit{background:#3a2f12;color:#fcd34d;border-color:#4a3d18}
+[data-theme="dark"] #content .tour-stats .stat.hm{background:#1a2540;color:#93c5fd;border-color:#2a3550}
+[data-theme="dark"] #content .tour-stats .stat.diff{background:#2a1a3a;color:#d8b4fe;border-color:#3a2a4a}
+
+/* Tip blockquote (💡) - blue */
+#content blockquote.tip{
+  background:var(--info-bg);
+  border-left-color:var(--info-border);
+  color:#1e3a8a;
+}
+[data-theme="dark"] #content blockquote.tip{color:#93c5fd}
+
+/* Info blockquote (i.e. starts with > Hinweis or contains "Tipp") */
+#content blockquote{
+  position:relative;
+  padding-left:3rem;
+}
+#content blockquote::before{
+  content:"⚠️";
+  position:absolute;
+  left:0.9rem;
+  top:0.95rem;
+  font-size:1.1rem;
+}
+#content blockquote.tip::before{content:"💡"}
+
+/* H1 visual treatment - softer, with icon */
+#content > h1{
+  position:relative;
+  padding-left:0;
+  border-bottom:1px solid var(--border);
+  font-weight:600;
+}
+#content > h1::before{
+  content:attr(data-icon);
+  display:inline-block;
+  margin-right:0.6rem;
+  font-size:0.85em;
+  vertical-align:0.05em;
+}
+#content > h1:first-child::before{content:none}
+#content > h1[data-icon=""]::before{content:none}
+
+/* H2 with subtle accent bar */
+#content h2{
+  position:relative;
+  padding-left:0.9rem;
+  border-left:3px solid var(--accent);
+}
+
+/* Better lists: tight inter-row + semantic spacing */
+#content ul li{padding-left:0.15rem}
+#content ul > li::marker{color:var(--accent)}
+
+/* Tables: softer, more elegant */
+#content table{
+  font-size:0.875rem;
+  border:1px solid var(--border);
+  box-shadow:none;
+}
+#content table thead{background:var(--bg-soft)}
+#content table th{
+  color:var(--text);
+  background:var(--bg-soft);
+  font-size:0.8rem;
+  font-weight:600;
+  letter-spacing:0.02em;
+  text-transform:uppercase;
+  border-bottom:2px solid var(--accent);
+}
+#content table tr:nth-child(even) td{background:transparent}
+#content table tr:hover td{background:var(--accent-soft)}
+[data-theme="dark"] #content table tr:hover td{background:var(--bg-soft)}
+
+/* Phone numbers and external links - subtle treatment */
+#content a[href^="tel:"],
+#content a[href^="http"]:not(.map-link){
+  color:var(--accent);
+  text-decoration:underline;
+  text-decoration-color:rgba(45,90,61,0.25);
+  text-underline-offset:2px;
+}
+#content a[href^="http"]:not(.map-link):hover{
+  text-decoration-color:var(--accent);
+}
+
+/* Subsection dividers (---) - lighter */
+#content hr{
+  margin:2.5rem 0;
+  border-top-color:rgba(0,0,0,0.06);
+}
+[data-theme="dark"] #content hr{border-top-color:rgba(255,255,255,0.06)}
+#content hr::after{
+  background:var(--bg);
+  color:var(--accent);
+  opacity:0.4;
+  font-size:0.7rem;
+}
+
+/* Better strong text emphasis */
+#content strong{
+  color:var(--accent-strong);
+  font-weight:600;
+}
+[data-theme="dark"] #content strong{color:#d1e0d6}
+
+/* Numbered lists - more elegant */
+#content ol{counter-reset:item;list-style:none;padding-left:0}
+#content ol > li{
+  counter-increment:item;
+  position:relative;
+  padding-left:2.4rem;
+  margin:0.5rem 0;
+}
+#content ol > li::before{
+  content:counter(item);
+  position:absolute;
+  left:0;
+  top:0.05rem;
+  width:1.7rem;
+  height:1.7rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--accent);
+  color:#fff;
+  border-radius:50%;
+  font-weight:600;
+  font-size:0.78rem;
+  line-height:1;
+}
+
 /* Print */
 @media print{
   .sidebar,.topbar,.menu-toggle,.back-to-top,.search,.hero-stats{display:none}
@@ -734,6 +936,7 @@ async function load(){
     const html = marked.parse(md);
     const content = document.getElementById('content');
     content.innerHTML = html;
+    enhanceContent();
     buildNav();
     buildQuickLinks();
     setupScrollSpy();
@@ -743,6 +946,89 @@ async function load(){
     document.getElementById('content').innerHTML =
       '<div class="loading">⚠️ Fehler beim Laden: '+err.message+'</div>';
   }
+}
+
+function enhanceContent(){
+  const content = document.getElementById('content');
+
+  // 1. Map-link badges: any link whose visible text starts with 📍, 🗺️, or contains "in Google Maps"
+  content.querySelectorAll('a[href*="google.com/maps"]').forEach(a => {
+    a.classList.add('map-link');
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
+
+  // 2. List items that contain only map-links → tighten layout
+  content.querySelectorAll('li').forEach(li => {
+    const txt = li.textContent.trim();
+    if(/^[🗺️📍]/u.test(txt)){
+      li.classList.add('map-row');
+    }
+  });
+
+  // 3. Tour stats detection: list items like "10 km · 3 h · 310 hm · leicht-mittel"
+  // These appear in D.2 narrative hikes as the FIRST <li> after a <strong> heading
+  content.querySelectorAll('li').forEach(li => {
+    if(li.children.length > 0) return; // only plain text li
+    const txt = li.textContent.trim();
+    // Match pattern: contains "km" AND ("h" or "Min") AND optionally "hm"
+    // Examples: "Strecke: ~10 km hin/zurück · Gehzeit: 3 h · hm: 310 · Schwierigkeit: leicht"
+    //           "8,2 km · 3 h · 271 hm · leicht-mittel"
+    //           "~12 km · 4 h · 450 hm · leicht-mittel"
+    const hasKm = /\d[\d,.]*\s*km/i.test(txt);
+    const hasZeit = /\d[\d:.,]*\s*(?:h\b|Std|Min)/i.test(txt);
+    if(!hasKm || !hasZeit) return;
+    if(txt.length > 200) return; // skip long descriptions
+
+    // Try to extract pieces
+    const parts = [];
+    const kmMatch = txt.match(/(?:~?\s*\d[\d,.]*\s*(?:–\s*\d[\d,.]*\s*)?km(?:\s*hin\/zur[üu]ck|\s*one[- ]way|\s*Anstieg|\s*Abstieg)?)/i);
+    if(kmMatch) parts.push({cls:'km',label:'📏 '+kmMatch[0].replace(/^Strecke:\s*/i,'').trim()});
+
+    const zeitMatch = txt.match(/(?:\d[\d:.,]*\s*(?:–\s*\d[\d:.,]*\s*)?(?:h\b|Std\.?|Stunden|Min\.?))/i);
+    if(zeitMatch) parts.push({cls:'zeit',label:'⏱️ '+zeitMatch[0].replace(/^Gehzeit:\s*/i,'').trim()});
+
+    const hmMatch = txt.match(/(?:hm:\s*)?(\d[\d.,]*(?:\s*hm[↑↓]?(?:\s*\/\s*\d[\d.,]*\s*hm[↑↓]?)?|\s*Höhenmeter|\s*hm))/i);
+    if(hmMatch && hmMatch[0].toLowerCase().includes('hm')) parts.push({cls:'hm',label:'⛰️ '+hmMatch[0].replace(/^hm:\s*/i,'').trim()});
+
+    const diffMatch = txt.match(/(?:Schwierigkeit:\s*)?(leicht(?:-mittel)?|mittel(?:-schwer)?|schwer)\b/i);
+    if(diffMatch) parts.push({cls:'diff',label:'🎯 '+diffMatch[1]});
+
+    if(parts.length >= 2){
+      // Replace the li content with stat pills
+      const statContainer = document.createElement('div');
+      statContainer.className = 'tour-stats';
+      parts.forEach(p => {
+        const span = document.createElement('span');
+        span.className = 'stat '+p.cls;
+        span.textContent = p.label;
+        statContainer.appendChild(span);
+      });
+      li.replaceWith(statContainer);
+    }
+  });
+
+  // 4. Tip blockquotes (💡 prefix) get tip styling
+  content.querySelectorAll('blockquote').forEach(bq => {
+    const txt = bq.textContent.trim();
+    if(/^💡|^\s*Tipp\b/iu.test(txt)){
+      bq.classList.add('tip');
+    }
+  });
+
+  // 5. Add icons + persist section letter to data-attr (used later by buildNav)
+  content.querySelectorAll('h1').forEach(h1 => {
+    const letter = getSectionLetter(h1.textContent.trim());
+    if(letter){
+      h1.setAttribute('data-section', letter);
+      if(SECTION_ICONS[letter]) h1.setAttribute('data-icon', SECTION_ICONS[letter]);
+      // Strip "ABSCHNITT X · " prefix from displayed text
+      const firstNode = h1.firstChild;
+      if(firstNode && firstNode.nodeType === Node.TEXT_NODE){
+        firstNode.textContent = firstNode.textContent.replace(/^ABSCHNITT\s+[A-Z]\s*·\s*/i,'').trim();
+      }
+    }
+  });
 }
 
 function buildNav(){
@@ -770,7 +1056,7 @@ function buildNav(){
   const sectionMap = {};
   headings.forEach(h => {
     if(h.tagName !== 'H1') return;
-    const letter = getSectionLetter(h.textContent.replace(/#$/,'').trim());
+    const letter = h.getAttribute('data-section') || getSectionLetter(h.textContent.replace(/#$/,'').trim());
     if(letter){
       sectionMap[letter] = sectionMap[letter] || [];
       sectionMap[letter].push(h);
@@ -820,7 +1106,7 @@ function buildQuickLinks(){
   const headings = document.querySelectorAll('#content h1');
   const sectionToId = {};
   headings.forEach(h => {
-    const letter = getSectionLetter(h.textContent.replace(/#$/,'').trim());
+    const letter = h.getAttribute('data-section') || getSectionLetter(h.textContent.replace(/#$/,'').trim());
     if(letter && !sectionToId[letter]) sectionToId[letter] = h.id;
   });
 
