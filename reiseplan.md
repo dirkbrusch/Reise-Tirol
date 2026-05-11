@@ -1,6 +1,6 @@
 # Reiseplan Wildschönau – 21.05.–06.06.2026
 
-> Alle Preise und Saisonzeiten sind Stand 2025/Anfang 2026. Vor Reiseantritt stichprobenhaft verifizieren – die offiziellen Quellen sind in Abschnitt O verlinkt. Eine vollständige Quellenliste mit Abrufdatum findet sich am Ende.
+> Alle Preise und Saisonzeiten sind Stand 2025/Anfang 2026. Vor Reiseantritt stichprobenhaft verifizieren – die offiziellen Quellen sind in Abschnitt N verlinkt. Eine vollständige Quellenliste mit Abrufdatum findet sich am Ende.
 
 ## Die fünf wichtigsten Saison-Fakten
 
@@ -240,18 +240,21 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 - **Einkehr unterwegs:** Bummelbahn-Halt (Eisbecher), **Schaukäserei Schönangeralm 1.180 m** als Mittag- oder Nachmittagsstop. Geöffnet ab **09.05.2026**, Mai/Juni **Di Ruhetag**, **nur Bargeld**. Spezialitäten: Schönangerer Kasspatzeln, panierter Bergkäse, Kaspressknödel.
 - Variante: Hin zu Fuß, zurück mit **Wanderbus** (4× tgl. ab 23.05.) oder **Bummelbahn**.
 - 🗺️ [Startpunkt Auffach in Google Maps](https://www.google.com/maps/search/?api=1&query=Auffach+Dorf+Wildsch%C3%B6nau) · [Routenführung zur Schönangeralm](https://www.google.com/maps/dir/?api=1&origin=Auffach+Dorf+Wildsch%C3%B6nau&destination=Sch%C3%B6nangeralm+Wildsch%C3%B6nau&travelmode=walking)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=Sch%C3%B6nangeralm%20Wildsch%C3%B6nau%20Auffach&sport=hike)
 
 **2. Auffach → Niederkaseralm → Schönangeralm** (etwas anspruchsvoller)
 - ~12 km · 4 h · 450 hm · leicht-mittel
 - Über die Niederkaseralm (1.200 m, Almsommer ab Anfang Juni) zur Schönangeralm.
 - **Einkehr:** Niederkaseralm (sofern offen Ende Mai – vor Ort fragen), Schönangeralm.
 - 🗺️ [Startpunkt Auffach in Google Maps](https://www.google.com/maps/search/?api=1&query=Auffach+Schatzbergbahn+Talstation)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=Niederkaseralm%20Sch%C3%B6nangeralm%20Wildsch%C3%B6nau&sport=hike)
 
 **3. Sonnberg-Runde Niederau (Wanderung zum Eisstein)**
 - 9,7 km · 3 h · 389 hm · mittel
 - Ab Niederau auf den Sonnberg, vorbei an Bauernhöfen.
 - **Einkehr:** [**Riedlhof**](https://www.google.com/maps/search/?api=1&query=Riedlhof+Wildsch%C3%B6nau) (ab Niederau via Sonnberg erreichbar) – ganzjährig, Riesen-Wiener-Schnitzel, Aussichts-Sonnenterrasse, Tel. +43 5339 8882.
 - 🗺️ [Startpunkt Niederau in Google Maps](https://www.google.com/maps/search/?api=1&query=Niederau+Wildsch%C3%B6nau+Markbachjochbahn)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=Eisstein%20Sonnberg%20Niederau%20Wildsch%C3%B6nau&sport=hike)
 
 ### Tagestouren ab Markbachjochbahn (ab 09.05. in Betrieb)
 
@@ -260,24 +263,28 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 - Bergstation 1.500 m → über die Hochalm-Landschaft zur Holzalm Käsealm (1.440 m)
 - **Einkehr:** [**Holzalm Käsealm**](https://www.google.com/maps/search/?api=1&query=Holzalm+K%C3%A4sealm+Wildsch%C3%B6nau) (offen **ab Mitte Mai** – vormittags Käseproduktion live!), **Markbachjochalm** (Sepp) am Start/Ende. Beide eindeutig im Reisezeitraum offen.
 - 🗺️ [Talstation Markbachjochbahn in Google Maps](https://www.google.com/maps/search/?api=1&query=Markbachjochbahn+Talstation+Niederau)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=Markbachjoch%20Holzalm%20K%C3%A4sealm%20Wildsch%C3%B6nau&sport=hike)
 
 **5. Markbachjoch – Roßkopf – Lahnerköpfl-Runde**
 - 7,5 km · 4 h · 560 hm · mittel
 - Höhepunkt: Blick auf den Wilden Kaiser
 - **Einkehr:** **Rübezahl-Hütte** (1.600 m, **offen Anfang Mai – Ende Oktober**, 2 Min. ab Bergstation, Falstaff 90 Punkte), Markbachjochalm. **Norderbergalm** als Alternative am Schluss (Kaiserschmarrn, Kaspressknödel).
 - 🗺️ [Talstation Markbachjochbahn in Google Maps](https://www.google.com/maps/search/?api=1&query=Markbachjochbahn+Talstation+Niederau)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=Markbachjoch%20Ro%C3%9Fkopf%20Lahnerk%C3%B6pfl%20Wildsch%C3%B6nau&sport=hike)
 
 **6. Markbachjoch – Norderbergalm – Holzalm – kombiniert**
 - 6–7 km · 3 h · 200–300 hm · leicht
 - Zwei Almen an einem Tag.
 - **Einkehr:** [Norderbergalm](https://www.google.com/maps/search/?api=1&query=Norderbergalm+Wildsch%C3%B6nau) (1.364 m – Bergfrühstück auf Reservierung), [Holzalm Käsealm](https://www.google.com/maps/search/?api=1&query=Holzalm+K%C3%A4sealm+Wildsch%C3%B6nau).
 - 🗺️ [Talstation Markbachjochbahn in Google Maps](https://www.google.com/maps/search/?api=1&query=Markbachjochbahn+Talstation+Niederau)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=Markbachjoch%20Norderbergalm%20Holzalm%20Wildsch%C3%B6nau&sport=hike)
 
 **7. Markbachjoch – Skulpturenpark – Niederau (Abstieg)**
 - 6,7 km · 2 h · 612 hm Abstieg, kaum Aufstieg
 - Bahn rauf, gemütlich runter durch Hängemattenpark und Skulpturenpark Bergsee Mittermoosen
 - **Einkehr:** Markbachjochalm oben, **Hotel Harfenwirt** an der Talstation (international + tirolerisch).
 - 🗺️ [Talstation Markbachjochbahn in Google Maps](https://www.google.com/maps/search/?api=1&query=Markbachjochbahn+Talstation+Niederau)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=Markbachjoch%20Skulpturenpark%20Niederau&sport=hike)
 
 ### Tagestouren ab Schatzbergbahn (erst ab 04.06.2026!)
 
@@ -286,12 +293,14 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 - Joelspitze 1.964 m – Restschnee bis Mitte Juni möglich
 - **Einkehr:** **Schatzbergalm Berggasthof Klingler** (Bergstation, ~1.800 m) und **Gipfö Hit** (Schatzberg-Gipfel 1.898 m) – beide ab 04.06., ebenso [**Berghaus Koglmoos**](https://www.google.com/maps/search/?api=1&query=Berghaus+Koglmoos+Auffach) (1.300 m, Mittelstation, Mi/Do Ruhetag im Sommer).
 - 🗺️ [Talstation Schatzbergbahn in Google Maps](https://www.google.com/maps/search/?api=1&query=Schatzbergbahn+Talstation+Auffach)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=Schatzberg%20Joelspitze%20Wildsch%C3%B6nau%20Auffach&sport=hike)
 
 **9. Schatzberg → Koglmoos → Auffach (Abstieg)**
 - 6,3 km · 2 h · 910 hm Abstieg
 - Bahn rauf, komplett zu Fuß runter
 - **Einkehr:** Schatzbergalm oben, Berghaus Koglmoos auf halber Strecke, Restaurants in Auffach am Ziel.
 - 🗺️ [Talstation Schatzbergbahn in Google Maps](https://www.google.com/maps/search/?api=1&query=Schatzbergbahn+Talstation+Auffach)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=Schatzberg%20Koglmoos%20Auffach%20Abstieg&sport=hike)
 
 ### Tagestouren ohne Bahn
 
@@ -300,30 +309,35 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 - Ab Oberau Richtung Achentalalm, schöner Aufstieg durch lichten Wald, Aussicht zur Gratlspitze
 - **Einkehr:** [**Achentalalm**](https://www.google.com/maps/search/?api=1&query=Achentalalm+Wildsch%C3%B6nau) (~1.400 m, im Sommer geöffnet) – **Mittwochs Schmalznudel-Spezialität**! Bergwelten-Empfehlung: „perfekter Einstieg in den Wanderurlaub".
 - 🗺️ [Startpunkt Oberau in Google Maps](https://www.google.com/maps/search/?api=1&query=Oberau+Wildsch%C3%B6nau+Dorf)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=Kragenjoch%20Achentalalm%20Wildsch%C3%B6nau&sport=hike)
 
 **11. Auffach → Schönangeralm → Gressensteinwasserfall**
 - 8 km hin/zurück · 3 h · 350 hm · leicht-mittel
 - Vom Talschluss zum imposanten Wasserfall (durch Schneeschmelze Ende Mai besonders kraftvoll)
 - **Einkehr:** [Schönangeralm](https://www.google.com/maps/search/?api=1&query=Sch%C3%B6nangeralm+Wildsch%C3%B6nau) vor und nach der Wasserfall-Schleife.
 - 🗺️ [Startpunkt Auffach Talschluss in Google Maps](https://www.google.com/maps/search/?api=1&query=Sch%C3%B6nangeralm+Parkplatz+Auffach)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=Gressensteinwasserfall%20Sch%C3%B6nangeralm%20Wildsch%C3%B6nau&sport=hike)
 
 **12. Hösljoch von Thierbach** (Verbindung ins Alpbachtal)
 - 8 km · 4 h · 600 hm · mittel
 - Ab Thierbach über das Hösljoch
 - **Einkehr:** [**Sollererwirt Thierbach**](https://www.google.com/maps/search/?api=1&query=Sollererwirt+Thierbach) (Speckbacherstube von 1670, ab 4 Pers. vorbestellen), **Gasthof Gradlspitz** (1.200 m, Sonnenterrasse) zum Start oder Ende.
 - 🗺️ [Startpunkt Thierbach in Google Maps](https://www.google.com/maps/search/?api=1&query=Thierbach+Wildsch%C3%B6nau+Dorf)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=H%C3%B6sljoch%20Thierbach%20Wildsch%C3%B6nau%20Alpbachtal&sport=hike)
 
 **13. „Dem Käse auf der Spur" – Themenwanderung**
 - 13 km · 5 h · 338 hm↑ / 627 hm↓ · mittel
 - Verbindet Holzalm und Schönangeralm – die zwei Schaukäsereien in einer Runde
 - **Einkehr:** [Holzalm Käsealm](https://www.google.com/maps/search/?api=1&query=Holzalm+K%C3%A4sealm+Wildsch%C3%B6nau) + [Schönangeralm](https://www.google.com/maps/search/?api=1&query=Sch%C3%B6nangeralm+Wildsch%C3%B6nau) – beide offen im Reisezeitraum.
 - 🗺️ [Talstation Markbachjochbahn in Google Maps](https://www.google.com/maps/search/?api=1&query=Markbachjochbahn+Talstation+Niederau)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=K%C3%A4se%20auf%20der%20Spur%20Holzalm%20Sch%C3%B6nangeralm%20Wildsch%C3%B6nau&sport=hike)
 
 **14. Kundler Klamm Komplettdurchquerung**
 - 6,5 km one-way (zurück mit Bummelzug ab 29.05.) · 3 h · 10 hm↑/240 hm↓ · leicht
 - Spektakuläre Schluchtwanderung, kinderwagentauglich
 - **Einkehr:** [**Hotel Färberwirt**](https://www.google.com/maps/search/?api=1&query=Hotel+F%C3%A4rberwirt+M%C3%BChltal) (Mühltal, am Start), Gasthof Klamm-Kundl (am Ziel)
 - 🗺️ [Eingang Kundler Klamm Mühltal in Google Maps](https://www.google.com/maps/search/?api=1&query=Kundler+Klamm+M%C3%BChltal+Eingang)
+- 🥾 [Tour in Komoot suchen](https://www.komoot.de/discover?q=Kundler%20Klamm%20M%C3%BChltal%20Wildsch%C3%B6nau&sport=hike)
 
 ## D.3 Anspruchsvollere Bergtouren / Gipfel
 
@@ -374,9 +388,19 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 
 **Karten-Empfehlung:** Kompass Nr. 28 „Vorderes Zillertal, Achensee, Alpbachtal, Wildschönau". Interaktive Tourenkarten und GPX-Download: https://www.wildschoenau.com/de/touren
 
-## D.7 Schnell-Zugriff: Startpunkte in Google Maps
+## D.7 Schnell-Zugriff: Startpunkte und Tour-Karten
 
-> Alle wichtigen Wander-Startpunkte als Direktlinks. Per Klick öffnet sich Google Maps (mobil in der App, am Desktop im Browser).
+> 📍 **Google Maps** für die Anfahrt zum Startpunkt · 🥾 **Komoot** für die eigentliche Tour mit GPX-Track und Höhenprofil.
+
+### 🥾 Komoot-Regionsübersicht Wildschönau
+
+- [Alle Wanderungen Wildschönau in Komoot](https://www.komoot.de/discover?q=Wildsch%C3%B6nau&sport=hike)
+- [Auffach-Region in Komoot](https://www.komoot.de/discover?q=Auffach+Wildsch%C3%B6nau&sport=hike)
+- [Schatzberg-Touren in Komoot](https://www.komoot.de/discover?q=Schatzberg+Wildsch%C3%B6nau&sport=hike)
+- [Markbachjoch-Touren in Komoot](https://www.komoot.de/discover?q=Markbachjoch+Wildsch%C3%B6nau&sport=hike)
+- [Offizielles Wildschönau-Tourenportal mit GPX-Download](https://www.wildschoenau.com/de/touren)
+
+### 📍 Wander-Startpunkte in Google Maps
 
 **Talsohle Wildschönau**
 - 📍 [Auffach Dorf / Schatzbergbahn Talstation](https://www.google.com/maps/search/?api=1&query=Schatzbergbahn+Talstation+Auffach)
@@ -774,109 +798,8 @@ Im Tal v. a. Frischfleischtheken in den SPAR-Märkten (Oberau besonders); eigens
 
 ---
 
-# ABSCHNITT J · Winteraktivitäten und Skigebiet
 
-> Hinweis: Diese Reise findet im **Frühsommer (21.05.–06.06.2026)** statt. Dieser Abschnitt ist als **Referenz für künftige Winterreisen** und für ganzjährig relevante Informationen (Pisten, Liftverbund, Kontakte) dokumentiert.
-
-## J.1 Skigebiet Ski Juwel Alpbachtal Wildschönau
-
-**Eines der größten Skigebiete Tirols.** Verbund seit 2012/13 zwischen Ski Wildschönau (Schatzberg/Markbachjoch) und Ski Alpbachtal (Wiedersbergerhorn/Reitherkogel).
-
-| Kennzahl | Wert |
-|---|---|
-| Pistenkilometer | **113 km** (47 leicht, 50 mittel, 16 schwer) |
-| Lifte/Bahnen | **45 Anlagen** |
-| Höhenlage | 830–2.025 m |
-| Saison | **Mitte Dezember – Ostern/Mitte April** (skijuwel.com) |
-| Beschneiung | flächendeckend |
-| Funparks | Funpark Schatzberg + Funpark Wiedersberger Horn |
-| Familien-Areale | Lauserland (Wiedersberger Horn), Juppi-Du-Kinderland (Reitherkogel) |
-
-## J.2 Einstieg ab Auffach
-
-**Schatzbergbahn Auffach** (Talstation Dorf 273) ist der Hauptzustieg ab Auffach:
-- Direkter Einstieg in die Schatzberg-/Joelspitze-Pisten
-- Pistenanschluss zur Wiedersbergerhornbahn Alpbach (Verbindungslift)
-- Skidepot **Ski Auffach** (Dorf 6, ski-auffach.at) direkt an der Talstation: 24-h-Depot 10 €/2 Pers. oder 20 €/4 Pers.
-- Großer kostenfreier Parkplatz an der Talstation
-- Skibus Wildschönau ganzjährig im Tal, mit Wildschönau Card kostenlos
-
-**Markbachjochbahn Niederau** (~7 km) als zweiter Einstieg, eher für Ski-Anfänger und Familien.
-
-## J.3 Skipässe Winter
-
-Tageskarten Hauptsaison 2025/26 (skijuwel.com):
-
-| Kategorie | Erwachsene | Jugend (2007–2012) | Kinder (2013–2018) |
-|---|---|---|---|
-| **1 Tag** | 68,50 € | 55,00 € | 34,50 € |
-| 2 Tage | 134,50 € | 108,00 € | 67,50 € |
-| **6 Tage** | **349,50 €** | 280,50 € | 175,00 € |
-| 13 Tage | 671,00 € | 537,00 € | 336,00 € |
-
-> Kinder Jahrgang **2020 und jünger fahren kostenlos** (in Begleitung eines zahlenden Elternteils, Kinderausweis erforderlich).
-
-**Mehr-Tages-Pässe:** Ski Juwel-Pass (gesamtes Verbundgebiet), Snow Card Tirol (alle Tiroler Skigebiete, regional vergünstigt für Tirol-Übernachtungsgäste).
-
-## J.4 Skiverleih und Skischulen
-
-**Skiverleih in Auffach:**
-- **Ski Auffach** – Dorf 6, +43 5339 ... · ski-auffach.at. Verleih + 24-h-Depot direkt an der Talstation.
-- **Sport Thaler** – Dorf 156, thaler-sport.at. Familienunternehmen mit kompletter Verleih-Palette (Ski, Snowboard, Schuhe, Helme).
-- **Ski & Board Margreiter** – 3 Standorte: Niederau 103, Auffach 273 (an der Schatzbergbahn), Oberau 174 · ski-margreiter.at.
-
-**Skischulen Wildschönau:**
-- **Skischule Wildschönau Aktiv** – Niederau, mehrere Treffpunkte
-- **Skischule Auffach** – an der Schatzbergbahn
-- **Skischule Snow Lions** – Niederau
-- Skikurse für Kinder, Jugendliche, Erwachsene, Privatstunden, Race-Camp
-
-## J.5 Rodeln, Winterwandern, Langlauf, Schneeschuh
-
-**Rodelbahnen:**
-- **Schönangeralm Rodelbahn** (Talschluss Auffach) – ca. 3 km, Naturrodelbahn, mit Schönangeralm-Einkehr. Beleuchtet an bestimmten Abenden.
-- **Markbachjoch Rodelbahn** (Niederau) – ab Bergstation, mit Bahn rauf, ~5 km Abfahrt
-- Rodelverleih in den Sportgeschäften der Region
-
-**Winterwandern:**
-- ~30 km geräumte Winterwanderwege im Tal
-- Beliebte Routen: Auffach → Schönangeralm (Almstraße geräumt), Franziskusweg Niederau↔Oberau, Mühltal-Talboden
-- **Geführte Schneeschuhwanderungen** mit Wildschönau Card kostenlos (inkl. Verleih), Anmeldung TVB
-
-**Langlauf:**
-- Loipen im Tal (Talloipen), Loipenkarten und Status auf wildschoenau.com/winter
-- Höhenloipe Markbachjoch (in der Saison – Status prüfen)
-
-**Schneeschuhwanderungen:**
-- Geführte Touren über TVB Wildschönau (in Card kostenlos inkl. Verleih)
-- Eigentouren ab Markbachjoch oder Schatzberg
-
-## J.6 Hütten und Restaurants im Winter
-
-| Hütte | Lage | Winterbetrieb |
-|---|---|---|
-| **Schönangeralm** | 1.180 m | täglich (im Winter ohne Ruhetag bzw. mit Skihüttenstube) |
-| **Schatzbergalm Klingler** | 1.800 m | Mitte Dezember – Ostern, parallel zur Bahn |
-| **Berghaus Koglmoos** | 1.300 m | täglich, warme Küche bis 15:30 |
-| **Markbachjochalm** | 1.500 m | Skihüttenbetrieb |
-| **Rübezahl-Hütte** | 1.600 m | Skihüttenbetrieb |
-| **Gipfö Hit** | 1.898 m | Winterbetrieb mit Bahn |
-
-## J.7 Wildschönau Card Winter
-
-**Wildschönau Card Winter** (in der Kurtaxe enthalten) inkludiert:
-- Skibus
-- **Nightliner** (Fr + Sa Abend, Bring-Service)
-- Geführte Schneeschuhwanderungen + Verleih
-- Bergbauernmuseum z'Bach (Hauptsaison)
-- Holzmuseum Auffach (Wintergruppen ab 15 Personen nach Vereinbarung)
-- Vergünstigung Eislaufplatz Drachental Oberau
-
-**Premium Card im Winter:** Bietet zusätzliche Skipass-Vergünstigung bei einigen Premium-Partner-Hotels (Aufpreis-Modell, vor Ort prüfen).
-
----
-
-# ABSCHNITT K · Regionale Küche und Spezialitäten
+# ABSCHNITT J · Regionale Küche und Spezialitäten
 
 ## Typische Tiroler Gerichte
 **Tiroler Gröstl** (Pfannengericht aus Kartoffeln/Speck/Bratenfleisch mit Spiegelei) · **Speckknödel/Tiroler Knödel** (in Suppe oder mit Sauerkraut) · **Kasspatzln/Kasnocken** (Käsespätzle mit Bergkäse + Röstzwiebeln) · **Kaiserschmarrn** mit Apfelmus oder Zwetschkenröster · **Apfelstrudel** · **Schlutzkrapfen** (Halbmondteigtaschen mit Spinat-Topfen oder Kartoffel-Speck/Graukäse) · **Brettljause/Marend** (Speck, Kaminwurzen, Bergkäse, Graukäse, Bauernbrot, Kren) · **Graukäse** (saurer, magerer Tiroler Käse, geschützte Spezialität) · **Melchermuas** (Almspezialität) · **Käsesuppe**.
@@ -915,7 +838,7 @@ Klarer Edelbrand (38–48 Vol.-%) aus der weißen Stoppelrübe (lokal „Soachru
 
 ---
 
-# ABSCHNITT L · Veranstaltungen 21.05.–06.06.2026
+# ABSCHNITT K · Veranstaltungen 21.05.–06.06.2026
 
 > **Aktueller Veranstaltungskalender** (vor Anreise tagesaktuell prüfen): wildschoenau.com/de/info-service/veranstaltungen
 
@@ -952,7 +875,7 @@ Wildschönau: **Ende Mai bis Anfang Juni** – kein Volksfest, betriebliches Ere
 
 ---
 
-# ABSCHNITT M · Praktische Tipps
+# ABSCHNITT L · Praktische Tipps
 
 ## Vor Anreise buchen
 - **Restaurants Pfingstwochenende + Fronleichnam**: 1–2 Wochen vorher reservieren (besonders Bergkristall, Sollererwirt, Schönangeralm, Marius, Riedlhof, Thalmühle)
@@ -1083,7 +1006,7 @@ Praktisch alle Hotels/Pensionen mit Gratis-WLAN. Größere Wirtshäuser ebenfall
 
 ---
 
-# ABSCHNITT N · Tagesprogramme (Vorschläge)
+# ABSCHNITT M · Tagesprogramme (Vorschläge)
 
 > Vier Beispielprogramme für unterschiedliche Aufenthaltslängen. Alle Pläne setzen die **Wildschönau Premium Card** voraus (kostenlose Bergbahnen). An Pfingsten (24./25.05.) und Fronleichnam (04.06.) frühzeitig reservieren. Bergtouren-Schneelage Ende Mai vor Ort prüfen.
 
@@ -1157,7 +1080,7 @@ Vormittags Kundler Klamm (Bummelzug). Mittagessen Thalmühle Mühltal. Krautinge
 
 ---
 
-# ABSCHNITT O · Quellenliste
+# ABSCHNITT N · Quellenliste
 
 > Konsolidierte Liste aller verwendeten Quellen mit URL und Abrufdatum (10. Mai 2026, sofern nicht anders vermerkt). Vor Reiseantritt **stichprobenhaft auf Aktualität prüfen** – Saisonzeiten und Preise ändern sich häufig kurzfristig.
 

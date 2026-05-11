@@ -625,6 +625,38 @@ a:hover{color:var(--accent-strong);text-decoration:underline;text-underline-offs
 }
 #content a.map-link::before{font-size:0.95em;line-height:1}
 
+/* Komoot - turquoise/dark teal */
+#content a.komoot-link{
+  background:#e0f2f1;
+  border-color:#0f766e;
+  color:#0f766e;
+}
+[data-theme="dark"] #content a.komoot-link{
+  background:#0f2f2c;
+  border-color:#5eead4;
+  color:#5eead4;
+}
+#content a.komoot-link:hover{
+  background:#0f766e;
+  color:#fff;
+}
+
+/* Wildschönau official tour portal - warm yellow */
+#content a.tour-link{
+  background:#fef3c7;
+  border-color:#b45309;
+  color:#92400e;
+}
+[data-theme="dark"] #content a.tour-link{
+  background:#3a2f12;
+  border-color:#fbbf24;
+  color:#fcd34d;
+}
+#content a.tour-link:hover{
+  background:#b45309;
+  color:#fff;
+}
+
 /* Map link rows (li that only contains a map link) */
 #content li.map-row{
   list-style:none;
@@ -873,17 +905,17 @@ a:hover{color:var(--accent-strong);text-decoration:underline;text-underline-offs
 // Section grouping with icons
 const SECTION_GROUPS = [
   {title:"Übersicht",icon:"📍",sections:["A","B"]},
-  {title:"Genuss & Kulinarik",icon:"🍽️",sections:["C","K"]},
-  {title:"Aktivitäten",icon:"🥾",sections:["D","I","J"]},
+  {title:"Genuss & Kulinarik",icon:"🍽️",sections:["C","J"]},
+  {title:"Aktivitäten",icon:"🥾",sections:["D","I"]},
   {title:"Mobilität & Versorgung",icon:"🚌",sections:["E","F","G"]},
-  {title:"Ausflüge & Events",icon:"🏰",sections:["H","L"]},
-  {title:"Praxis & Programme",icon:"📋",sections:["M","N"]},
-  {title:"Quellen & Anhang",icon:"📚",sections:["O","ZUSATZLISTEN","ANHANG_CHECK","ANHANG_DETAIL","FAZIT"]}
+  {title:"Ausflüge & Events",icon:"🏰",sections:["H","K"]},
+  {title:"Praxis & Programme",icon:"📋",sections:["L","M"]},
+  {title:"Quellen & Anhang",icon:"📚",sections:["N","ZUSATZLISTEN","ANHANG_CHECK","ANHANG_DETAIL","FAZIT"]}
 ];
 
 const SECTION_ICONS = {
   "A":"🗺️","B":"🏘️","C":"🍴","D":"🥾","E":"🚠","F":"🚌","G":"🛒","H":"🏛️",
-  "I":"☀️","J":"❄️","K":"🧀","L":"📅","M":"💡","N":"🗓️","O":"🔗",
+  "I":"☀️","J":"🧀","K":"📅","L":"💡","M":"🗓️","N":"🔗",
   "ZUSATZLISTEN":"⭐","ANHANG_CHECK":"✅","ANHANG_DETAIL":"📑","FAZIT":"🎯"
 };
 
@@ -893,7 +925,7 @@ const QUICK_LINKS = [
   {icon:"🍴",title:"Restaurants & Almen",desc:"Alle Orte des Tals",section:"C"},
   {icon:"☀️",title:"Sommer-Aktivitäten",desc:"Bäder, Bike, Paragliding",section:"I"},
   {icon:"🏰",title:"Ausflugsziele",desc:"Kufstein, Achensee, Innsbruck",section:"H"},
-  {icon:"🗓️",title:"Tagesprogramme",desc:"2 / 3 / 5 / 7 Tage",section:"N"}
+  {icon:"🗓️",title:"Tagesprogramme",desc:"2 / 3 / 5 / 7 Tage",section:"M"}
 ];
 
 function slugify(text){
@@ -951,9 +983,19 @@ async function load(){
 function enhanceContent(){
   const content = document.getElementById('content');
 
-  // 1. Map-link badges: any link whose visible text starts with 📍, 🗺️, or contains "in Google Maps"
+  // 1. Map-link badges: Google Maps and Komoot links
   content.querySelectorAll('a[href*="google.com/maps"]').forEach(a => {
     a.classList.add('map-link');
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
+  content.querySelectorAll('a[href*="komoot."]').forEach(a => {
+    a.classList.add('map-link','komoot-link');
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
+  content.querySelectorAll('a[href*="wildschoenau.com/de/touren"]').forEach(a => {
+    a.classList.add('map-link','tour-link');
     a.target = '_blank';
     a.rel = 'noopener';
   });
