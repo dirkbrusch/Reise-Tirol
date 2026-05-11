@@ -14,7 +14,7 @@
 
 # ABSCHNITT A · Kurzüberblick Wildschönau
 
-Die **Wildschönau** ist ein etwa **24 km langes Hochtal** in den **Kitzbüheler Alpen** im Bezirk Kufstein, Tirol, ca. 6 km südlich von Wörgl. Die Talsohle liegt zwischen **828 m (Niederau)** und **1.150 m (Thierbach)**, der höchste Berg der Region ist der **Große Beil mit 2.309 m**. Zur Gemeinde Wildschönau gehören rund **4.293 Einwohner** [wildschoenau.gv.at]. Die Region positioniert sich als „sanfter Tourismus" – traditionelle Bauernhöfe, aktive Almwirtschaft (46 bewirtschaftete Almen, ~500 Tiere), keine Massentourismus-Infrastruktur.
+Die **Wildschönau** ist ein etwa **24 km langes Hochtal** in den **Kitzbüheler Alpen** im Bezirk Kufstein, Tirol, ca. 6 km südlich von Wörgl. Die Talsohle liegt zwischen **828 m (Niederau)** und **1.150 m (Thierbach)**, der höchste Berg der Region ist der **Große Beil mit 2.309 m**. Zur Gemeinde Wildschönau gehören rund **4.293 Einwohner** [[wildschoenau.gv.at](https://wildschoenau.gv.at)]. Die Region positioniert sich als „sanfter Tourismus" – traditionelle Bauernhöfe, aktive Almwirtschaft (46 bewirtschaftete Almen, ~500 Tiere), keine Massentourismus-Infrastruktur.
 
 ## Die fünf Orte
 
@@ -38,7 +38,7 @@ Die Reisezeit ist **Vor- bzw. Frühsaison** – ruhig, viele Almen aber noch nic
 
 **Schneegrenze:** Restschnee oberhalb von **1.700–1.800 m** möglich, in Nordlagen und Mulden bis Mitte Juni; an Gipfeln über 2.000 m noch deutlich. Das betrifft Großen Beil, Lämpersberg, Sonnjoch, Joelspitze, Feldalphorn.
 
-## Wetter und Temperaturen (Quelle: meteoblue, klima.org, wetter.com)
+## Wetter und Temperaturen (Quelle: meteoblue, [klima.org](https://klima.org), [wetter.com](https://wetter.com))
 
 Im Tal (~870 m) typisch **Tagesmaxima 16–22 °C** im Mai, **20–24 °C** Anfang Juni; **Nachts 5–11 °C**. Auf 2.000 m **Tagesmittel +5 bis +10 °C**, nachts auch leichte Minusgrade. **Mai und Juni sind die niederschlagsreichsten Monate** mit ~257–267 mm Monatssumme; häufig Nachmittagsgewitter. **5–7 Sonnenstunden/Tag**. Pflichtausstattung: Regenjacke, warme Schicht für die Berge.
 
@@ -68,7 +68,7 @@ Auffach liegt am südlichen Talende, etwa 14 km von Wörgl entfernt, am Fuß des
 
 ## Schatzbergbahn Auffach – Sommer 2026
 
-- **Talstation:** Dorf 273, 6313 Auffach. Tel. +43 5339 5353 [skijuwel.com]
+- **Talstation:** Dorf 273, 6313 Auffach. Tel. +43 5339 5353 [[skijuwel.com](https://skijuwel.com)]
 - **Bergstation:** ca. 1.770 m (Schatzberg-Gipfel 1.898 m, ~20 Min. Aufstieg von Bergstation)
 - **Sommersaison:** **04.06.–04.10.2026**, täglich **9:00–16:45 Uhr** (letzte Bergfahrt 16:45, letzte Talfahrt 17:00)
 - **Preise 2026** (Erw./Kind/Senior):
@@ -106,25 +106,25 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 
 | Betrieb | Küche | Preis | Bemerkung |
 |---|---|---|---|
-| **Traditionsgasthof Weißbacher** (Dorf 4, Tel. +43 5339 8934) | Tirolerisch, AMA-Genussregion | €€ | Solide, ortsnah, Biergarten – traditionsgasthof-weissbacher.com |
-| **MM Marius Restaurant · Café · Lounge** (Dorf 6, neben Schatzbergbahn) | Modern-kreativ + Klassiker, Falstaff-gelistet | €€–€€€ | **Reservierung empfohlen**, Mi–So abends, So mittags – marius-restaurant.at |
-| **Hotel Auffacherhof – Genussrestaurant** | Regional-tirolerisch, eigene Landwirtschaft | €€–€€€ | Klassisches Hotelrestaurant, Weinkeller – auffacherhof.at |
-| **Apparthotel Talhof – Restaurant** | Tirolerisch + international, Themenabende | €€ | Mi Ruhetag (Sommer); Speisen aus Prädastenhof-Speck – talhof.at |
-| **Berghaus Koglmoos** (Mittelstation Schatzbergbahn) | Almküche | €–€€ | **Erst ab 04.06.2026** geöffnet (parallel zur Bahn) – koglmoos.at |
+| **Traditionsgasthof Weißbacher** (Dorf 4, Tel. +43 5339 8934) | Tirolerisch, AMA-Genussregion | €€ | Solide, ortsnah, Biergarten – [traditionsgasthof-weissbacher.com](https://traditionsgasthof-weissbacher.com) |
+| **MM Marius Restaurant · Café · Lounge** (Dorf 6, neben Schatzbergbahn) | Modern-kreativ + Klassiker, Falstaff-gelistet | €€–€€€ | **Reservierung empfohlen**, Mi–So abends, So mittags – [marius-restaurant.at](https://marius-restaurant.at) |
+| **Hotel Auffacherhof – Genussrestaurant** | Regional-tirolerisch, eigene Landwirtschaft | €€–€€€ | Klassisches Hotelrestaurant, Weinkeller – [auffacherhof.at](https://auffacherhof.at) |
+| **Apparthotel Talhof – Restaurant** | Tirolerisch + international, Themenabende | €€ | Mi Ruhetag (Sommer); Speisen aus Prädastenhof-Speck – [talhof.at](https://talhof.at) |
+| **Berghaus Koglmoos** (Mittelstation Schatzbergbahn) | Almküche | €–€€ | **Erst ab 04.06.2026** geöffnet (parallel zur Bahn) – [koglmoos.at](https://koglmoos.at) |
 | **Bojan's Eisladl** | Eis | € | Schnelle Erfrischung |
 
 ## C.2 Oberau
 
 | Betrieb | Küche | Preis | Bemerkung |
 |---|---|---|---|
-| **Kellerwirt** (Oberau 72, an der Kirche, +43 5339 8116) | Tiroler Klassiker im 800-Jahre-Gewölbe | €€ | **Top-Empfehlung Abendessen**, Schweinsbraten, Weinkeller – kellerwirt.at |
-| **Landhotel Tirolerhof – Kircher Stub'n** (Kirchen 275) | Tirolerisch + international, Sturmlödatorte | €€–€€€ | Sonnenterrasse, Spielplatz – hoteltirolerhof.at |
-| **Dorferwirt** (Dorf 26) | Tiroler Wirtshaus, eigene Landwirtschaft | €€ | Wirtin Erika kocht persönlich – dorferwirt.com |
+| **Kellerwirt** (Oberau 72, an der Kirche, +43 5339 8116) | Tiroler Klassiker im 800-Jahre-Gewölbe | €€ | **Top-Empfehlung Abendessen**, Schweinsbraten, Weinkeller – [kellerwirt.at](https://kellerwirt.at) |
+| **Landhotel Tirolerhof – Kircher Stub'n** (Kirchen 275) | Tirolerisch + international, Sturmlödatorte | €€–€€€ | Sonnenterrasse, Spielplatz – [hoteltirolerhof.at](https://hoteltirolerhof.at) |
+| **Dorferwirt** (Dorf 26) | Tiroler Wirtshaus, eigene Landwirtschaft | €€ | Wirtin Erika kocht persönlich – [dorferwirt.com](https://dorferwirt.com) |
 | **Pizzeria Italia 90** (Kirchen 177) | Holzofenpizza, Pasta | €€ | Sehr beliebt, Reservierung sinnvoll, **Mi Ruhetag** |
-| **Café Moorhof / Konditorei** | Frühstück, Kuchen, Eis | €–€€ | 4,8/5, ideal Nachmittagskaffee – cafe-moorhof.at |
+| **Café Moorhof / Konditorei** | Frühstück, Kuchen, Eis | €–€€ | 4,8/5, ideal Nachmittagskaffee – [cafe-moorhof.at](https://cafe-moorhof.at) |
 | **Aurea Fine Dining (Mount Med Resort)** | Health Cuisine, kreativ | €€€ | Sonntagsmenü extern; Reservierung Pflicht |
-| **Riedlhof Jausenstation** (Riedlweg 81, +43 5339 8882) | Riesen-Wiener-Schnitzel | €€ | 20 Min. zu Fuß oberhalb Oberau, Top-Tipp – riedlhof.com |
-| **Thalmühle s'Wirtshaus** (Mühltal 7) | Regional, 200-jährige Mühle | €€ | Falstaff-empfohlen, Wildschönauer Brezensuppe – thalmuehle.at |
+| **Riedlhof Jausenstation** (Riedlweg 81, +43 5339 8882) | Riesen-Wiener-Schnitzel | €€ | 20 Min. zu Fuß oberhalb Oberau, Top-Tipp – [riedlhof.com](https://riedlhof.com) |
+| **Thalmühle s'Wirtshaus** (Mühltal 7) | Regional, 200-jährige Mühle | €€ | Falstaff-empfohlen, Wildschönauer Brezensuppe – [thalmuehle.at](https://thalmuehle.at) |
 
 ## C.3 Niederau
 
@@ -133,22 +133,22 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 | **Hotel Schneeberger** | Tirolerisch + vegetarisch, Grillplatte für 2 | €€–€€€ | Durchgehend warme Küche, Take-Away möglich |
 | **Hotel Harfenwirt** (Grafenweg 325) | Tirolerisch + international | €€ | An der Markbachjochbahn |
 | **Hotel Simmerlwirt** | Tiroler + intl. Spezialitäten, Wintergarten | €€ | 200 m zur Skiarena |
-| **Bichlwirt** | Traditionelles Gasthaus | €€ | Sonnenterrasse, urige Stube – bichlwirt.com |
+| **Bichlwirt** | Traditionelles Gasthaus | €€ | Sonnenterrasse, urige Stube – [bichlwirt.com](https://bichlwirt.com) |
 | **Restaurant Tennladen** | Heimisch-tirolerisch + intl. | €€ | Persönliche Bedienung, gegenüber Harfenwirt |
-| **Pizzeria Ferrari** | Italienisch | €€ | Do–Di 17–21, **Mi Ruhetag** – pizzeria-ferrari.at |
+| **Pizzeria Ferrari** | Italienisch | €€ | Do–Di 17–21, **Mi Ruhetag** – [pizzeria-ferrari.at](https://pizzeria-ferrari.at) |
 | **Bistro Wildschönau** | Schnellküche/Take-Away | € | Praktisch für unterwegs |
 
 ## C.4 Thierbach und Mühltal
 
 **Thierbach:**
-- **Sollererwirt** (über der Kirche) – historische Speckbacher-Stube von 1670, traditionell, Alpaka-Streichelgehege, ab 4 Personen vorbestellen. **€€** – sollererwirt.at. Einer der schönsten Plätze der Region.
-- **Gasthof Gradlspitz** (1.200 m) – Sonnenterrasse mit Blick zur Gratlspitze. **€€** – gradlspitz.at
+- **Sollererwirt** (über der Kirche) – historische Speckbacher-Stube von 1670, traditionell, Alpaka-Streichelgehege, ab 4 Personen vorbestellen. **€€** – [sollererwirt.at](https://sollererwirt.at). Einer der schönsten Plätze der Region.
+- **Gasthof Gradlspitz** (1.200 m) – Sonnenterrasse mit Blick zur Gratlspitze. **€€** – [gradlspitz.at](https://gradlspitz.at)
 - **Jausenstation Hörbighof** (Stammhof der Hörbiger-Familie, 1620) – Brettljause, Kaiserschmarrn, Kaffee+Kuchen. Sommerbetrieb. **€–€€**
 - **Klinglerhof / Almhof** – einfache traditionelle Gaststätten
 
 **Mühltal:**
-- **Hotel Bergkristall** (Mühltal 40, +43 5339 8216) – Junior-Chef Thomas Thaler kocht modern-traditionell, 4-Gang-Wahlmenü. **€€€**, Reservierung Pflicht. **Top-Empfehlung gehobenes Abendessen** – hotel-bergkristall.info
-- **Hotel Färberwirt** (Mühltal 75, +43 5339 8916) – am Eingang Kundler Klamm, Bummelzug-Startpunkt. **€€** – faerberwirt.at
+- **Hotel Bergkristall** (Mühltal 40, +43 5339 8216) – Junior-Chef Thomas Thaler kocht modern-traditionell, 4-Gang-Wahlmenü. **€€€**, Reservierung Pflicht. **Top-Empfehlung gehobenes Abendessen** – [hotel-bergkristall.info](https://hotel-bergkristall.info)
+- **Hotel Färberwirt** (Mühltal 75, +43 5339 8916) – am Eingang Kundler Klamm, Bummelzug-Startpunkt. **€€** – [faerberwirt.at](https://faerberwirt.at)
 
 ## C.5 Almen und Berghütten
 
@@ -159,7 +159,7 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 | **Gipfö Hit** (am Schatzberg-Gipfel) | 1.898 m | **Erst ab 04.06.2026** | Schatzbergbahn + 20 Min. Aufstieg |
 | **Berghaus Koglmoos** (Mittelstation Schatzberg) | 1.300 m | **Erst ab 04.06.2026** | Schatzbergbahn |
 | **Markbachjochalm (Sepp)** (Bergstation Markbach) | 1.500 m | Markbach-Saison 09.05.–18.10., 9–17 Uhr | Markbachjochbahn |
-| **Rübezahl-Hütte** | 1.600 m | Anfang Mai – Ende Oktober (offen) | 2 Min. ab Bergstation Markbachjoch – huettenguide.net |
+| **Rübezahl-Hütte** | 1.600 m | Anfang Mai – Ende Oktober (offen) | 2 Min. ab Bergstation Markbachjoch – [huettenguide.net](https://huettenguide.net) |
 | **Norderbergalm** (Katrin Fankhauser) | 1.364 m | Sommer ab Mai (vor Ort prüfen) | 1 km von Bergstation Markbachjoch |
 | **Holzalm Käsealm** (Brixental) | 1.440 m | **Mitte Mai – Mitte Oktober (offen)** | 30–40 Min. ab Bergstation Markbachjoch, mit Käseproduktion vormittags |
 | **Achentalalm** (Kragenjoch) | ~1.400 m | Mi Schmalznudeln-Spezialität | Wanderung ab Oberau |
@@ -474,7 +474,7 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 ### Kitzbüheler Alpen (~35–45 km)
 
 **Hahnenkammbahn Kitzbühel** (1.665 m) – ~35 km, 45 Min.
-- Sommer 2026: voraussichtlich ab Mitte Mai (genaue Daten prüfen unter kitzski.at)
+- Sommer 2026: voraussichtlich ab Mitte Mai (genaue Daten prüfen unter [kitzski.at](https://kitzski.at))
 - **Streif-Themenweg**: original Streif-Abfahrt zu Fuß erleben mit Infotafeln
 - Restaurants: **Hahnenkamm-Stüberl**, **Berghaus Tirol**
 
@@ -490,7 +490,7 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 ### Achensee-Region (~50 km, 60 Min.)
 
 **Karwendel-Bergbahn Pertisau** (1.760 m)
-- Sommer 2026: vermutlich ab Mai (Saisonstart auf karwendel-bergbahn.at)
+- Sommer 2026: vermutlich ab Mai (Saisonstart auf [karwendel-bergbahn.at](https://karwendel-bergbahn.at))
 - Top-Aussichtsplattform „Adlerhorst", Naturpark Karwendel
 - Bergrestaurant Karwendel-Plumsjoch
 
@@ -518,7 +518,7 @@ Großer kostenfreier Parkplatz Schatzbergbahn-Talstation; weitere Plätze beim H
 
 **Kaiserlift Kufstein** (Brentenjoch 1.250 m)
 - Einer der letzten **Einsessellifte** im Alpenraum, Kult-Charakter
-- Saison Mai–Oktober (genaue Tage prüfen – kaiserlift.at)
+- Saison Mai–Oktober (genaue Tage prüfen – [kaiserlift.at](https://kaiserlift.at))
 - Wanderungen zum Stripsenjoch, Kaisertal
 
 ### Saalbach / Pinzgau (~70 km, 1:15 h)
@@ -587,7 +587,7 @@ Linie 770: **Fahrzeit Wörgl Hbf – Auffach Holzmuseum ca. 32 Min.** (Niederau 
 ## Bahnhof Wörgl
 ÖBB-Knotenbahnhof Kategorie 2 mit RailJet, EuroCity, ICE, Nightjet (München–Innsbruck-Korridor). **München → Wörgl ca. 1 h–1:15 h** (~24 Verbindungen/Tag). **Innsbruck → Wörgl ca. 30–40 Min.** **Salzburg → Wörgl ca. 1:10–1:30 h.**
 
-⚠️ **Bauarbeitenhinweis ÖBB:** **03.06.–28.06.2026 Einschränkungen Wörgl ↔ Zell am See** (Salzburg-Tiroler Bahn). Vor Anreise prüfen unter unsereoebb.at/de/verkehrsmeldungen – nur relevant bei Tagesausflug Pinzgau.
+⚠️ **Bauarbeitenhinweis ÖBB:** **03.06.–28.06.2026 Einschränkungen Wörgl ↔ Zell am See** (Salzburg-Tiroler Bahn). Vor Anreise prüfen unter [unsereoebb.at](https://unsereoebb.at)/de/verkehrsmeldungen – nur relevant bei Tagesausflug Pinzgau.
 
 ## PKW-Anreise (A12 Inntalautobahn, Vignette nötig)
 - **München → Auffach:** ~150 km, 1:45–2 h (über A8/A93/A12, Ausfahrt Wörgl-Ost/-West, dann L211 ins Tal)
@@ -598,7 +598,7 @@ Linie 770: **Fahrzeit Wörgl Hbf – Auffach Holzmuseum ca. 32 Min.** (Niederau 
 **Realistisch ohne Auto machbar**, wenn man mit Bus-/Bahnfahrplänen plant: Stundentakt im Tal, 4× tgl. Wanderbus zur Schönangeralm. **Mit Auto** deutlich flexibler für Ausflüge nach Kufstein/Kitzbühel/Achensee/Innsbruck. Bei 4 Erwachsenen für 17 Tage erleichtert ein PKW spontane Bewegungen erheblich, **aber nicht zwingend**.
 
 ## Taxi
-- **Franzl Reisen** (Niederau, +43 5339 8219, franzl-reisen.at) – Flughafentransfer Innsbruck/Salzburg/München
+- **Franzl Reisen** (Niederau, +43 5339 8219, [franzl-reisen.at](https://franzl-reisen.at)) – Flughafentransfer Innsbruck/Salzburg/München
 - **Mayr-Reisen Auffach** (+43 5339 8989)
 - **Taxi Niederau** (+43 5339 2216), **Taxi Oberau** (+43 5339 8144)
 - **Wildschönau Night Taxi** (Abendservice) und **Four Seasons Shuttle** (Tarife 23–33 € je nach Personenzahl)
@@ -609,10 +609,10 @@ Linie 770: **Fahrzeit Wörgl Hbf – Auffach Holzmuseum ca. 32 Min.** (Niederau 
 - 24/7, RFID/QR/intercharge
 
 ## E-Bike / Fahrradverleih
-- **iBIKE BOX (Drachental Oberau):** 07.05.–03.11.2026, Fully E-Bike 59 €/Tag, Online-Buchung, ibike-box.com
-- **Sport Blachfelder Niederau** (sportblachfelder.at, +43 5339 8188-58, **Do geschlossen**)
-- **Sport Margreiter** (Niederau + Auffach, ski-margreiter.at)
-- **Sport Thaler Auffach** (thaler-sport.at)
+- **iBIKE BOX (Drachental Oberau):** 07.05.–03.11.2026, Fully E-Bike 59 €/Tag, Online-Buchung, [ibike-box.com](https://ibike-box.com)
+- **Sport Blachfelder Niederau** ([sportblachfelder.at](https://sportblachfelder.at), +43 5339 8188-58, **Do geschlossen**)
+- **Sport Margreiter** (Niederau + Auffach, [ski-margreiter.at](https://ski-margreiter.at))
+- **Sport Thaler Auffach** ([thaler-sport.at](https://thaler-sport.at))
 - **iHotel Auffacherhof** mit eigenen Bike-Programmen
 - Kitzbüheler Alpen ist „größte zusammenhängende E-Bike-Region der Welt" mit ~59 Akku-Wechselstationen
 
@@ -641,7 +641,7 @@ Linie 770: **Fahrzeit Wörgl Hbf – Auffach Holzmuseum ca. 32 Min.** (Niederau 
 **HOFER, Lidl, BILLA, BILLA PLUS, INTERSPAR, mehrere SPAR/MPreis** – konzentriert entlang Innsbrucker Str. + Salzburger Str. + Bahnhofstr. ÖZ Mo–Fr 7–19/20, Sa bis 17/18, So zu. **dm Drogerie** Bahnhofstr. 36a/38.
 
 ## Bäckereien
-- **Gobackerei Auffach** (gobackerei.at)
+- **Gobackerei Auffach** ([gobackerei.at](https://gobackerei.at))
 - Bäckereien Niederau (Wildschönauer Str. 387 + 385)
 - Frische Backwaren auch in allen SPAR-Märkten ab 6:50/7:00 Uhr (Stadler-SPAR Oberau besonders gut sortiert)
 
@@ -657,13 +657,13 @@ Im Tal v. a. Frischfleischtheken in den SPAR-Märkten (Oberau besonders); eigens
 
 ## Sportgeschäfte / Wanderausrüstung
 - **Sport Blachfelder Niederau** (Outdoor + Verleih)
-- **Sport Thaler Auffach** (thaler-sport.at)
+- **Sport Thaler Auffach** ([thaler-sport.at](https://thaler-sport.at))
 - **Sport 2000 Oberau** (Kirchen 77, +43 5339 8180)
 - **Ski & Board Margreiter** (Niederau + Auffach)
 - Wörgl: Hervis, Sport 2000 (CityCenter / Innsbrucker Str.)
 
 ## Apotheken
-- **Apotheke Wildschönau** (Mag. Stefan Gritsch, Niederau 39, +43 5339 21274) – **einzige Apotheke im Tal!** Mo–Fr ~8–12 + 14–18, Sa 8–12; außerhalb Rufbereitschaft – apotheke-wildschoenau.at
+- **Apotheke Wildschönau** (Mag. Stefan Gritsch, Niederau 39, +43 5339 21274) – **einzige Apotheke im Tal!** Mo–Fr ~8–12 + 14–18, Sa 8–12; außerhalb Rufbereitschaft – [apotheke-wildschoenau.at](https://apotheke-wildschoenau.at)
 - **Wörgl:** Andreas-Hofer-Platz und mehrere weitere
 
 ## Ärzte / Notfall
@@ -691,9 +691,9 @@ Im Tal v. a. Frischfleischtheken in den SPAR-Märkten (Oberau besonders); eigens
 
 ## H.1 Innerhalb der Wildschönau
 
-**1. Tiroler Holzmuseum Auffach** – Dorf 148/1, +43 664 380 32 12, holzmuseum.com. 3.000 Holzexponate in 39 Kammern, Pumuckl-Baumhaus, „kleinste Hochzeitskapelle Europas", Holz-Themenweg. **Saison 2026: 22.05.–10.10.2026, Mi–Fr 10:00–16:00 Uhr** (im Winter nur Gruppen ab 15 Personen nach Vereinbarung). Erw. 15 € (12 € mit Premium Card). Kinder unter 1 m Körpergröße frei. Letzter Einlass 16 Uhr. **Hunde nicht erlaubt, bedingt barrierefrei.** Ausgezeichnet als „Schatzkammer Österreichs" 1998. Über 1.000 m² Fläche, Geburtshaus des Schnitzers Hubert Salcher; Kuriositäten: älteste Volksliederharfe Tirols, Holz-BH, Zündholzausstellung, Holzfahrrad, Holzwurmausstellung. ⚠️ **Hinweis:** Mi–Fr-Beschränkung im Vorsaisonbetrieb beachten – Mo/Di/Sa/So geschlossen, also Tagesplanung anpassen.
+**1. Tiroler Holzmuseum Auffach** – Dorf 148/1, +43 664 380 32 12, [holzmuseum.com](https://holzmuseum.com). 3.000 Holzexponate in 39 Kammern, Pumuckl-Baumhaus, „kleinste Hochzeitskapelle Europas", Holz-Themenweg. **Saison 2026: 22.05.–10.10.2026, Mi–Fr 10:00–16:00 Uhr** (im Winter nur Gruppen ab 15 Personen nach Vereinbarung). Erw. 15 € (12 € mit Premium Card). Kinder unter 1 m Körpergröße frei. Letzter Einlass 16 Uhr. **Hunde nicht erlaubt, bedingt barrierefrei.** Ausgezeichnet als „Schatzkammer Österreichs" 1998. Über 1.000 m² Fläche, Geburtshaus des Schnitzers Hubert Salcher; Kuriositäten: älteste Volksliederharfe Tirols, Holz-BH, Zündholzausstellung, Holzfahrrad, Holzwurmausstellung. ⚠️ **Hinweis:** Mi–Fr-Beschränkung im Vorsaisonbetrieb beachten – Mo/Di/Sa/So geschlossen, also Tagesplanung anpassen.
 
-**Bergbauernmuseum z'Bach Oberau** – bergbauernmuseum.at. Vorsaison **15.05.–24.06.2026 Mi 9–12, Fr 14–17 Uhr**; Hauptsaison ab 25.06. Eintritt 6 € regulär (mit Card frei), Donnerstags-Handwerksmarkt 8,80 €.
+**Bergbauernmuseum z'Bach Oberau** – [bergbauernmuseum.at](https://bergbauernmuseum.at). Vorsaison **15.05.–24.06.2026 Mi 9–12, Fr 14–17 Uhr**; Hauptsaison ab 25.06. Eintritt 6 € regulär (mit Card frei), Donnerstags-Handwerksmarkt 8,80 €.
 
 **Krautingerbrennerei Steinerhof Oberau** (Familie Thaler) – Endfelden 84, +43 5339 2117. Hofführung mit Verkostung, Onlineshop. Krautinger-Wanderung „Auf den Spuren der Krautingerrübe" (Themenweg + geführte Touren).
 
@@ -710,15 +710,15 @@ Im Tal v. a. Frischfleischtheken in den SPAR-Märkten (Oberau besonders); eigens
 
 ## H.2 Ausflugsziele in der Umgebung (alle Distanzen ab Auffach)
 
-**Kufstein – Festung Kufstein** (~30 km, 35–40 Min.): festung.kufstein.at, +43 5372 66525. Sommer täglich 9–18 Uhr. Erw. **14 €**, Familien 29,50 €. Heldenorgel-Konzert tgl. 12 Uhr. **Ritter-Fest 22.–25.05.2026** (Pfingsten, Mittelalterspektakel) – Achtung: ggf. Eintritts-/Zugangsbeschränkungen.
+**Kufstein – Festung Kufstein** (~30 km, 35–40 Min.): [festung.kufstein.at](https://festung.kufstein.at), +43 5372 66525. Sommer täglich 9–18 Uhr. Erw. **14 €**, Familien 29,50 €. Heldenorgel-Konzert tgl. 12 Uhr. **Ritter-Fest 22.–25.05.2026** (Pfingsten, Mittelalterspektakel) – Achtung: ggf. Eintritts-/Zugangsbeschränkungen.
 
 **Wörgl** (~16 km, 25 Min.): Hauptzweck Versorgung; Wave Wörgl geschlossen; sehenswert Stadtzentrum, Andreas-Hofer-Platz, Hundalm-Eishöhle, Mariastein-Wallfahrtskirche.
 
-**Alpbachtal als Tagesausflug** (~25 km, 35 Min.): Wiedersbergerhornbahn (alpbachtal.at) – Saisonstart oft erst Anfang Juni; Lauserland + Alpine Coaster „Lauser-Sauser"; Alpbach-Dorf (1.000 m, „schönstes Dorf Österreichs" 1983); Reith im Alpbachtal mit Reitherkogelbahn und Juppi Zauberwald.
+**Alpbachtal als Tagesausflug** (~25 km, 35 Min.): Wiedersbergerhornbahn ([alpbachtal.at](https://alpbachtal.at)) – Saisonstart oft erst Anfang Juni; Lauserland + Alpine Coaster „Lauser-Sauser"; Alpbach-Dorf (1.000 m, „schönstes Dorf Österreichs" 1983); Reith im Alpbachtal mit Reitherkogelbahn und Juppi Zauberwald.
 
-**Kaisertal / Kaisergebirge** (~32 km, 40 Min. Parkplatz Ebbs): Naturschutzgebiet, autofrei. **Aufstieg Sparchen-Klamm mit ~280 Treppenstufen.** Hütten Mai–Oktober: Pfandlhof (Do Ruhetag), Ritzaualm (Mo Ruhetag), Anton-Karg-Haus, Vorderkaiserfeldenhütte, Stripsenjochhaus. Top-Tour: Anton-Karg-Haus (3 h, +520 hm). kaisertal.at
+**Kaisertal / Kaisergebirge** (~32 km, 40 Min. Parkplatz Ebbs): Naturschutzgebiet, autofrei. **Aufstieg Sparchen-Klamm mit ~280 Treppenstufen.** Hütten Mai–Oktober: Pfandlhof (Do Ruhetag), Ritzaualm (Mo Ruhetag), Anton-Karg-Haus, Vorderkaiserfeldenhütte, Stripsenjochhaus. Top-Tour: Anton-Karg-Haus (3 h, +520 hm). [kaisertal.at](https://kaisertal.at)
 
-**Kitzbühel** (~35 km, 40–45 Min.): Mittelalterliche Altstadt, Hahnenkammbahn (Streif-Themenweg), Kitzbüheler Horn (Alpenblumengarten – wohl noch nicht in voller Blüte Ende Mai), Schwarzsee. kitzbuehel.com
+**Kitzbühel** (~35 km, 40–45 Min.): Mittelalterliche Altstadt, Hahnenkammbahn (Streif-Themenweg), Kitzbüheler Horn (Alpenblumengarten – wohl noch nicht in voller Blüte Ende Mai), Schwarzsee. [kitzbuehel.com](https://kitzbuehel.com)
 
 **Innsbruck** (~80 km, 1 h): Goldenes Dachl (Mai–Sept Mo–Sa 10–17, ~4,80 €), Hofkirche, Hofburg, Maria-Theresien-Straße, Bergisel-Sprungschanze (Zaha Hadid), Schloss Ambras, Nordkette via Hungerburgbahn.
 
@@ -728,7 +728,7 @@ Im Tal v. a. Frischfleischtheken in den SPAR-Märkten (Oberau besonders); eigens
 
 **Thiersee** (~35 km, 45 Min.): Naturbadesee oberhalb Kufstein, Liegewiese, Tretboot. Passionsspiele alle 6 Jahre.
 
-**Rattenberg** (~22 km, 30 Min.): Kleinste Stadt Österreichs (~10 ha), mittelalterliches Stadtbild komplett erhalten, Fußgängerzone autofrei. **Glasbläserei Kisslinger Kristall-Glas** (Schauwerkstatt, kisslinger-kristall.com, **5 % Rabatt mit Card**). **Augustinermuseum** Klostergasse 95 – einziger öffentlich zugänglicher Kirchturm Tirols, barockes Deckenfresko. Sommer-Öffnungszeiten 2026 prüfen, Eintritt ~6 €, mit Card frei. Konditorei Hacker (seit 1774, gezogener Apfelstrudel auf Vorbestellung). Stadtführungen Mi 10:30 ab P1.
+**Rattenberg** (~22 km, 30 Min.): Kleinste Stadt Österreichs (~10 ha), mittelalterliches Stadtbild komplett erhalten, Fußgängerzone autofrei. **Glasbläserei Kisslinger Kristall-Glas** (Schauwerkstatt, [kisslinger-kristall.com](https://kisslinger-kristall.com), **5 % Rabatt mit Card**). **Augustinermuseum** Klostergasse 95 – einziger öffentlich zugänglicher Kirchturm Tirols, barockes Deckenfresko. Sommer-Öffnungszeiten 2026 prüfen, Eintritt ~6 €, mit Card frei. Konditorei Hacker (seit 1774, gezogener Apfelstrudel auf Vorbestellung). Stadtführungen Mi 10:30 ab P1.
 
 ---
 
@@ -738,11 +738,11 @@ Im Tal v. a. Frischfleischtheken in den SPAR-Märkten (Oberau besonders); eigens
 
 **Mountainbike / E-Bike**: Wildschönau ist Teil der „größten zusammenhängenden E-Bike-Region der Welt" (Kitzbüheler Alpen, ~59 Akku-Wechselstationen). iBIKE BOX im Drachental ab 07.05.2026. Top-Routen: Mühltal → Schatzbergalm (25 km, 1.150 hm), Niederau → Norderbergalm → Markbachjoch, Auffach → Schatzberg → Alpbach (mit Gondel), Talschluss → Schönangeralm. **Geführte Bike-Tour mit Local-Guide Rainer mittwochs** (in Card inkl.). Mountainbikeschule Wildschönau.
 
-**Paragliding**: Flugschule Wildschönau (paragliding.at). Tandemflug Markbachjoch ~120 €, Tandemflug Hohe Salve nach Söll/Hopfgarten ~150 €. Startplatz neben Bergstation Markbachjoch (1.500 m), Landeplatz neben Talstation Niederau. ~300 Flugtage/Jahr. Mit Card Ermäßigung.
+**Paragliding**: Flugschule Wildschönau ([paragliding.at](https://paragliding.at)). Tandemflug Markbachjoch ~120 €, Tandemflug Hohe Salve nach Söll/Hopfgarten ~150 €. Startplatz neben Bergstation Markbachjoch (1.500 m), Landeplatz neben Talstation Niederau. ~300 Flugtage/Jahr. Mit Card Ermäßigung.
 
 **Schwimmbäder / Badeseen**: siehe ausführlich Abschnitt **I.1** unten.
 
-**Geführte Wanderungen** des Tourismusbüros Mo–Fr (in Card inkl., Anmeldung +43 5339 8255 bis 17 Uhr Vortag): Erlebnis-Bergwanderungen, „Auf den Spuren der Wildschönauer Krautingerrübe", Heilkräuterwanderung dienstags (Mag. Paul Vergörer), Panorama-Wanderungen, Schatzberg–Joelspitze-Tour mittwochs (ab Bahnstart 04.06.). Wochenprogramm: wildschoenau.com/de/info-service/wochenprogramm
+**Geführte Wanderungen** des Tourismusbüros Mo–Fr (in Card inkl., Anmeldung +43 5339 8255 bis 17 Uhr Vortag): Erlebnis-Bergwanderungen, „Auf den Spuren der Wildschönauer Krautingerrübe", Heilkräuterwanderung dienstags (Mag. Paul Vergörer), Panorama-Wanderungen, Schatzberg–Joelspitze-Tour mittwochs (ab Bahnstart 04.06.). Wochenprogramm: [wildschoenau.com](https://wildschoenau.com)/de/info-service/wochenprogramm
 
 **Erlebniswege**: **Wirbelwindweg** (NEU, 4,3 km, 6 QR-Naturspielpunkte), **Koglweg Thierbach**, **Holzweg-Runde Auffach**, **Franziskusweg** Niederau↔Oberau, **Auenweg Niederau**, **Schatzberg-Familienrundweg** (ab 04.06.), **Juppi Zauberwald** im Alpbachtal.
 
@@ -810,7 +810,7 @@ Klarer Edelbrand (38–48 Vol.-%) aus der weißen Stoppelrübe (lokal „Soachru
 
 **Geschichte**: Mitte 18. Jh. verlieh Maria Theresia den verarmten Wildschönauer Bergbauern das Monopol, aus Stoppelrüben Schnaps zu brennen. **51 ursprüngliche Brennrechte**, vererbbar an den Hof gebunden („Maria-Theresianisches Brennrecht"). 1942 vom NS-Regime nochmals bestätigt. EU-rechtlich geschützt – **darf nur in der Wildschönau gebrannt werden**. Heute machen ~**15–16 Bauern** aktiv Gebrauch. Aufwendige Herstellung: 50–70 kg Rüben → 1 Liter Krautinger.
 
-**Wo kaufen / verkosten** (Liste wildschoenau.com):
+**Wo kaufen / verkosten** (Liste [wildschoenau.com](https://wildschoenau.com)):
 - **Steinerhof Oberau** (Familie Thaler, Endfelden 84, +43 5339 2117) – Hofbesichtigung, Onlineshop
 - **Dillentalhof Auffach** (Beate Holaus, Auffach 50, +43 664 212 4988) – **Krautinger-Brennerin des Jahres 2022**
 - **Hintersalcherhof Auffach** (Birgit Haas, Auffach 234)
@@ -831,7 +831,7 @@ Klarer Edelbrand (38–48 Vol.-%) aus der weißen Stoppelrübe (lokal „Soachru
 - **Wildschönauer Honig**
 
 ## Wo regional einkaufen
-**Bauernladl Wildschönau** (Oberau 40), **Hof Mayr** (Leirer 3, +43 5339 2150), **Biohof Hinteraltensberg** (Auffach 52, hinteraltensberg.at), **Biohof Seisl** (Prentenweg, Oberau 65, 1.300 m – Graukäse, Bio-Rind), **Schaukäserei Schönangeralm**, **Tiroler Dorfladl Auffach** (Dorf 265).
+**Bauernladl Wildschönau** (Oberau 40), **Hof Mayr** (Leirer 3, +43 5339 2150), **Biohof Hinteraltensberg** (Auffach 52, [hinteraltensberg.at](https://hinteraltensberg.at)), **Biohof Seisl** (Prentenweg, Oberau 65, 1.300 m – Graukäse, Bio-Rind), **Schaukäserei Schönangeralm**, **Tiroler Dorfladl Auffach** (Dorf 265).
 
 ## Top-Gasthäuser für Tiroler Küche
 1. Schönangeralm (Talschluss) · 2. Hotel Bergkristall (Mühltal) · 3. Kellerwirt (Oberau) · 4. Sollererwirt (Thierbach) · 5. Traditionsgasthof Weißbacher (Auffach) · 6. Landhotel Tirolerhof (Oberau) · 7. Thalmühle s'Wirtshaus (Mühltal) · 8. Dorferwirt (Oberau) · 9. Almhof (Thierbach).
@@ -840,20 +840,20 @@ Klarer Edelbrand (38–48 Vol.-%) aus der weißen Stoppelrübe (lokal „Soachru
 
 # ABSCHNITT K · Veranstaltungen 21.05.–06.06.2026
 
-> **Aktueller Veranstaltungskalender** (vor Anreise tagesaktuell prüfen): wildschoenau.com/de/info-service/veranstaltungen
+> **Aktueller Veranstaltungskalender** (vor Anreise tagesaktuell prüfen): [wildschoenau.com](https://wildschoenau.com)/de/info-service/veranstaltungen
 
 ## Wiederkehrende Termine im Reisezeitraum
-- **Wöchentlich Mo–Fr**: Geführte Wanderungen (Erlebniswandern, Krautingerrübe, Heilkräuter, Panorama-Wanderung) – wildschoenau.com/de/info-service/wochenprogramm
+- **Wöchentlich Mo–Fr**: Geführte Wanderungen (Erlebniswandern, Krautingerrübe, Heilkräuter, Panorama-Wanderung) – [wildschoenau.com](https://wildschoenau.com)/de/info-service/wochenprogramm
 - **Mo**: Yoga mit Dani in Niederau
 - **Mi**: Schmalznudeln auf der Achentalalm
 - **Do**: Bergbauernmuseum z'Bach (Vorsaison ab 15.05. Mi 9–12, Fr 14–17)
-- **Sa-Bauernmarkt Wörgl** 8:30–12:30 Uhr Gradl-Angerplatz – betroffen: 23.05., 30.05., 06.06.2026 (bauernmarkt-woergl.at)
+- **Sa-Bauernmarkt Wörgl** 8:30–12:30 Uhr Gradl-Angerplatz – betroffen: 23.05., 30.05., 06.06.2026 ([bauernmarkt-woergl.at](https://bauernmarkt-woergl.at))
 - **Fr-Bauernmarkt Kufstein** 9–14 Uhr Arkadenplatz
 - **Sa 06.06.** – Bauernmarkt Brixlegg 8:30–12 Uhr (1. Sa im Monat)
 - **17. Mai 2026**: Live-Musik Schönangeralm (10-Jahres-Jubiläum Christoph Hauser, ab 12 Uhr)
 
 ## Pfingsten 24./25.05.2026
-Pfingstmontag ist gesetzlicher Feiertag (Geschäfte zu). **Keine spezifischen Pfingstmärkte** in Wildschönau erkennbar. **Festung Kufstein: Ritter-Fest 22.–25.05.2026** – Mittelalterspektakel (festung.kufstein.at). Pfingsten ist klassischer Saisonstart für viele Bergbahnen, Almen, Restaurants in Tirol.
+Pfingstmontag ist gesetzlicher Feiertag (Geschäfte zu). **Keine spezifischen Pfingstmärkte** in Wildschönau erkennbar. **Festung Kufstein: Ritter-Fest 22.–25.05.2026** – Mittelalterspektakel ([festung.kufstein.at](https://festung.kufstein.at)). Pfingsten ist klassischer Saisonstart für viele Bergbahnen, Almen, Restaurants in Tirol.
 
 ## Almauftrieb
 Wildschönau: **Ende Mai bis Anfang Juni** – kein Volksfest, betriebliches Ereignis. Schönangeralm: „Tiere von Juni bis September auf der Alm". **Großer Almabtrieb („Heimkehrfest") erst 19. September 2026** (außerhalb Reisezeitraum).
@@ -864,13 +864,13 @@ Wildschönau: **Ende Mai bis Anfang Juni** – kein Volksfest, betriebliches Ere
 
 ## Sonstiges
 - **Festung Kufstein**: Konzerte, Heldenorgel-Konzerte mittags
-- **Wörgl**: Tagungszentrum Komma (woergl.at)
+- **Wörgl**: Tagungszentrum Komma ([woergl.at](https://woergl.at))
 - **Wildschönauer Talfest**: 06.–09.08.2026 (NICHT im Reisezeitraum)
 
 ## Vor Anreise prüfen
-- wildschoenau.com/de/info-service/veranstaltungen
-- alpbachtal.at/de/info-und-service/veranstaltungskalender
-- woergl.at/aktuelles/veranstaltungen
+- [wildschoenau.com](https://wildschoenau.com)/de/info-service/veranstaltungen
+- [alpbachtal.at](https://alpbachtal.at)/de/info-und-service/veranstaltungskalender
+- [woergl.at](https://woergl.at)/aktuelles/veranstaltungen
 - TVB Wildschönau +43 5339 8255
 
 ---
@@ -1279,34 +1279,34 @@ Die V4-Dokumentation basiert auf einem **NotebookLM-Recherchekorpus von 67 Quell
 
 > Auswahl von Häusern, die im Quellenkorpus mit konkreten Daten dokumentiert sind. Nützlich, falls die Wunschunterkunft kurzfristig wechseln muss oder als Nachschlagewerk für Kontaktdaten.
 
-**Schatzberg-Haus Auffach** – Holzerweg 207, 6313 Auffach, Tel. +43 5339 8833 · schatzberghaus.at
+**Schatzberg-Haus Auffach** – Holzerweg 207, 6313 Auffach, Tel. +43 5339 8833 · [schatzberghaus.at](https://schatzberghaus.at)
 - Anreise täglich ab **14:00 Uhr**, Check-out bis **09:30 Uhr**
 - Stornobedingungen: bis 1 Woche vor Reiseantritt **kostenfrei**, danach **100 %**
 - Hunde: max. 2, **10 €/Hund/Nacht** (bei Veranstalter-Buchungen NICHT erlaubt)
 - Extras: **Hallenbad, Trimmraum, Personenaufzug**
 
-**Hotel Platzl Auffach** – Dorf 177, 6313 Auffach, Tel. +43 5339 8928-0 · hotelplatzl.at
+**Hotel Platzl Auffach** – Dorf 177, 6313 Auffach, Tel. +43 5339 8928-0 · [hotelplatzl.at](https://hotelplatzl.at)
 - Saison 2026: **08.05.–19.10.2026, ohne Ruhetag** (also durchgehend im Reisezeitraum)
 - Restaurant 10:00–21:00 Uhr
 - Auszüge Speisekarte: Kaiserschmarrn 12,50 € · Platzlplatte für 2 Personen 62,00 € · Zwiebelrostbraten 29,50 € · Rinds-Carpaccio 17,50 € · Americano 7,60 € · Campari Spritz 7,60 €
 
-**Berghaus Koglmoos** – Hohlriedweg 177, Auffach, Tel. +43 5339 8889 · koglmoos.at
+**Berghaus Koglmoos** – Hohlriedweg 177, Auffach, Tel. +43 5339 8889 · [koglmoos.at](https://koglmoos.at)
 - Check-in 15:00–18:00 Uhr, Check-out 07:00–09:30 Uhr
 - Warme Küche bis 15:30 Uhr · **Sommer: Mi/Do Ruhetag** (Vorbestellung bei Sondergruppen)
 
-**Hotel Schneeberger Niederau** – Wildschönauer Str. 132, 6314 Niederau, Tel. +43 5339 8225 · hotel-schneeberger.info – aktiver Premium-Card-Partnerbetrieb.
+**Hotel Schneeberger Niederau** – Wildschönauer Str. 132, 6314 Niederau, Tel. +43 5339 8225 · [hotel-schneeberger.info](https://hotel-schneeberger.info) – aktiver Premium-Card-Partnerbetrieb.
 
 **Landhotel Tirolerhof Oberau** – Kirchen 275, 6311 Oberau, Tel. +43 5339 81180. 3-Sterne, Familie Erharter. **2 hauseigene E-Ladesäulen**, Verleih von **E-Mountainbikes**.
 
-**Haus am Wildbach (Harringer Holiday GmbH)** – Aschbachweg 228, Auffach, Tel. +43 5339 8883 · hotelwildbach.com. Premium-Card-Partner mit **Aufpreis-Modell**: 2,00 €/Tag (Kinder 6–15 J.), 4,00 €/Tag (ab 16 J.) für das Bergbahn-Upgrade.
+**Haus am Wildbach (Harringer Holiday GmbH)** – Aschbachweg 228, Auffach, Tel. +43 5339 8883 · [hotelwildbach.com](https://hotelwildbach.com). Premium-Card-Partner mit **Aufpreis-Modell**: 2,00 €/Tag (Kinder 6–15 J.), 4,00 €/Tag (ab 16 J.) für das Bergbahn-Upgrade.
 
-**Resort Tirol Niederau** – Wildschönauerstraße 39, Tel. +43 664 4282737 · resortirol.at. Wellnessbereich mit **Dampfbad und finnischer Sauna**.
+**Resort Tirol Niederau** – Wildschönauerstraße 39, Tel. +43 664 4282737 · [resortirol.at](https://resortirol.at). Wellnessbereich mit **Dampfbad und finnischer Sauna**.
 
 **Gasthof Schöntal Oberau** – oberhalb Oberau mit Talblick. Halbpension mit **3-Gänge-Menü (auch vegetarisch)**, Zimmer und Ferienwohnungen.
 
 ## M.3 Ergänzende Restaurants
 
-- **Pizzeria Alpino** – Kirchen 177, Oberau, Tel. +43 660 4090363 · pizzeria-alpino.at. **Mo–So 17:00–22:00 Uhr.** Take-Away und **Lieferservice nach Niederau, Oberau, Mühltal, Auffach** (relevant, wenn man abends im Quartier essen möchte).
+- **Pizzeria Alpino** – Kirchen 177, Oberau, Tel. +43 660 4090363 · [pizzeria-alpino.at](https://pizzeria-alpino.at). **Mo–So 17:00–22:00 Uhr.** Take-Away und **Lieferservice nach Niederau, Oberau, Mühltal, Auffach** (relevant, wenn man abends im Quartier essen möchte).
 - **Sollererwirt Thierbach – Speckbacherstube:** historisch von **1670**, Platz für **24 Personen**. Vorbestellung ab 4 Pers.: Krustenbraten, Schweinshaxen, Spare Ribs, Saiblinge.
 - **Norderbergalm:** Spezialisiert auf **Kaiserschmarrn und Kaspressknödel** (gute Alternative zur Holzalm).
 - **Alpengasthof Schönangeralm:** Adresse präzisiert: Schönanger 205, Auffach, Tel. **+43 664 3267616**. Spezialitäten: Schönangerer Kasspatzeln, panierter Bergkäse, Kaspress-/Speckknödel. Gault-Millau-gelistet.
@@ -1322,7 +1322,7 @@ Die V4-Dokumentation basiert auf einem **NotebookLM-Recherchekorpus von 67 Quell
 
 ## M.5 Bergbahn-/Skipreis-Ergänzungen
 
-- **Schatzbergbahn:** Bergstation **1.780 m** (V1 nannte 1.770 m – Quelle skijuwel.com). **Reine Talfahrt: 9,80 €** (für Wanderer, die hinaufsteigen und mit der Bahn zurückwollen).
+- **Schatzbergbahn:** Bergstation **1.780 m** (V1 nannte 1.770 m – Quelle [skijuwel.com](https://skijuwel.com)). **Reine Talfahrt: 9,80 €** (für Wanderer, die hinaufsteigen und mit der Bahn zurückwollen).
 - **Winterpreise Ski Juwel** (rein informativ): Tageskarte Hauptsaison Erw. 68,50 € · Jugend 55,00 € · Kind 34,50 € · 6-Tage-Pass 349,50 €. Kinder Jahrgang 2020 und jünger fahren **kostenlos**.
 
 ## M.6 Wildschönau Premium Card – vollständige Bonuspartner-Liste
@@ -1379,7 +1379,7 @@ Zusätzlich zu den in V1 genannten kostenlosen Leistungen (4 Sommerbergbahnen, W
 
 ## M.8 Ärzte, Apotheke, Therapeuten – präzisiert
 
-**Dr. Georg Reinisch (Allgemeinmediziner Auffach)** – Tegelanger 237, Auffach, Tel. **+43 5339 21900** · dr-reinisch.at
+**Dr. Georg Reinisch (Allgemeinmediziner Auffach)** – Tegelanger 237, Auffach, Tel. **+43 5339 21900** · [dr-reinisch.at](https://dr-reinisch.at)
 - ⚠️ **Nimmt KEINE neuen Patienten mehr auf, außer Notfälle!** (Vor Reiseantritt klären, ob Aufnahme im Bedarfsfall möglich.)
 - Sprechzeiten: Mo 8–12 + 15–18 · Di 8–12 · Mi 8–12 (Termin) + 15–18 · Do 8–12 · Fr 8–12 + 15–17
 - Wochenenddienst: 10–12 Uhr
@@ -1406,9 +1406,9 @@ Zusätzlich zu den in V1 genannten kostenlosen Leistungen (4 Sommerbergbahnen, W
 
 ## M.10 Sport / Verleih – Ergänzungen
 
-- **Ski Auffach** – Dorf 6 (an der Schatzbergbahn) · ski-auffach.at. **24-h-Skidepot:** 10 €/2 Personen oder 20 €/4 Personen. (Auch im Sommer für E-Bikes interessant.)
-- **Sport Thaler** – Dorf 156, Auffach · thaler-sport.at.
-- **Ski & Board Margreiter** – 3 Standorte: Niederau 103, Auffach 273, Oberau 174 · ski-margreiter.at.
+- **Ski Auffach** – Dorf 6 (an der Schatzbergbahn) · [ski-auffach.at](https://ski-auffach.at). **24-h-Skidepot:** 10 €/2 Personen oder 20 €/4 Personen. (Auch im Sommer für E-Bikes interessant.)
+- **Sport Thaler** – Dorf 156, Auffach · [thaler-sport.at](https://thaler-sport.at).
+- **Ski & Board Margreiter** – 3 Standorte: Niederau 103, Auffach 273, Oberau 174 · [ski-margreiter.at](https://ski-margreiter.at).
 
 ## M.11 Drachental / Holzmuseum – Detailprofile
 
@@ -1424,7 +1424,7 @@ Zusätzlich zu den in V1 genannten kostenlosen Leistungen (4 Sommerbergbahnen, W
 
 ## M.12 Tourismusbüro – Ansprechpartner
 
-**Wildschönau Tourismus** – Hauserweg 337, Oberau, **Mo–Fr 8:30–17:00**, Tel. +43 5339 8255 · wildschoenau.com.
+**Wildschönau Tourismus** – Hauserweg 337, Oberau, **Mo–Fr 8:30–17:00**, Tel. +43 5339 8255 · [wildschoenau.com](https://wildschoenau.com).
 
 - Geschäftsführung: **Michael Mairhofer**
 - Finanzen: Maria Hechenberger

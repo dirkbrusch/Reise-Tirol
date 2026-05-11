@@ -1050,6 +1050,55 @@ function enhanceContent(){
     }
   });
 
+  // 3b. Auto-Maps badges next to Austrian phone numbers
+  // Heuristic: find phone pattern "+43 ..." in text nodes, find nearest preceding <strong>
+  // in the same parent block, and append a small 📍 Maps link.
+  const phoneRegex = /\+43\s?\d[\d\s\-/]{6,}/g;
+  const walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, null);
+  const textNodes = [];
+  let node;
+  while(node = walker.nextNode()){
+    if(node.parentElement.closest('a, .map-link, code, pre')) continue;
+    if(phoneRegex.test(node.nodeValue)) textNodes.push(node);
+    phoneRegex.lastIndex = 0;
+  }
+  textNodes.forEach(tn => {
+    const parent = tn.parentElement;
+    // Find context: prefer text content of nearest <strong> ancestor or preceding strong sibling
+    let context = '';
+    const block = parent.closest('li, td, p, h3, h4') || parent;
+    const strong = block.querySelector('strong');
+    if(strong) context = strong.textContent.trim();
+    if(!context) context = block.textContent.split(/[(–·,]/)[0].trim().substring(0,60);
+    if(!context || context.length < 3) return;
+    // Add "Wildschönau" hint if not already there
+    let query = context;
+    if(!/wild(sch[oö]nau|kaiser|en\s*kaiser)|kufstein|w[oö]rgl|alpbach|kitzb|innsbruck|kramsach|rattenberg|achensee/i.test(context)){
+      query += ' Wildschönau';
+    }
+    // Avoid duplicate: skip if a map-link already exists in this block
+    if(block.querySelector('a.maps-quick, a[href*="google.com/maps"]')) return;
+    const mapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(query);
+    const badge = document.createElement('a');
+    badge.href = mapsUrl;
+    badge.target = '_blank';
+    badge.rel = 'noopener';
+    badge.className = 'map-link maps-quick';
+    badge.innerHTML = '📍 Karte';
+    badge.title = 'In Google Maps: ' + query;
+    // Insert AFTER the phone number text node
+    const m = tn.nodeValue.match(phoneRegex);
+    if(!m) return;
+    // Split text node so badge appears right after the phone
+    const phoneMatch = tn.nodeValue.match(phoneRegex);
+    if(!phoneMatch) return;
+    const idx = tn.nodeValue.indexOf(phoneMatch[0]) + phoneMatch[0].length;
+    const after = tn.splitText(idx);
+    after.parentNode.insertBefore(document.createTextNode(' '), after);
+    after.parentNode.insertBefore(badge, after);
+    phoneRegex.lastIndex = 0;
+  });
+
   // 4. Tip blockquotes (💡 prefix) get tip styling
   content.querySelectorAll('blockquote').forEach(bq => {
     const txt = bq.textContent.trim();
