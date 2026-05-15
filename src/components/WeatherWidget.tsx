@@ -2,7 +2,7 @@ import { useApp } from '@/context/AppContext';
 
 export function WeatherWidget() {
   const { weather, weatherLoading } = useApp();
-  if (weatherLoading) return <div className="wx-strip loading">Wetter …</div>;
+  if (weatherLoading) return <div className="wx-strip loading">Wetter ÔÇª</div>;
   if (!weather.length) return null;
   return (
     <div className="wx-strip">
@@ -11,9 +11,9 @@ export function WeatherWidget() {
           <span className="wx-label">{d.label}</span>
           <span className="wx-icon">{d.icon}</span>
           <span className="wx-temp">
-            {d.tmax}° / {d.tmin}°
+            {d.tmax}┬░ / {d.tmin}┬░
           </span>
-          <span className="wx-rain">💧 {d.rain}</span>
+          <span className="wx-rain">­ƒÆº {d.rain}</span>
         </div>
       ))}
     </div>
