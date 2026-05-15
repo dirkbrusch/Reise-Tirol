@@ -670,8 +670,41 @@
   .plan-view .plan-layout .plan-sidebar {
     display: block !important;
   }
+  .plan-view .plan-menu-btn {
+    display: none;
+  }
 }
 
+.plan-sidebar-backdrop {
+  display: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 920px) {
+  .plan-sidebar-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 350;
+    background: rgba(15, 25, 20, 0.45);
+  }
+
+  .plan-view .plan-layout.sidebar-open .plan-sidebar {
+    display: block !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: min(300px, 88vw);
+    max-height: none;
+    z-index: 400;
+    border-radius: 0;
+    box-shadow: var(--shadow-lg);
+    padding-top: calc(0.75rem + env(safe-area-inset-top));
+  }
+}
 .plan-toolbar {
   display: flex;
   flex-wrap: wrap;
