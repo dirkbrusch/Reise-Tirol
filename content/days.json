@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "tripStart": "2026-05-21",
+  "tripEnd": "2026-06-06",
+  "default": { "weatherLocation": "auffach" },
+  "days": [
+    {
+      "date": "2026-05-21",
+      "dayNumber": 1,
+      "label": "Do 21.05.",
+      "title": "Anreise & Eingewöhnung",
+      "highlights": ["Wildschönau Card abholen", "Spaziergang Auffach", "Holzmuseum"],
+      "dinner": { "name": "Traditionsgasthof Weißbacher", "placeId": "weissbacher", "reserved": false },
+      "reservations": [],
+      "notes": "Card-Aktivierung nicht vergessen."
+    },
+    {
+      "date": "2026-05-22",
+      "dayNumber": 2,
+      "label": "Fr 22.05.",
+      "title": "Schönangeralm-Tag",
+      "highlights": ["Almstraße zur Schönangeralm (1,5 h)", "Schaukäserei", "Rundgang 5,8 km / 310 hm"],
+      "dinner": { "name": "Hotel Schneeberger Niederau", "placeId": "schneeberger", "reserved": false },
+      "reservations": ["Schönangeralm: Bargeld!"],
+      "notes": "Schönangeralm Cash only."
+    },
+    {
+      "date": "2026-05-23",
+      "dayNumber": 3,
+      "label": "Sa 23.05.",
+      "title": "Wörgl Bauernmarkt + Niederau",
+      "highlights": ["Bauernmarkt Wörgl 8:30–12:30", "Franziskusweg", "Bergbauernmuseum z'Bach"],
+      "dinner": { "name": "Kellerwirt Oberau", "placeId": "kellerwirt", "reserved": true },
+      "reservations": ["Kellerwirt: reserviert"],
+      "notes": ""
+    },
+    {
+      "date": "2026-05-24",
+      "dayNumber": 4,
+      "label": "So 24.05.",
+      "title": "Pfingstsonntag · Festung Kufstein",
+      "highlights": ["Kufstein Festung", "Ritter-Fest", "Heldenorgel 12 Uhr"],
+      "dinner": { "name": "Hotel Bergkristall Mühltal", "placeId": "bergkristall", "reserved": true },
+      "reservations": ["Bergkristall: reserviert"],
+      "notes": "Feiertag – früh reservieren."
+    },
+    {
+      "date": "2026-05-25",
+      "dayNumber": 5,
+      "label": "Mo 25.05.",
+      "title": "Pfingstmontag · Markbachjoch",
+      "highlights": ["Markbachjochbahn", "Markbachjoch–Halsgatterl–Holzalm (8,2 km, 271 hm)", "Käse Holzalm"],
+      "dinner": { "name": "Sollererwirt Thierbach", "placeId": "sollererwirt", "reserved": true },
+      "reservations": ["Sollererwirt: ab 4 P. vorbestellen"],
+      "notes": ""
+    },
+    {
+      "date": "2026-05-26",
+      "dayNumber": 6,
+      "label": "Di 26.05.",
+      "title": "Kragenjoch-Runde + Achentalalm",
+      "highlights": ["Kragenjoch-Runde (7,8 km, 500 hm)", "Achentalalm"],
+      "dinner": { "name": "Riedlhof", "placeId": "riedlhof", "reserved": true },
+      "reservations": ["Riedlhof: reserviert"],
+      "notes": "Achentalalm Schmalznudel-Spezialität ist Mi."
+    },
+    {
+      "date": "2026-05-27",
+      "dayNumber": 7,
+      "label": "Mi 27.05.",
+      "title": "Krautinger + Klamm",
+      "highlights": ["Krautinger-Hofführung Steinerhof", "Kundler Klamm", "Bummelzug ab Mühltal"],
+      "dinner": { "name": "MM Marius Auffach", "placeId": "marius", "reserved": false },
+      "reservations": [],
+      "notes": ""
+    },
+    {
+      "date": "2026-05-28",
+      "dayNumber": 8,
+      "label": "Do 28.05.",
+      "title": "Achensee oder Rattenberg",
+      "highlights": ["Achensee-Schifffahrt + Pertisau", "Alternative: Rattenberg + Glasbläserei"],
+      "dinner": { "name": "Thalmühle s'Wirtshaus Mühltal", "placeId": "thalmuehle", "reserved": false },
+      "reservations": [],
+      "notes": ""
+    },
+    {
+      "date": "2026-05-29",
+      "dayNumber": 9,
+      "label": "Fr 29.05.",
+      "title": "Bummelzug-Tag",
+      "highlights": ["Kundler Klamm + Bummelzug", "Bachpromenade Auffach"],
+      "dinner": { "name": "Apparthotel Talhof Auffach", "placeId": "talhof", "reserved": false },
+      "reservations": [],
+      "notes": ""
+    },
+    {
+      "date": "2026-05-30",
+      "dayNumber": 10,
+      "label": "Sa 30.05.",
+      "title": "Großer Beil oder Ruhetag",
+      "highlights": ["Großer Beil (2.309 m) – nur bei gutem Wetter/Schneelage", "Alternativ Auffacher Rundweg"],
+      "dinner": { "name": "Hotel Auffacherhof", "placeId": "auffacherhof", "reserved": false },
+      "reservations": [],
+      "notes": "Schneelage am Berg vorher prüfen."
+    },
+    {
+      "date": "2026-05-31",
+      "dayNumber": 11,
+      "label": "So 31.05.",
+      "title": "Achensee-Schifffahrt",
+      "highlights": ["Achensee", "Pertisau"],
+      "dinner": { "name": "MM Marius Auffach", "placeId": "marius", "reserved": false },
+      "reservations": [],
+      "notes": ""
+    },
+    {
+      "date": "2026-06-01",
+      "dayNumber": 12,
+      "label": "Mo 01.06.",
+      "title": "Innsbruck",
+      "highlights": ["Altstadt", "Goldenes Dachl", "Bergisel"],
+      "dinner": { "name": "Kellerwirt Oberau", "placeId": "kellerwirt", "reserved": false },
+      "reservations": [],
+      "notes": ""
+    },
+    {
+      "date": "2026-06-02",
+      "dayNumber": 13,
+      "label": "Di 02.06.",
+      "title": "Almenwanderung",
+      "highlights": ["Holzalm-Runde oder Schönangeralm-Detail"],
+      "dinner": { "name": "Sollererwirt Thierbach", "placeId": "sollererwirt", "reserved": false },
+      "reservations": [],
+      "notes": ""
+    },
+    {
+      "date": "2026-06-03",
+      "dayNumber": 14,
+      "label": "Mi 03.06.",
+      "title": "Wilder Kaiser / SkiWelt",
+      "highlights": ["Söll-Hochsöll oder Going", "Hexenwasser"],
+      "dinner": { "name": "Hotel Bergkristall Mühltal", "placeId": "bergkristall", "reserved": false },
+      "reservations": [],
+      "notes": ""
+    },
+    {
+      "date": "2026-06-04",
+      "dayNumber": 15,
+      "label": "Do 04.06.",
+      "title": "Fronleichnam · Schatzbergbahn-Eröffnung",
+      "highlights": ["Schatzbergbahn (Saisonstart!)", "Joelspitze-Aussicht", "Berghaus Koglmoos"],
+      "dinner": { "name": "Traditionsgasthof Weißbacher", "placeId": "weissbacher", "reserved": true },
+      "reservations": ["Weißbacher: Feiertag – reservieren"],
+      "notes": "Feiertag – frühzeitig reservieren."
+    },
+    {
+      "date": "2026-06-05",
+      "dayNumber": 16,
+      "label": "Fr 05.06.",
+      "title": "Rattenberg + Glasbläserei",
+      "highlights": ["Rattenberg-Altstadt", "Glasbläserei", "Konditorei Hacker"],
+      "dinner": { "name": "Thalmühle s'Wirtshaus Mühltal", "placeId": "thalmuehle", "reserved": false },
+      "reservations": [],
+      "notes": ""
+    },
+    {
+      "date": "2026-06-06",
+      "dayNumber": 17,
+      "label": "Sa 06.06.",
+      "title": "Abreise",
+      "highlights": ["Letzter Spaziergang", "Souvenirs Hofläden", "Krautinger"],
+      "dinner": null,
+      "reservations": [],
+      "notes": "Packen und Heimreise."
+    }
+  ]
+}

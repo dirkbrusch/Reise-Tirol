@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "attribution": "Koordinaten ungefähr — vor Ort prüfen.",
+  "places": [
+    { "id": "auffach", "name": "Auffach", "lat": 47.4253, "lon": 11.9747, "category": "ort", "description": "Ausgangspunkt der Reise, Wildschönau Card" },
+    { "id": "oberau", "name": "Oberau", "lat": 47.4538, "lon": 11.9889, "category": "ort" },
+    { "id": "niederau", "name": "Niederau", "lat": 47.45, "lon": 12.027, "category": "ort" },
+    { "id": "thierbach", "name": "Thierbach", "lat": 47.436, "lon": 12.009, "category": "ort", "description": "Kleinster Ort Europas" },
+    { "id": "muehltal", "name": "Mühltal", "lat": 47.447, "lon": 12.006, "category": "ort" },
+    { "id": "schatzbergbahn", "name": "Schatzbergbahn Talstation", "lat": 47.4231, "lon": 11.9755, "category": "bergbahn", "description": "Auffach, Sommer Wandern & Bike", "openHours": "ca. 8:30–17:00" },
+    { "id": "markbachjochbahn", "name": "Markbachjochbahn Niederau", "lat": 47.4486, "lon": 12.0297, "category": "bergbahn" },
+    { "id": "schoenangeralm", "name": "Schönangeralm", "lat": 47.3973, "lon": 11.9831, "category": "alm", "cashOnly": true, "description": "Schaukäserei, 1,5 h von Auffach", "tourUrl": "https://www.wildschoenau.com/de/touren" },
+    { "id": "holzalm", "name": "Holzalm Käsealm", "lat": 47.44, "lon": 12.05, "category": "alm" },
+    { "id": "kellerwirt", "name": "Kellerwirt Oberau", "lat": 47.454, "lon": 11.9895, "category": "restaurant", "phone": "+43 5339 8222" },
+    { "id": "marius", "name": "MM Marius Auffach", "lat": 47.4248, "lon": 11.9755, "category": "restaurant" },
+    { "id": "weissbacher", "name": "Traditionsgasthof Weißbacher", "lat": 47.4255, "lon": 11.975, "category": "restaurant", "planAnchor": "traditionsgasthof-weissbacher" },
+    { "id": "auffacherhof", "name": "Hotel Auffacherhof", "lat": 47.425, "lon": 11.974, "category": "hotel" },
+    { "id": "talhof", "name": "Apparthotel Talhof", "lat": 47.426, "lon": 11.976, "category": "hotel" },
+    { "id": "bergkristall", "name": "Hotel Bergkristall Mühltal", "lat": 47.447, "lon": 12.006, "category": "hotel" },
+    { "id": "schneeberger", "name": "Hotel Schneeberger Niederau", "lat": 47.45, "lon": 12.028, "category": "hotel", "planAnchor": "hotel-schneeberger-niederau" },
+    { "id": "sollererwirt", "name": "Sollererwirt Thierbach", "lat": 47.436, "lon": 12.009, "category": "restaurant" },
+    { "id": "riedlhof", "name": "Riedlhof", "lat": 47.447, "lon": 11.995, "category": "restaurant" },
+    { "id": "thalmuehle", "name": "Thalmühle s'Wirtshaus Mühltal", "lat": 47.447, "lon": 12.007, "category": "restaurant" },
+    { "id": "kufstein", "name": "Festung Kufstein", "lat": 47.5839, "lon": 12.1739, "category": "ausflug", "description": "Ritterfest, ~45 Min mit Auto" },
+    { "id": "kundlerKlamm", "name": "Kundler Klamm", "lat": 47.4665, "lon": 11.9959, "category": "natur", "description": "Schlucht, familienfreundlich" },
+    { "id": "achensee", "name": "Achensee", "lat": 47.45, "lon": 11.7, "category": "ausflug" },
+    { "id": "innsbruck", "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041, "category": "ausflug" },
+    { "id": "rattenberg", "name": "Rattenberg", "lat": 47.4393, "lon": 11.8929, "category": "ausflug", "description": "Kleinste Stadt Österreichs" },
+    { "id": "steinerhof", "name": "Steinerhof Krautinger Oberau", "lat": 47.454, "lon": 11.989, "category": "hofladen", "description": "Krautinger Schnaps" }
+  ]
+}
