@@ -231,12 +231,7 @@ function enhanceContent(){
       li.classList.add('done');
     }
     cb.addEventListener('change', () => {
-      const state = loadChecklistState();
-      if(cb.checked){ state[id] = {t: cb.dataset.taskText, s: cb.dataset.taskSection, d: Date.now()}; }
-      else { delete state[id]; }
-      saveChecklistState(state);
-      li.classList.toggle('done', cb.checked);
-      updateChecklistBadge();
+      onChecklistToggle(cb, id, li);
     });
   });
   updateChecklistBadge();
@@ -256,12 +251,7 @@ function enhanceContent(){
       if(current === btn.dataset.vote) btn.classList.add('active');
       btn.addEventListener('click', e => {
         e.preventDefault();
-        const state = loadFeedbackState();
-        const vote = btn.dataset.vote;
-        if(state[id] === vote){ delete state[id]; }
-        else { state[id] = vote; }
-        saveFeedbackState(state);
-        bar.querySelectorAll('.feedback-btn').forEach(b => b.classList.toggle('active', state[id] === b.dataset.vote));
+        onFeedbackToggle(id, bar, btn.dataset.vote);
       });
     });
   });
@@ -535,13 +525,25 @@ function closeChecklistOverlay(){
   document.getElementById('checklistOverlay').hidden = true;
   document.body.style.overflow = '';
 }
-function resetChecklist(){
+async function resetChecklist(){
   if(!confirm('Alle Häkchen wirklich zurücksetzen?')) return;
+  const all = Array.from(document.querySelectorAll('#content li.task-item input[type="checkbox"]'));
   saveChecklistState({});
-  document.querySelectorAll('#content li.task-item input[type="checkbox"]').forEach(cb => {
+  all.forEach(cb => {
     cb.checked = false;
     cb.closest('li').classList.remove('done');
   });
+  if(cloudEnabled()){
+    for(const cb of all){
+      try {
+        await ReiseDB.saveCheck(cb.dataset.taskId, {
+          checked: false,
+          section: cb.dataset.taskSection,
+          text: cb.dataset.taskText
+        });
+      } catch(e){}
+    }
+  }
   updateChecklistBadge();
   openChecklistOverlay();
 }
@@ -570,6 +572,193 @@ function loadFeedbackState(){
 }
 function saveFeedbackState(state){
   try { localStorage.setItem(FB_KEY, JSON.stringify(state)); } catch(e){}
+}
+
+// === Familien-Sync (Supabase via ReiseDB) ===
+function cloudEnabled(){
+  return typeof ReiseDB !== 'undefined' && ReiseDB.isConnected();
+}
+
+function applyChecklistToDom(){
+  const state = loadChecklistState();
+  document.querySelectorAll('#content li.task-item input[type="checkbox"]').forEach(cb => {
+    const id = cb.dataset.taskId;
+    const on = !!state[id];
+    cb.checked = on;
+    const li = cb.closest('li');
+    if(li) li.classList.toggle('done', on);
+  });
+  updateChecklistBadge();
+}
+
+function applyFeedbackToDom(){
+  const state = loadFeedbackState();
+  document.querySelectorAll('#content h3 .feedback-bar').forEach(bar => {
+    const h3 = bar.closest('h3');
+    if(!h3) return;
+    const id = h3.id || ('fb-'+simpleHash(h3.textContent));
+    const vote = state[id];
+    bar.querySelectorAll('.feedback-btn').forEach(b => {
+      b.classList.toggle('active', vote === b.dataset.vote);
+    });
+  });
+}
+
+function mergeRemoteChecks(rows){
+  const state = loadChecklistState();
+  (rows || []).forEach(r => {
+    if(r.checked){
+      state[r.task_id] = { t: r.task_text, s: r.section, d: Date.now(), by: r.updated_by };
+    } else {
+      delete state[r.task_id];
+    }
+  });
+  saveChecklistState(state);
+  applyChecklistToDom();
+}
+
+function mergeRemoteFeedback(rows){
+  const me = (typeof ReiseDB !== 'undefined' && ReiseDB.getMemberName()) || '';
+  const state = loadFeedbackState();
+  (rows || []).forEach(r => {
+    if(r.voter !== me) return;
+    if(r.vote) state[r.item_id] = r.vote;
+    else delete state[r.item_id];
+  });
+  saveFeedbackState(state);
+  applyFeedbackToDom();
+}
+
+function onChecklistToggle(cb, id, li){
+  const state = loadChecklistState();
+  if(cb.checked){
+    state[id] = { t: cb.dataset.taskText, s: cb.dataset.taskSection, d: Date.now() };
+  } else {
+    delete state[id];
+  }
+  saveChecklistState(state);
+  if(li) li.classList.toggle('done', cb.checked);
+  updateChecklistBadge();
+  if(cloudEnabled()){
+    ReiseDB.saveCheck(id, {
+      checked: cb.checked,
+      section: cb.dataset.taskSection,
+      text: cb.dataset.taskText
+    }).catch(() => showToast('Lokal gespeichert — Sync folgt'));
+  }
+}
+
+function onFeedbackToggle(itemId, bar, vote){
+  const state = loadFeedbackState();
+  const next = state[itemId] === vote ? null : vote;
+  if(next) state[itemId] = next;
+  else delete state[itemId];
+  saveFeedbackState(state);
+  bar.querySelectorAll('.feedback-btn').forEach(b => {
+    b.classList.toggle('active', state[itemId] === b.dataset.vote);
+  });
+  if(cloudEnabled()){
+    ReiseDB.saveFeedback(itemId, next).catch(() => showToast('Lokal gespeichert — Sync folgt'));
+  }
+}
+
+function updateFamilyUi(){
+  const dot = document.getElementById('familySyncDot');
+  const connected = document.getElementById('familyConnected');
+  const form = document.getElementById('familyForm');
+  const trip = (typeof ReiseDB !== 'undefined' && ReiseDB.getTrip()) || null;
+  if(dot) dot.hidden = !trip;
+  if(connected) connected.hidden = !trip;
+  if(form) form.hidden = !!trip;
+  if(trip){
+    const t = document.getElementById('familyTripTitle');
+    const c = document.getElementById('familyTripCode');
+    const n = document.getElementById('familyMemberName');
+    if(t) t.textContent = trip.title || '';
+    if(c) c.textContent = trip.code || '';
+    if(n) n.textContent = trip.name || '';
+  }
+}
+
+function openFamilyOverlay(){
+  const cfg = window.SUPABASE_CONFIG;
+  const body = document.getElementById('familyBody');
+  if(!cfg || !cfg.url){
+    if(body) body.innerHTML = '<p class="muted">Cloud-Sync ist nicht konfiguriert.</p>';
+  }
+  const codeIn = document.getElementById('familyCodeInput');
+  if(codeIn && cfg && cfg.defaultTripCode && !codeIn.value) codeIn.value = cfg.defaultTripCode;
+  updateFamilyUi();
+  document.getElementById('familyOverlay').hidden = false;
+  document.body.style.overflow = 'hidden';
+}
+
+function closeFamilyOverlay(){
+  document.getElementById('familyOverlay').hidden = true;
+  document.body.style.overflow = '';
+}
+
+async function connectFamily(e){
+  if(e) e.preventDefault();
+  const code = (document.getElementById('familyCodeInput').value || '').trim();
+  const name = (document.getElementById('familyNameInput').value || '').trim();
+  if(!code || !name){ showToast('Code und Name eingeben'); return; }
+  try {
+    await ReiseDB.connectTrip(code, name);
+    const checks = await ReiseDB.fetchChecks();
+    const feedback = await ReiseDB.fetchFeedback();
+    mergeRemoteChecks(checks);
+    mergeRemoteFeedback(feedback);
+    updateFamilyUi();
+    showToast('Mit Familie verbunden');
+    closeFamilyOverlay();
+  } catch(err){
+    showToast('Verbindung fehlgeschlagen: ' + err.message);
+  }
+}
+
+function disconnectFamily(){
+  if(typeof ReiseDB !== 'undefined') ReiseDB.disconnectTrip();
+  updateFamilyUi();
+  showToast('Verbindung getrennt');
+}
+
+async function initFamilySync(){
+  if(typeof ReiseDB === 'undefined') return;
+  ReiseDB.on('checks', payload => {
+    const row = payload.new || payload.old;
+    if(!row || !row.task_id) return;
+    if(payload.eventType === 'DELETE' || !row.checked){
+      const state = loadChecklistState();
+      delete state[row.task_id];
+      saveChecklistState(state);
+    } else {
+      const state = loadChecklistState();
+      state[row.task_id] = { t: row.task_text, s: row.section, d: Date.now(), by: row.updated_by };
+      saveChecklistState(state);
+    }
+    applyChecklistToDom();
+  });
+  ReiseDB.on('feedback', payload => {
+    const row = payload.new || payload.old;
+    if(!row || !row.item_id) return;
+    const me = ReiseDB.getMemberName();
+    if(row.voter && row.voter !== me) return;
+    const state = loadFeedbackState();
+    if(payload.eventType === 'DELETE' || !row.vote) delete state[row.item_id];
+    else state[row.item_id] = row.vote;
+    saveFeedbackState(state);
+    applyFeedbackToDom();
+  });
+  ReiseDB.on('status', () => updateFamilyUi());
+  const ok = await ReiseDB.init();
+  if(ok){
+    try {
+      mergeRemoteChecks(await ReiseDB.fetchChecks());
+      mergeRemoteFeedback(await ReiseDB.fetchFeedback());
+    } catch(e){ console.warn('Sync laden:', e.message); }
+  }
+  updateFamilyUi();
 }
 
 // === Stufe 1: Wetter (Open-Meteo, Auffach ca. 47.4253/11.9747) ===
@@ -1261,9 +1450,11 @@ document.addEventListener('keydown', e => {
   if(e.key === 'Escape'){
     const ai = document.getElementById('aiPanel');
     const map = document.getElementById('mapOverlay');
+    const fam = document.getElementById('familyOverlay');
     const ck = document.getElementById('checklistOverlay');
     if(ai && !ai.hidden){ toggleAiPanel(false); e.preventDefault(); return; }
     if(map && !map.hidden){ closeMapOverlay(); e.preventDefault(); return; }
+    if(fam && !fam.hidden){ closeFamilyOverlay(); e.preventDefault(); return; }
     if(ck && !ck.hidden){ closeChecklistOverlay(); e.preventDefault(); return; }
   }
   if(e.key === 'Enter' && document.activeElement && document.activeElement.id === 'aiInput'){
@@ -1271,4 +1462,8 @@ document.addEventListener('keydown', e => {
   }
 });
 
-load().then(() => { loadWeather(); loadDays(); });
+load().then(() => {
+  loadWeather();
+  loadDays();
+  initFamilySync();
+});

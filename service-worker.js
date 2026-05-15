@@ -1,7 +1,7 @@
 // Wildschoenau Reise-Guide — Service Worker
 // Cache-first for static assets; network-first for Open-Meteo weather API.
 
-const CACHE = 'rt-v4';
+const CACHE = 'rt-v5';
 const PRECACHE = [
   './',
   './index.html',
@@ -14,7 +14,9 @@ const PRECACHE = [
   'assets/icon-192.png',
   'assets/icon-512.png',
   'assets/app.css',
-  'assets/app.js'
+  'assets/app.js',
+  'assets/db.js',
+  'assets/supabase-config.js'
 ];
 
 self.addEventListener('install', (event) => {
