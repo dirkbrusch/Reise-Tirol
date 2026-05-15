@@ -1,4 +1,4 @@
-html { outline: 5px solid magenta !important; }\n/* Lesbarkeit: Legacy app.css setzt Hero-Styles global (weiße Schrift) */
+\n/* Lesbarkeit: Legacy app.css setzt Hero-Styles global (weiße Schrift) */
 
 .app-shell .today-card,
 .app-shell .today-card .today-card-title,
@@ -95,3 +95,15 @@ html { outline: 5px solid magenta !important; }\n/* Lesbarkeit: Legacy app.css s
 .app-shell .bottom-nav-item {
   max-width: none !important;
 }
+.app-shell .plan-sidebar .nav-group-title { color: var(--text-muted) !important; }
+.app-shell .plan-sidebar .nav a { color: var(--text) !important; }
+.app-shell .plan-sidebar .nav a:hover { background: var(--bg-soft) !important; color: var(--accent-strong) !important; }
+.app-shell .plan-sidebar .nav a.active { background: var(--accent-soft) !important; color: var(--accent-strong) !important; }
+.app-shell .plan-sidebar .nav a.sub { color: var(--text-muted) !important; }
+.app-shell .plan-sidebar .nav-search {
+  width: 100%; margin-bottom: 0.75rem; padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  background: var(--bg); color: var(--text);
+}
+.app-shell button.quick-card { font: inherit; text-align: left; cursor: pointer; width: 100%; border: none; }
+.app-shell button.quick-card .quick-card-title { color: var(--text) !important; }

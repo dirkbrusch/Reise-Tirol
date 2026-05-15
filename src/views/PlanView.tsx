@@ -1,7 +1,8 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useApp } from '@/context/AppContext';
 import { QUICK_LINKS } from '@/lib/constants';
+import { anchorIdFromHref, scrollToAnchor } from '@/lib/scrollToAnchor';
 
 export function PlanView() {
   const { navGroups, contentRef, dayFilter, setDayFilter, daysData, sectionToId } = useApp();
@@ -10,26 +11,34 @@ export function PlanView() {
   const planMountRef = useRef<HTMLDivElement>(null);
   const loc = useLocation();
 
+  const scrollToSection = useCallback((id: string) => {
+    if (scrollToAnchor(id)) setSidebarOpen(false);
+  }, []);
+
   useEffect(() => {
     const node = contentRef.current;
     const host = planMountRef.current;
-    if (node && host && node.parentElement !== host) {
-      host.appendChild(node);
-    }
+    if (node && host && node.parentElement !== host) host.appendChild(node);
     return () => {
       const hidden = document.querySelector('.plan-content-hidden');
-      if (node && hidden && node.parentElement !== hidden) {
-        hidden.appendChild(node);
-      }
+      if (node && hidden && node.parentElement !== hidden) hidden.appendChild(node);
     };
   }, [contentRef, loc.pathname]);
 
   useEffect(() => {
-    const raw = window.location.hash.replace(/^#\/?plan#?/, '').replace(/^#/, '');
-    if (raw && raw !== 'plan' && raw !== '/plan') {
-      setTimeout(() => document.getElementById(raw)?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 200);
-    }
-  }, [loc.pathname]);
+    const host = planMountRef.current;
+    if (!host) return;
+    const onClick = (e: MouseEvent) => {
+      const a = (e.target as HTMLElement).closest('a');
+      if (!a) return;
+      const id = anchorIdFromHref(a.getAttribute('href'));
+      if (!id || !document.getElementById(id)) return;
+      e.preventDefault();
+      scrollToSection(id);
+    };
+    host.addEventListener('click', onClick);
+    return () => host.removeEventListener('click', onClick);
+  }, [scrollToSection, loc.pathname]);
 
   const filteredGroups = navGroups
     .map((g) => ({
@@ -41,8 +50,8 @@ export function PlanView() {
   return (
     <div className="view plan-view">
       <div className="plan-toolbar">
-        <button type="button" className="btn ghost small" onClick={() => setSidebarOpen((o) => !o)}>
-          ☰ Inhalt
+        <button type="button" className="btn ghost small plan-menu-btn" onClick={() => setSidebarOpen((o) => !o)}>
+          Inhalt
         </button>
         {daysData && (
           <label className="day-filter-toggle">
@@ -51,49 +60,44 @@ export function PlanView() {
           </label>
         )}
       </div>
-
+      {sidebarOpen && (
+        <button type="button" className="plan-sidebar-backdrop" aria-label="Navigation schließen" onClick={() => setSidebarOpen(false)} />
+      )}
       <div className={'plan-layout' + (sidebarOpen ? ' sidebar-open' : '')}>
-        <aside className="plan-sidebar">
-          <input
-            type="search"
-            className="nav-search"
-            placeholder="Suchen…"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-          />
+        <aside className="plan-sidebar" aria-label="Plan-Inhaltsverzeichnis">
+          <input type="search" className="nav-search" placeholder="Suchen…" value={search} onChange={(e) => setSearch(e.target.value)} />
           <nav className="nav">
-            {filteredGroups.map((g) => (
-              <div key={g.title} className="nav-group">
-                <div className="nav-group-title">
-                  {g.icon} {g.title}
+            {filteredGroups.length === 0 ? (
+              <p className="plan-nav-empty">Inhaltsverzeichnis wird geladen</p>
+            ) : (
+              filteredGroups.map((g) => (
+                <div key={g.title} className="nav-group">
+                  <div className="nav-group-title">{g.icon} {g.title}</div>
+                  {g.links.map((l) => {
+                    const id = anchorIdFromHref(l.href);
+                    return (
+                      <a key={l.href + l.label} href={l.href} className={l.sub ? 'sub' : ''} onClick={(e) => { if (id) { e.preventDefault(); scrollToSection(id); } }}>
+                        {l.icon && <span className="nav-icon">{l.icon}</span>}
+                        <span>{l.label}</span>
+                      </a>
+                    );
+                  })}
                 </div>
-                {g.links.map((l) => (
-                  <a
-                    key={l.href + l.label}
-                    href={l.href}
-                    className={l.sub ? 'sub' : ''}
-                    onClick={() => setSidebarOpen(false)}
-                  >
-                    {l.icon && <span className="nav-icon">{l.icon}</span>}
-                    <span>{l.label}</span>
-                  </a>
-                ))}
-              </div>
-            ))}
+              ))
+            )}
           </nav>
         </aside>
-
         <div className="plan-main">
           <div className="quick-grid" id="quickGrid">
             {QUICK_LINKS.map((l) => {
               const id = sectionToId[l.section];
               if (!id) return null;
               return (
-                <a key={l.section} className="quick-card" href={'#' + id}>
+                <button key={l.section} type="button" className="quick-card" onClick={() => scrollToSection(id)}>
                   <div className="quick-card-icon">{l.icon}</div>
                   <div className="quick-card-title">{l.title}</div>
                   <div className="quick-card-desc">{l.desc}</div>
-                </a>
+                </button>
               );
             })}
           </div>
