@@ -14,8 +14,9 @@ Statische Website mit der Reisedokumentation Wildschönau / Auffach 21.05.–06.
 - `index.html` — Shell; Styles in `assets/app.css`, Logik in `assets/app.js` (Single-Page, lädt `reiseplan.md` per Fetch, rendert mit marked.js).
 - `reiseplan.md` — Quelldatei des Plans; Tagesmarker `<!-- day:YYYY-MM-DD -->` vor jedem Eintrag im Kalenderbereich Abschnitt M.
 - `days.json` — Strukturierte Tagesdaten für Tageswähler / Heute-Karte (mit `places.json`).
-- `places.json` — POI für die Karte.
-- `manifest.webmanifest`, `service-worker.js` — PWA / Offline (`rt-v2` Cache).
+- `places.json` — POIs für Leaflet/OSM-Karte (`planAnchor`: optionale DOM-Id für Popup-Link „Im Reiseplan“, sonst heuristischer Abschnitts-Link).
+- `manifest.webmanifest`, `service-worker.js` — PWA / Offline (`rt-v4` Cache inkl. Icon-PNGs).
+- Deep-Link zum Kalendertag: `?day=YYYY-MM-DD` (z.B. zum Teilen). KI: OpenAI oder Anthropic (Bring-your-own-Key).
 - `CNAME` — Custom-Domain-Eintrag für GitHub Pages.
 
 ## Aktualisieren

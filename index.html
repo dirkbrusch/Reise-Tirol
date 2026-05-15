@@ -124,10 +124,11 @@
   <div class="ai-panel-body" id="aiPanelBody">
     <div class="ai-disclaimer">KI-Antworten basieren auf dem aktuell sichtbaren Abschnitt deines Reiseplans. <strong>Preise, Öffnungszeiten und Bergbahn-Status immer offiziell prüfen.</strong></div>
     <div id="aiSetup" class="ai-setup">
-      <p class="muted">Für KI-Antworten brauchst du einen eigenen API-Key (z. B. OpenAI). Der Key bleibt nur in dieser Browser-Session.</p>
-      <input type="password" id="aiKeyInput" placeholder="sk-..." autocomplete="off">
-      <select id="aiProvider">
-        <option value="openai">OpenAI (gpt-4o-mini)</option>
+      <p class="muted">Für KI-Antworten brauchst du einen eigenen API-Key (<strong>OpenAI</strong> oder <strong>Anthropic</strong>). Der Key bleibt nur in dieser Browser-Session.</p>
+      <input type="password" id="aiKeyInput" placeholder="sk-… oder sk-ant-api03-…" autocomplete="off">
+      <select id="aiProvider" aria-label="KI-Anbieter">
+        <option value="openai">OpenAI · gpt-4o-mini</option>
+        <option value="anthropic">Anthropic · Claude 3.5 Haiku</option>
       </select>
       <button class="btn-secondary" onclick="saveAiKey()">Key übernehmen</button>
     </div>

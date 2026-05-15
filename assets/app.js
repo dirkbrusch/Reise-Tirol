@@ -677,13 +677,21 @@ function findPrecedingH1(el){
   return null;
 }
 
-// ESC schließt Overlay
-document.addEventListener('keydown', e => {
-  if(e.key === 'Escape'){
-    const ov = document.getElementById('checklistOverlay');
-    if(ov && !ov.hidden) closeChecklistOverlay();
+function parseAiErrorBody(raw){
+  try{
+    const j = JSON.parse(raw);
+    const inner = j.error || j;
+    let msg = inner.message || inner.type || '';
+    if(!msg && typeof inner === 'string') msg = inner;
+    msg = msg || raw.slice(0, 280);
+    if(/cors|browser|not allowed for this Organization|CORS requests are not allowed/i.test(msg + raw)){
+      msg += ' Hinweis: Manche Anbieter sperren API-Aufrufe aus dem Browser nach Organisations-Regeln — dann braucht es einen kleinen Server-Proxy.';
+    }
+    return msg;
+  } catch(e){
+    return raw.slice(0, 280);
   }
-});
+}
 
 // === Stufe 2: Tagesplan ===
 const DAY_KEY = 'rt:day';
@@ -767,11 +775,16 @@ function buildDayPicker(){
 
 function getSelectedDay(){
   if(!_daysData) return null;
-  // Prio: URL hash -> localStorage -> Heute -> erster Tag
-  const fromHash = location.hash.match(/^#day-(\d{4}-\d{2}-\d{2})$/);
+  const params = new URLSearchParams(location.search);
+  const qp = params.get('day');
+  if(qp && /^\d{4}-\d{2}-\d{2}$/.test(qp) && _daysData.days.find(d => d.date === qp)) return qp;
+  // Hash #day-YYYY-MM-DD (Kurzlink)
+  const fromHash = location.hash.match(/^#day-(\d{4}-\d{2}-\d{2})(?:\b|$)/);
   if(fromHash && _daysData.days.find(d => d.date === fromHash[1])) return fromHash[1];
   const saved = localStorage.getItem(DAY_KEY);
-  if(saved && _daysData.days.find(d => d.date === saved)) return saved;
+  if(saved && _daysData.days.find(d => d.date === saved)){
+    return saved;
+  }
   const today = new Date().toISOString().slice(0,10);
   if(_daysData.days.find(d => d.date === today)) return today;
   // naechstgelegen
@@ -794,7 +807,16 @@ function applySelectedDay(date){
   if(sel && sel.value !== date) sel.value = date;
   renderTodayCard(day);
   markCurrentDayInPlan(date);
+  syncDayToUrl(date);
   if(document.body.classList.contains('day-filter-active')) applyDayFilter(true);
+}
+
+function syncDayToUrl(date){
+  try{
+    const u = new URL(window.location.href);
+    if(date) u.searchParams.set('day', date);
+    history.replaceState(null, '', u.pathname + u.search + u.hash);
+  }catch(e){}
 }
 
 function renderTodayCard(day){
@@ -835,10 +857,16 @@ function markCurrentDayInPlan(date){
 function jumpToDay(date){
   const id = _dayAnchors[date];
   if(!id){ showToast('Kein Anker im Plan'); return; }
+  applySelectedDay(date);
+  try{
+    const u = new URL(window.location.href);
+    u.searchParams.set('day', date);
+    u.hash = '#'+id;
+    history.replaceState(null, '', u.pathname + u.search + u.hash);
+  }catch(e){}
   const el = document.getElementById(id);
   if(el){
     el.scrollIntoView({behavior:'smooth', block:'start'});
-    history.replaceState(null, '', '#'+id);
   }
 }
 
@@ -938,6 +966,7 @@ setupPWA();
 
 // === Stufe 4: KI-Assistent (Bring-your-own-Key) ===
 const AI_KEY_STORE = 'rt:aiKey';
+const AI_PROVIDER_STORE = 'rt:aiProvider';
 function toggleAiPanel(force){
   const p = document.getElementById('aiPanel');
   if(!p) return;
@@ -947,13 +976,21 @@ function toggleAiPanel(force){
 }
 function renderAiSetup(){
   const hasKey = !!sessionStorage.getItem(AI_KEY_STORE);
+  const provSel = document.getElementById('aiProvider');
+  if(provSel){
+    const p = sessionStorage.getItem(AI_PROVIDER_STORE) || 'openai';
+    if(provSel.querySelector('option[value="'+p+'"]')) provSel.value = p;
+  }
   document.getElementById('aiSetup').hidden = hasKey;
   document.getElementById('aiChat').hidden = !hasKey;
 }
 function saveAiKey(){
   const k = document.getElementById('aiKeyInput').value.trim();
   if(!k){ showToast('Key fehlt'); return; }
+  const provEl = document.getElementById('aiProvider');
+  const prov = (provEl && provEl.value) || 'openai';
   sessionStorage.setItem(AI_KEY_STORE, k);
+  sessionStorage.setItem(AI_PROVIDER_STORE, prov);
   document.getElementById('aiKeyInput').value = '';
   renderAiSetup();
   showToast('Key gespeichert (nur diese Session)');
@@ -1012,6 +1049,47 @@ function appendAiMsg(role, text){
   m.scrollTop = m.scrollHeight;
   return div;
 }
+async function fetchAiCompletion(key, provider, system, userMsg){
+  if(provider === 'anthropic'){
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': key,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-3-5-haiku-20241022',
+        max_tokens: 1200,
+        temperature: 0.3,
+        system,
+        messages: [{ role: 'user', content: userMsg }]
+      })
+    });
+    const raw = await res.text();
+    if(!res.ok) throw new Error(parseAiErrorBody(raw));
+    const data = JSON.parse(raw);
+    const block = data.content && data.content[0];
+    return (block && block.type === 'text' && block.text) ? block.text : '(leere Antwort)';
+  }
+  const res = await fetch('https://api.openai.com/v1/chat/completions', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key },
+    body: JSON.stringify({
+      model: 'gpt-4o-mini',
+      temperature: 0.3,
+      messages: [
+        { role: 'system', content: system },
+        { role: 'user', content: userMsg }
+      ]
+    })
+  });
+  const raw = await res.text();
+  if(!res.ok) throw new Error(parseAiErrorBody(raw));
+  const data = JSON.parse(raw);
+  return (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content) || '(leere Antwort)';
+}
 async function askAi(prompt){
   const key = sessionStorage.getItem(AI_KEY_STORE);
   if(!key){ renderAiSetup(); showToast('Bitte zuerst Key eintragen'); return; }
@@ -1024,24 +1102,8 @@ async function askAi(prompt){
     + 'Beziehe dich AUSSCHLIESSLICH auf den uebermittelten Plan-Auszug. Wenn etwas fehlt, sag es klar.';
   const userMsg = '## Plan-Abschnitt: ' + (title||'(unbenannt)') + '\n\n' + text + '\n\n---\n\nFrage: ' + prompt;
   try {
-    const res = await fetch('https://api.openai.com/v1/chat/completions', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key },
-      body: JSON.stringify({
-        model: 'gpt-4o-mini',
-        temperature: 0.3,
-        messages: [
-          { role: 'system', content: system },
-          { role: 'user', content: userMsg }
-        ]
-      })
-    });
-    if(!res.ok){
-      const t = await res.text();
-      throw new Error('HTTP ' + res.status + ': ' + t.slice(0,200));
-    }
-    const data = await res.json();
-    const answer = (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content) || '(leere Antwort)';
+    const provider = sessionStorage.getItem(AI_PROVIDER_STORE) || 'openai';
+    const answer = await fetchAiCompletion(key, provider, system, userMsg);
     pending.textContent = answer;
   } catch(err){
     pending.classList.remove('assistant'); pending.classList.add('error');
@@ -1055,11 +1117,6 @@ function sendAiPrompt(){
   input.value = '';
   askAi(txt);
 }
-document.addEventListener('keydown', e => {
-  if(e.key === 'Enter' && document.activeElement && document.activeElement.id === 'aiInput'){
-    sendAiPrompt();
-  }
-});
 
 // === Stufe 4: Karte (Leaflet + OSM) ===
 let _map = null;
@@ -1100,6 +1157,37 @@ function closeMapOverlay(){
   document.getElementById('mapOverlay').hidden = true;
   document.body.style.overflow = '';
 }
+
+/** Reiseplan: Ziel-Anker (optional `planAnchor` = DOM-Id ohne #). */
+function getPlanFragmentForPlace(p){
+  const raw = p && typeof p.planAnchor === 'string' ? p.planAnchor.replace(/^#/,'').trim() : '';
+  if(raw && /^[A-Za-z0-9_-]+$/.test(raw) && document.getElementById(raw)) return '#' + raw;
+  const cat = ((p && p.category) ? String(p.category) : 'ort').toLowerCase();
+  const letter =
+    cat === 'bergbahn' ? 'E' :
+    cat === 'alm' ? 'C' :
+    cat === 'restaurant' ? 'C' :
+    cat === 'hotel' ? 'B' :
+    cat === 'ausflug' ? 'H' :
+    cat === 'natur' ? 'D' :
+    cat === 'hofladen' ? 'J' : 'B';
+  const h = document.querySelector('#content h1[data-section="'+letter+'"]');
+  return h && h.id ? '#' + h.id : '';
+}
+
+function jumpToPlanFromMap(fragment){
+  if(!fragment || fragment === '#') return;
+  closeMapOverlay();
+  const id = fragment.replace(/^#/,'');
+  setTimeout(() => {
+    const el = document.getElementById(id);
+    if(el){
+      try { history.replaceState(null, '', fragment); } catch(e){}
+      el.scrollIntoView({behavior:'smooth', block:'start'});
+    }
+  }, 140);
+}
+
 function buildMapFilters(places){
   const wrap = document.getElementById('mapFilters');
   if(!wrap) return;
@@ -1151,8 +1239,14 @@ function refreshMapMarkers(){
       }),
       title: p.name
     });
+    const frag = getPlanFragmentForPlace(p);
+    const pid = frag && frag.length > 1 ? frag.slice(1) : '';
+    const planBtn = pid && /^[A-Za-z0-9_-]+$/.test(pid)
+      ? '<div class="map-popup-row"><button type="button" class="map-popup-btn" onclick="jumpToPlanFromMap(\'#'+pid+'\')">📄 Im Reiseplan</button></div>'
+      : '';
     const popup = '<div class="map-popup"><strong>'+escapeHtml(p.name)+'</strong>'+
       (p.cashOnly ? '<div>💶 nur Bargeld</div>' : '')+
+      planBtn+
       '<a href="https://www.openstreetmap.org/?mlat='+p.lat+'&mlon='+p.lon+'#map=15/'+p.lat+'/'+p.lon+'" target="_blank" rel="noopener">In OSM öffnen</a></div>';
     marker.bindPopup(popup);
     marker.addTo(_map._markerLayer);
@@ -1162,5 +1256,19 @@ function refreshMapMarkers(){
     _map.fitBounds(latlngs, { padding: [40,40], maxZoom: 12 });
   }
 }
+
+document.addEventListener('keydown', e => {
+  if(e.key === 'Escape'){
+    const ai = document.getElementById('aiPanel');
+    const map = document.getElementById('mapOverlay');
+    const ck = document.getElementById('checklistOverlay');
+    if(ai && !ai.hidden){ toggleAiPanel(false); e.preventDefault(); return; }
+    if(map && !map.hidden){ closeMapOverlay(); e.preventDefault(); return; }
+    if(ck && !ck.hidden){ closeChecklistOverlay(); e.preventDefault(); return; }
+  }
+  if(e.key === 'Enter' && document.activeElement && document.activeElement.id === 'aiInput'){
+    sendAiPrompt();
+  }
+});
 
 load().then(() => { loadWeather(); loadDays(); });
