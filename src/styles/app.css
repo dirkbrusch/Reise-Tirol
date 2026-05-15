@@ -882,7 +882,7 @@ a:hover{color:var(--accent-strong);text-decoration:underline;text-underline-offs
   gap:0.6rem;
   flex-wrap:wrap;
 }
-.wx-day{
+.hero-weather .wx-day{
   background:rgba(255,255,255,0.12);
   border:1px solid rgba(255,255,255,0.18);
   border-radius:var(--radius-sm);
@@ -891,12 +891,12 @@ a:hover{color:var(--accent-strong);text-decoration:underline;text-underline-offs
   color:#fff;
   backdrop-filter:blur(4px);
 }
-.wx-day-label{font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;opacity:0.75;margin-bottom:0.2rem}
-.wx-day-icon{font-size:1.4rem;line-height:1;margin-bottom:0.15rem}
-.wx-day-temp{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:1.05rem}
-.wx-day-temp .tmin{opacity:0.7;font-size:0.9em;margin-left:0.3rem}
-.wx-day-rain{font-size:0.7rem;opacity:0.85;margin-top:0.1rem}
-.wx-error{color:rgba(255,255,255,0.7);font-size:0.8rem}
+.hero-weather .wx-day-label{font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;opacity:0.75;margin-bottom:0.2rem}
+.hero-weather .wx-day-icon{font-size:1.4rem;line-height:1;margin-bottom:0.15rem}
+.hero-weather .wx-day-temp{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:1.05rem}
+.hero-weather .wx-day-temp .tmin{opacity:0.7;font-size:0.9em;margin-left:0.3rem}
+.hero-weather .wx-day-rain{font-size:0.7rem;opacity:0.85;margin-top:0.1rem}
+.hero-weather .wx-error{color:rgba(255,255,255,0.7);font-size:0.8rem}
 
 /* === Stufe 1: Checklisten im Markdown === */
 #content li.task-item{
@@ -1102,8 +1102,8 @@ a:hover{color:var(--accent-strong);text-decoration:underline;text-underline-offs
   .day-picker select{max-width:140px}
 }
 
-/* === Stufe 2: Heute-Karte === */
-.today-card{
+/* === Stufe 2: Heute-Karte (nur in Hero / Legacy-Layout) === */
+.hero .today-card{
   position:relative;
   margin-top:1.5rem;
   background:rgba(255,255,255,0.08);
@@ -1113,7 +1113,7 @@ a:hover{color:var(--accent-strong);text-decoration:underline;text-underline-offs
   color:#fff;
   backdrop-filter:blur(4px);
 }
-.today-card-head{
+.hero .today-card-head{
   display:flex;
   align-items:baseline;
   justify-content:space-between;
@@ -1121,47 +1121,47 @@ a:hover{color:var(--accent-strong);text-decoration:underline;text-underline-offs
   margin-bottom:0.5rem;
   flex-wrap:wrap;
 }
-.today-card-label{
+.hero .today-card-label{
   font-size:0.72rem;
   text-transform:uppercase;
   letter-spacing:0.1em;
   opacity:0.8;
 }
-.today-card-date{font-weight:500;opacity:0.9;font-size:0.85rem}
-.today-card-title{
+.hero .today-card-date{font-weight:500;opacity:0.9;font-size:0.85rem}
+.hero .today-card-title{
   font-family:'Fraunces',Georgia,serif;
   font-size:1.25rem;
   font-weight:600;
   margin:0.1rem 0 0.5rem;
   color:#fff;
 }
-.today-card-list{
+.hero .today-card-list{
   margin:0 0 0.7rem;
   padding-left:1.1rem;
   font-size:0.9rem;
   line-height:1.5;
 }
-.today-card-list li{margin:0.1rem 0}
-.today-card-meta{
+.hero .today-card-list li{margin:0.1rem 0}
+.hero .today-card-meta{
   display:flex;
   flex-wrap:wrap;
   gap:0.6rem;
   font-size:0.82rem;
   opacity:0.9;
 }
-.today-card-meta .pill{
+.hero .today-card-meta .pill{
   background:rgba(255,255,255,0.12);
   border:1px solid rgba(255,255,255,0.18);
   padding:0.15rem 0.55rem;
   border-radius:999px;
 }
-.today-card-actions{
+.hero .today-card-actions{
   margin-top:0.8rem;
   display:flex;
   gap:0.5rem;
   flex-wrap:wrap;
 }
-.today-card-btn{
+.hero .today-card-btn{
   background:#fff;
   color:var(--accent-strong);
   border:none;
@@ -1172,9 +1172,9 @@ a:hover{color:var(--accent-strong);text-decoration:underline;text-underline-offs
   cursor:pointer;
   font-family:inherit;
 }
-.today-card-btn:hover{background:var(--accent-soft)}
-.today-card-btn.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.3)}
-.today-card-btn.ghost:hover{background:rgba(255,255,255,0.1)}
+.hero .today-card-btn:hover{background:var(--accent-soft)}
+.hero .today-card-btn.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.3)}
+.hero .today-card-btn.ghost:hover{background:rgba(255,255,255,0.1)}
 
 /* === Stufe 2: Filter-Modus === */
 body.day-filter-active #content > h1.day-hidden,

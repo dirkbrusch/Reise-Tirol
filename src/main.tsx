@@ -5,6 +5,7 @@ import { AppProvider } from '@/context/AppContext';
 import App from '@/App';
 import '@/styles/app.css';
 import '@/styles/shell.css';
+import '@/styles/vite-fixes.css';
 import 'leaflet/dist/leaflet.css';
 
 createRoot(document.getElementById('root')!).render(

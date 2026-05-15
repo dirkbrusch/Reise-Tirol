@@ -1,0 +1,79 @@
+html { outline: 5px solid magenta !important; }\n/* Lesbarkeit: Legacy app.css setzt Hero-Styles global (weiße Schrift) */
+
+.app-shell .today-card,
+.app-shell .today-card .today-card-title,
+.app-shell .today-card .today-card-list,
+.app-shell .today-card .today-card-list li,
+.app-shell .today-card .today-card-meta,
+.app-shell .today-card .today-card-date,
+.app-shell .today-card .today-notes {
+  color: var(--text) !important;
+}
+
+.app-shell .today-card {
+  background: var(--bg-elev) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: var(--shadow) !important;
+  backdrop-filter: none !important;
+}
+
+.app-shell .today-card-label {
+  color: var(--accent) !important;
+  opacity: 1 !important;
+}
+
+.app-shell .today-card-meta .pill {
+  background: var(--accent-soft) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text) !important;
+}
+
+.app-shell .today-card-btn {
+  background: var(--accent) !important;
+  color: #fff !important;
+}
+
+.app-shell .today-card-btn.ghost {
+  background: transparent !important;
+  color: var(--accent-strong) !important;
+  border: 1px solid var(--border) !important;
+}
+
+.app-shell .wx-day,
+.app-shell .wx-strip .wx-day {
+  background: var(--bg-elev) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text) !important;
+  backdrop-filter: none !important;
+}
+
+.app-shell .wx-day-label,
+.app-shell .wx-label,
+.app-shell .wx-day-rain,
+.app-shell .wx-rain {
+  color: var(--text-muted) !important;
+}
+
+.app-shell .wx-day-temp,
+.app-shell .wx-temp {
+  color: var(--text) !important;
+}
+
+.app-shell .day-picker-wrap label {
+  color: var(--text-muted) !important;
+}
+
+.app-shell .day-picker-wrap select {
+  color: var(--text) !important;
+  background: var(--bg-elev) !important;
+}
+
+.app-shell .quick-section h3 {
+  color: var(--text) !important;
+}
+
+.app-shell a.quick-card,
+.app-shell a.quick-card .quick-card-title {
+  color: var(--text) !important;
+  text-decoration: none !important;
+}
