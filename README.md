@@ -4,13 +4,23 @@ Statische Website mit der Reisedokumentation Wildschönau / Auffach 21.05.–06.
 
 **Live:** https://reise.brusch.info
 
+## Projekt lokal wiederfinden (Stand Entwicklung)
+
+- **Klone-Pfad auf diesem PC (Beispiel):** `C:\Users\kevin\dev\Reise-Tirol`
+- **Aktuelle Entwicklung:** Branch `feat/stage-1-quickwins` (alle geplanten Stufen 1–4 in diesem Arbeitsstand gebündelt; nach Review gern in kleinere Branches oder PRs splitten.)
+- **Lokal öffnen:** Ordner in Cursor **File → Open Folder** öffnen, oder im Browser einen statischen Server nutzen (`npx serve .` im Projektroot), da `fetch` für `reiseplan.md` / JSON von `file://` oft blockiert wird.
+
 ## Aufbau
-- `index.html` — Single-Page-Site mit Sidebar-Navigation, lädt `reiseplan.md` per Fetch und rendert ihn clientseitig via marked.js.
-- `reiseplan.md` — Quelldatei (V2 des Reiseplans).
+- `index.html` — Shell; Styles in `assets/app.css`, Logik in `assets/app.js` (Single-Page, lädt `reiseplan.md` per Fetch, rendert mit marked.js).
+- `reiseplan.md` — Quelldatei des Plans; Tagesmarker `<!-- day:YYYY-MM-DD -->` vor jedem Eintrag im Kalenderbereich Abschnitt M.
+- `days.json` — Strukturierte Tagesdaten für Tageswähler / Heute-Karte (mit `places.json`).
+- `places.json` — POIs für Leaflet/OSM-Karte (`planAnchor`: optionale DOM-Id für Popup-Link „Im Reiseplan“, sonst heuristischer Abschnitts-Link).
+- `manifest.webmanifest`, `service-worker.js` — PWA / Offline (`rt-v4` Cache inkl. Icon-PNGs).
+- Deep-Link zum Kalendertag: `?day=YYYY-MM-DD` (z.B. zum Teilen). KI: OpenAI oder Anthropic (Bring-your-own-Key).
 - `CNAME` — Custom-Domain-Eintrag für GitHub Pages.
 
 ## Aktualisieren
-Markdown bearbeiten, committen, pushen — Änderungen sind nach ~1 Min. live.
+Markdown oder JSON bearbeiten, committen, pushen — Änderungen sind nach ~1 Min. live.
 
 ## Hosting
 GitHub Pages aus dem `main`-Branch (Root). Custom Domain: `reise.brusch.info`.

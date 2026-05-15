@@ -892,21 +892,24 @@ Wildschönau: **Ende Mai bis Anfang Juni** – kein Volksfest, betriebliches Ere
 **Vor Ort**: Bergbahnen, Almeinkehr Werktags, Wanderbusse, Bauernladl/Hofläden.
 
 ## Was einpacken (Ende Mai/Anfang Juni in Tirol)
-- Wanderschuhe (Profilsohle, knöchelhoch)
-- Wasserdichte/atmungsaktive Jacke
-- Schichtenprinzip (Funktionsunterwäsche, Fleece, Hardshell)
-- Sonnenschutz LSF 30+, Sonnenbrille, Cap
-- Dünne Handschuhe + Mütze für Bergtouren über 1.800 m
-- Wanderstöcke (Teleskop)
-- Tagesrucksack 20–30 l mit Regenhülle
-- Trinkflasche 1–1,5 l
-- **Mikrospikes/Grödel** für Touren über 1.800 m mit Restschnee
-- Badesachen + Mikrofasertuch
-- Erste-Hilfe-Set (Pflaster, Blasenpflaster, Tape)
-- **Bargeld 50–100 €/Person** (Schönangeralm und einige Almen Cash only)
-- Stirnlampe, Powerbank
-- Insektenschutz
-- Reservebrille / Kontaktlinsen
+
+> Häkchen werden lokal in deinem Browser gespeichert – Sammelübersicht oben rechts (📋).
+
+- [ ] Wanderschuhe (Profilsohle, knöchelhoch)
+- [ ] Wasserdichte/atmungsaktive Jacke
+- [ ] Schichtenprinzip (Funktionsunterwäsche, Fleece, Hardshell)
+- [ ] Sonnenschutz LSF 30+, Sonnenbrille, Cap
+- [ ] Dünne Handschuhe + Mütze für Bergtouren über 1.800 m
+- [ ] Wanderstöcke (Teleskop)
+- [ ] Tagesrucksack 20–30 l mit Regenhülle
+- [ ] Trinkflasche 1–1,5 l
+- [ ] **Mikrospikes/Grödel** für Touren über 1.800 m mit Restschnee
+- [ ] Badesachen + Mikrofasertuch
+- [ ] Erste-Hilfe-Set (Pflaster, Blasenpflaster, Tape)
+- [ ] **Bargeld 50–100 €/Person** (Schönangeralm und einige Almen Cash only)
+- [ ] Stirnlampe, Powerbank
+- [ ] Insektenschutz
+- [ ] Reservebrille / Kontaktlinsen
 
 ## Typische Anfängerfehler
 - Almen erwarten, die noch zu sind (höhere Almen oft erst Mitte Juni)
@@ -1037,27 +1040,35 @@ Vormittags Kundler Klamm (Bummelzug ab Färberwirt Mühltal). Mittags Thalmühle
 
 ## 🗓️ Beispielplan 7 Tage (21.05.–28.05.2026)
 
+<!-- day:2026-05-21 -->
 **Do 21.05. – Anreise & Eingewöhnung**
 Anreise. Wildschönau Card abholen. Spaziergang Auffach (Holzmuseum, Holzweg). Abendessen Traditionsgasthof Weißbacher (Auffach).
 
+<!-- day:2026-05-22 -->
 **Fr 22.05. – Schönangeralm-Tag**
 Morgens zu Fuß über Almstraße zur Schönangeralm (1,5 h). Schaukäserei + Mittag in der Schönangeralm. Rundgang Schönanger (5,8 km, 310 hm). Bummelbahn zurück. Abends Hotel Schneeberger Niederau.
 
+<!-- day:2026-05-23 -->
 **Sa 23.05. – Wörgl + Bauernmarkt + Niederau**
 Vormittags Bauernmarkt Wörgl 8:30–12:30. Mittags zurück, Franziskusweg Niederau→Oberau (3 km). Nachmittags Bergbauernmuseum z'Bach (Vorsaison-Öffnung Fr 14–17 – Samstag prüfen). Abends Kellerwirt Oberau (reserviert).
 
+<!-- day:2026-05-24 -->
 **So 24.05. (Pfingstsonntag) – Festung Kufstein + Ritter-Fest**
 Tagesausflug Kufstein. Festung mit Ritter-Fest 22.–25.05. Heldenorgel-Konzert 12 Uhr. Mittagessen in der Altstadt. Abends Hotel Bergkristall Mühltal (reserviert).
 
+<!-- day:2026-05-25 -->
 **Mo 25.05. (Pfingstmontag) – Markbachjoch**
 Markbachjochbahn nach oben. Wanderung Markbachjoch–Horlerstiegl–Halsgatterl–Holzalm Käsealm (8,2 km, 271 hm). Mittagseinkehr Holzalm mit Käse. Abends Sollererwirt Thierbach (reserviert, ab 4 Personen vorbestellen).
 
+<!-- day:2026-05-26 -->
 **Di 26.05. – Kragenjoch-Runde mit Achentalalm**
 Kragenjoch-Rundwanderung (7,8 km, 500 hm) – „perfekter Einstieg". Schmalznudeln auf der Achentalalm (Mi-Spezialität – Mittwoch tauschen). Abends Riedlhof (reserviert).
 
+<!-- day:2026-05-27 -->
 **Mi 27.05. – Krautinger + Klamm**
 Vormittags Krautinger-Hofführung Steinerhof Oberau. Mittagessen Pizzeria Italia 90 (Mi prüfen, ggf. Tausch mit Di). Nachmittags Kundler Klamm + Bummelzug ab Mühltal. Abends MM Marius Auffach.
 
+<!-- day:2026-05-28 -->
 **Do 28.05. – Achensee oder Rattenberg**
 Tagesausflug Achensee (Schifffahrt + Pertisau + Atoll Buchau) ODER Rattenberg + Glasbläserei + Augustinermuseum + Konditorei Hacker. Abends Thalmühle s'Wirtshaus Mühltal.
 
@@ -1077,6 +1088,46 @@ Festung + Heldenorgel-Konzert 12 Uhr + Stadtbummel. Mittagessen Altstadt. Abends
 
 **Tag 5 – Klamm + Krautinger + Heimreise**
 Vormittags Kundler Klamm (Bummelzug). Mittagessen Thalmühle Mühltal. Krautinger-Hofführung Steinerhof. Heimreise.
+
+## 🗓️ Woche 2 (29.05.–06.06.2026)
+
+> Ergänzungen zum 7-Tage-Plan oben. Die Anker hier verknüpfen jedes Datum mit dem Tageswähler. Inhalte vor Ort flexibel anpassen.
+
+<!-- day:2026-05-29 -->
+**Fr 29.05. – Bummelzug-Tag**
+Kundler Klamm mit Bummelzug-Rückfahrt ab Färberwirt Mühltal. Mittags Thalmühle s'Wirtshaus. Nachmittags Bachpromenade Auffach. Abends Apparthotel Talhof (Auffach).
+
+<!-- day:2026-05-30 -->
+**Sa 30.05. – Wanderung Großer Beil oder Ruhetag**
+Wenn Wetter und Schneelage passen: Großer Beil (2.309 m) als Gipfeltour. Sonst: Auffacher Rundweg + Schaukäserei Schönangeralm. Abends Hotel Auffacherhof.
+
+<!-- day:2026-05-31 -->
+**So 31.05. – Achensee-Schifffahrt**
+Tagesausflug Achensee mit Schifffahrt + Pertisau. Mittags am See. Abends MM Marius Auffach.
+
+<!-- day:2026-06-01 -->
+**Mo 01.06. – Innsbruck**
+Tagesausflug Innsbruck (Altstadt, Goldenes Dachl, Bergisel). Abends Kellerwirt Oberau.
+
+<!-- day:2026-06-02 -->
+**Di 02.06. – Almenwanderung**
+Wahl zwischen Holzalm-Runde oder Schönangeralm-Detail. Mittags auf der Alm. Abends Sollererwirt Thierbach.
+
+<!-- day:2026-06-03 -->
+**Mi 03.06. – Wilder Kaiser / SkiWelt-Region**
+Tagesausflug Söll-Hochsöll oder Going. Hexenwasser bei Söll. Abends Hotel Bergkristall Mühltal.
+
+<!-- day:2026-06-04 -->
+**Do 04.06. (Fronleichnam) – Schatzbergbahn-Eröffnung**
+Erste Auffahrt mit der neu geöffneten Schatzbergbahn (Saisonstart!). Bergstation, Joelspitze-Aussicht, Mittagessen Berghaus Koglmoos. Abends Traditionsgasthof Weißbacher (reserviert wegen Feiertag).
+
+<!-- day:2026-06-05 -->
+**Fr 05.06. – Rattenberg + Glasbläserei**
+Rattenberg-Altstadt, Glasbläserei, Konditorei Hacker. Abends Thalmühle s'Wirtshaus Mühltal.
+
+<!-- day:2026-06-06 -->
+**Sa 06.06. – Abreise**
+Letzter Spaziergang, Souvenirs bei Hofläden + Krautinger. Mittags packen, Heimreise.
 
 ---
 
