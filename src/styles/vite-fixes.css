@@ -77,3 +77,21 @@ html { outline: 5px solid magenta !important; }\n/* Lesbarkeit: Legacy app.css s
   color: var(--text) !important;
   text-decoration: none !important;
 }
+/* Volle Breite */
+.app-shell .app-header-inner,
+.app-shell .app-main {
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.app-shell #content,
+.app-shell .plan-content-mount .content {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.app-shell .bottom-nav-item {
+  max-width: none !important;
+}
