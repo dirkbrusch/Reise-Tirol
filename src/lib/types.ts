@@ -6,6 +6,10 @@ export interface TripDay {
   label: string;
   title: string;
   highlights?: string[];
+  timeline?: { time?: string; title: string; placeId?: string; note?: string }[];
+  placeIds?: string[];
+  tasks?: string[];
+  alerts?: string[];
   dinner?: { name: string; placeId?: string; reserved?: boolean };
   reservations?: string[];
   notes?: string;
@@ -32,6 +36,10 @@ export interface Place {
   imageUrl?: string;
   tourUrl?: string;
   planAnchor?: string;
+  dayRefs?: string[];
+  priority?: number;
+  mapsUrl?: string;
+  reservation?: string;
 }
 
 export interface PlacesData {

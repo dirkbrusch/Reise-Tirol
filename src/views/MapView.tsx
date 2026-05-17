@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import { useApp } from '@/context/AppContext';
@@ -26,28 +27,46 @@ function makeIcon(emoji: string) {
 }
 
 export function MapView() {
-  const { placesData, showToast } = useApp();
+  const { placesData, selectedDate, selectedDay, showToast } = useApp();
+  const loc = useLocation();
+  const params = new URLSearchParams(loc.search);
+  const requestedDay = params.get('day');
+  const requestedPlace = params.get('place');
   const [category, setCategory] = useState('all');
   const [search, setSearch] = useState('');
   const [userPos, setUserPos] = useState<{ lat: number; lon: number } | null>(null);
   const [selected, setSelected] = useState<Place | null>(null);
 
   const places = placesData?.places ?? [];
+  const activeDay = requestedDay || selectedDate;
+  const activeDayPlaceIds = new Set([...(selectedDay?.date === activeDay ? selectedDay.placeIds ?? [] : []), selectedDay?.date === activeDay ? selectedDay.dinner?.placeId : undefined].filter(Boolean) as string[]);
 
   const categories = useMemo(() => {
-    const cats = new Set<string>(['all']);
+    const cats = new Set<string>(['all', 'today', 'cash']);
     places.forEach((p) => cats.add(p.category || 'ort'));
     return Array.from(cats);
   }, [places]);
 
+  useEffect(() => {
+    if (requestedDay) setCategory('today');
+  }, [requestedDay]);
+
+  useEffect(() => {
+    if (!requestedPlace || !places.length) return;
+    const place = places.find((p) => p.id === requestedPlace);
+    if (place) setSelected(place);
+  }, [requestedPlace, places]);
+
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
     return places.filter((p) => {
-      if (category !== 'all' && p.category !== category) return false;
+      if (category === 'today' && !p.dayRefs?.includes(activeDay) && !activeDayPlaceIds.has(p.id)) return false;
+      else if (category === 'cash' && !p.cashOnly) return false;
+      else if (!['all', 'today', 'cash'].includes(category) && p.category !== category) return false;
       if (q && !p.name.toLowerCase().includes(q)) return false;
       return typeof p.lat === 'number' && typeof p.lon === 'number';
     });
-  }, [places, category, search]);
+  }, [places, category, search, activeDay, activeDayPlaceIds]);
 
   const nearby = useMemo(() => {
     if (!userPos) return filtered;
@@ -88,7 +107,7 @@ export function MapView() {
       </div>
       <div className="map-filters" id="mapFilters">
         {categories.map((c) => {
-          const m = CATEGORY_META[c] || { icon: '📌', label: c };
+          const m = c === 'today' ? { icon: '📅', label: 'Heute' } : c === 'cash' ? { icon: '€', label: 'Bargeld' } : CATEGORY_META[c] || { icon: '📌', label: c };
           return (
             <button
               key={c}
@@ -157,8 +176,13 @@ export function MapView() {
                 Tour-Info
               </a>
             )}
+            {selected.planAnchor && (
+              <a href={`#/plan#${selected.planAnchor}`} className="btn ghost small">
+                Im Plan
+              </a>
+            )}
             <a
-              href={`https://www.google.com/maps/search/?api=1&query=${selected.lat},${selected.lon}`}
+              href={selected.mapsUrl || `https://www.google.com/maps/search/?api=1&query=${selected.lat},${selected.lon}`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn primary small"

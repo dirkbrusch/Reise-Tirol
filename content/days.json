@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "tripStart": "2026-05-21",
   "tripEnd": "2026-06-06",
   "default": { "weatherLocation": "auffach" },
@@ -10,6 +10,9 @@
       "label": "Do 21.05.",
       "title": "Anreise & Eingewöhnung",
       "highlights": ["Wildschönau Card abholen", "Spaziergang Auffach", "Holzmuseum"],
+      "placeIds": ["auffach", "weissbacher"],
+      "tasks": ["Wildschönau Card abholen", "Unterkunft einrichten", "Kurz einkaufen für den ersten Abend"],
+      "alerts": ["Anreisepuffer einplanen", "Card-Aktivierung nicht vergessen"],
       "dinner": { "name": "Traditionsgasthof Weißbacher", "placeId": "weissbacher", "reserved": false },
       "reservations": [],
       "notes": "Card-Aktivierung nicht vergessen."
@@ -20,6 +23,9 @@
       "label": "Fr 22.05.",
       "title": "Schönangeralm-Tag",
       "highlights": ["Almstraße zur Schönangeralm (1,5 h)", "Schaukäserei", "Rundgang 5,8 km / 310 hm"],
+      "placeIds": ["schoenangeralm", "schneeberger"],
+      "tasks": ["Bargeld einpacken", "Wanderwetter prüfen", "Käseverkostung/Schaukäserei einplanen"],
+      "alerts": ["Schönangeralm: Bargeld einplanen"],
       "dinner": { "name": "Hotel Schneeberger Niederau", "placeId": "schneeberger", "reserved": false },
       "reservations": ["Schönangeralm: Bargeld!"],
       "notes": "Schönangeralm Cash only."
@@ -30,6 +36,9 @@
       "label": "Sa 23.05.",
       "title": "Wörgl Bauernmarkt + Niederau",
       "highlights": ["Bauernmarkt Wörgl 8:30–12:30", "Franziskusweg", "Bergbauernmuseum z'Bach"],
+      "placeIds": ["niederau", "kellerwirt"],
+      "tasks": ["Früh zum Bauernmarkt starten", "Reservierung Kellerwirt prüfen"],
+      "alerts": ["Bauernmarkt nur vormittags"],
       "dinner": { "name": "Kellerwirt Oberau", "placeId": "kellerwirt", "reserved": true },
       "reservations": ["Kellerwirt: reserviert"],
       "notes": ""
@@ -40,6 +49,9 @@
       "label": "So 24.05.",
       "title": "Pfingstsonntag · Festung Kufstein",
       "highlights": ["Kufstein Festung", "Ritter-Fest", "Heldenorgel 12 Uhr"],
+      "placeIds": ["kufstein", "bergkristall"],
+      "tasks": ["Tickets/Öffnungszeiten Festung prüfen", "Früh losfahren", "Reservierung Bergkristall bestätigen"],
+      "alerts": ["Feiertag: mehr Besucher und Reservierungsdruck"],
       "dinner": { "name": "Hotel Bergkristall Mühltal", "placeId": "bergkristall", "reserved": true },
       "reservations": ["Bergkristall: reserviert"],
       "notes": "Feiertag – früh reservieren."
@@ -50,6 +62,9 @@
       "label": "Mo 25.05.",
       "title": "Pfingstmontag · Markbachjoch",
       "highlights": ["Markbachjochbahn", "Markbachjoch–Halsgatterl–Holzalm (8,2 km, 271 hm)", "Käse Holzalm"],
+      "placeIds": ["markbachjochbahn", "holzalm", "sollererwirt"],
+      "tasks": ["Bergbahnzeiten prüfen", "Wanderausrüstung packen", "Sollererwirt vorbestellen"],
+      "alerts": ["Feiertag: Bergbahn und Almen können voll sein"],
       "dinner": { "name": "Sollererwirt Thierbach", "placeId": "sollererwirt", "reserved": true },
       "reservations": ["Sollererwirt: ab 4 P. vorbestellen"],
       "notes": ""
@@ -60,6 +75,9 @@
       "label": "Di 26.05.",
       "title": "Kragenjoch-Runde + Achentalalm",
       "highlights": ["Kragenjoch-Runde (7,8 km, 500 hm)", "Achentalalm"],
+      "placeIds": ["riedlhof"],
+      "tasks": ["Schneelage/Wetter am Berg prüfen", "Genug Wasser einpacken", "Riedlhof-Reservierung prüfen"],
+      "alerts": ["500 hm: nur bei stabilem Wetter starten"],
       "dinner": { "name": "Riedlhof", "placeId": "riedlhof", "reserved": true },
       "reservations": ["Riedlhof: reserviert"],
       "notes": "Achentalalm Schmalznudel-Spezialität ist Mi."
@@ -70,6 +88,9 @@
       "label": "Mi 27.05.",
       "title": "Krautinger + Klamm",
       "highlights": ["Krautinger-Hofführung Steinerhof", "Kundler Klamm", "Bummelzug ab Mühltal"],
+      "placeIds": ["steinerhof", "kundlerKlamm", "marius"],
+      "tasks": ["Hofführung/Zeiten prüfen", "Bummelzug-Zeiten prüfen"],
+      "alerts": ["Kundler Klamm und Bummelzug zeitlich abstimmen"],
       "dinner": { "name": "MM Marius Auffach", "placeId": "marius", "reserved": false },
       "reservations": [],
       "notes": ""
@@ -80,6 +101,9 @@
       "label": "Do 28.05.",
       "title": "Achensee oder Rattenberg",
       "highlights": ["Achensee-Schifffahrt + Pertisau", "Alternative: Rattenberg + Glasbläserei"],
+      "placeIds": ["achensee", "rattenberg", "thalmuehle"],
+      "tasks": ["Morgens Wetterentscheidung treffen", "Schifffahrtszeiten prüfen"],
+      "alerts": ["Schlechtwetter-Alternative: Rattenberg"],
       "dinner": { "name": "Thalmühle s'Wirtshaus Mühltal", "placeId": "thalmuehle", "reserved": false },
       "reservations": [],
       "notes": ""
@@ -90,6 +114,9 @@
       "label": "Fr 29.05.",
       "title": "Bummelzug-Tag",
       "highlights": ["Kundler Klamm + Bummelzug", "Bachpromenade Auffach"],
+      "placeIds": ["kundlerKlamm", "auffach", "talhof"],
+      "tasks": ["Bummelzug-Zeiten prüfen", "Leichten Regenschutz einpacken"],
+      "alerts": ["Klamm bei starkem Regen meiden"],
       "dinner": { "name": "Apparthotel Talhof Auffach", "placeId": "talhof", "reserved": false },
       "reservations": [],
       "notes": ""
@@ -100,6 +127,9 @@
       "label": "Sa 30.05.",
       "title": "Großer Beil oder Ruhetag",
       "highlights": ["Großer Beil (2.309 m) – nur bei gutem Wetter/Schneelage", "Alternativ Auffacher Rundweg"],
+      "placeIds": ["auffach", "auffacherhof"],
+      "tasks": ["Schneelage am Großen Beil prüfen", "Ruhetag-Alternative festlegen"],
+      "alerts": ["Großer Beil nur bei gutem Wetter und passender Schneelage"],
       "dinner": { "name": "Hotel Auffacherhof", "placeId": "auffacherhof", "reserved": false },
       "reservations": [],
       "notes": "Schneelage am Berg vorher prüfen."
@@ -110,6 +140,9 @@
       "label": "So 31.05.",
       "title": "Achensee-Schifffahrt",
       "highlights": ["Achensee", "Pertisau"],
+      "placeIds": ["achensee", "marius"],
+      "tasks": ["Schifffahrtszeiten prüfen", "Windjacke einpacken"],
+      "alerts": ["Bei schlechtem Wetter Alternative aus Plan wählen"],
       "dinner": { "name": "MM Marius Auffach", "placeId": "marius", "reserved": false },
       "reservations": [],
       "notes": ""
@@ -120,6 +153,9 @@
       "label": "Mo 01.06.",
       "title": "Innsbruck",
       "highlights": ["Altstadt", "Goldenes Dachl", "Bergisel"],
+      "placeIds": ["innsbruck", "kellerwirt"],
+      "tasks": ["Parken oder Zugverbindung prüfen", "Stadtprogramm priorisieren"],
+      "alerts": ["Längerer Ausflugstag"],
       "dinner": { "name": "Kellerwirt Oberau", "placeId": "kellerwirt", "reserved": false },
       "reservations": [],
       "notes": ""
@@ -130,6 +166,9 @@
       "label": "Di 02.06.",
       "title": "Almenwanderung",
       "highlights": ["Holzalm-Runde oder Schönangeralm-Detail"],
+      "placeIds": ["holzalm", "schoenangeralm", "sollererwirt"],
+      "tasks": ["Wanderoption nach Wetter wählen", "Bargeld für Alm einpacken"],
+      "alerts": ["Almen vorher auf Öffnung prüfen"],
       "dinner": { "name": "Sollererwirt Thierbach", "placeId": "sollererwirt", "reserved": false },
       "reservations": [],
       "notes": ""
@@ -140,6 +179,9 @@
       "label": "Mi 03.06.",
       "title": "Wilder Kaiser / SkiWelt",
       "highlights": ["Söll-Hochsöll oder Going", "Hexenwasser"],
+      "placeIds": ["bergkristall"],
+      "tasks": ["SkiWelt-/Hexenwasser-Öffnung prüfen", "Fahrzeit einplanen"],
+      "alerts": ["Ausflug außerhalb des Tals"],
       "dinner": { "name": "Hotel Bergkristall Mühltal", "placeId": "bergkristall", "reserved": false },
       "reservations": [],
       "notes": ""
@@ -150,6 +192,9 @@
       "label": "Do 04.06.",
       "title": "Fronleichnam · Schatzbergbahn-Eröffnung",
       "highlights": ["Schatzbergbahn (Saisonstart!)", "Joelspitze-Aussicht", "Berghaus Koglmoos"],
+      "placeIds": ["schatzbergbahn", "weissbacher"],
+      "tasks": ["Saisonstart/Öffnung prüfen", "Reservierung Weißbacher bestätigen"],
+      "alerts": ["Feiertag und Saisonstart: früh los"],
       "dinner": { "name": "Traditionsgasthof Weißbacher", "placeId": "weissbacher", "reserved": true },
       "reservations": ["Weißbacher: Feiertag – reservieren"],
       "notes": "Feiertag – frühzeitig reservieren."
@@ -160,6 +205,9 @@
       "label": "Fr 05.06.",
       "title": "Rattenberg + Glasbläserei",
       "highlights": ["Rattenberg-Altstadt", "Glasbläserei", "Konditorei Hacker"],
+      "placeIds": ["rattenberg", "thalmuehle"],
+      "tasks": ["Öffnungszeiten Glasbläserei prüfen", "Souvenirs einplanen"],
+      "alerts": ["Guter Schlechtwetter-Ausflug"],
       "dinner": { "name": "Thalmühle s'Wirtshaus Mühltal", "placeId": "thalmuehle", "reserved": false },
       "reservations": [],
       "notes": ""
@@ -170,6 +218,9 @@
       "label": "Sa 06.06.",
       "title": "Abreise",
       "highlights": ["Letzter Spaziergang", "Souvenirs Hofläden", "Krautinger"],
+      "placeIds": ["auffach", "steinerhof"],
+      "tasks": ["Packen", "Unterkunft prüfen", "Souvenirs/Krautinger mitnehmen"],
+      "alerts": ["Heimreisepuffer einplanen"],
       "dinner": null,
       "reservations": [],
       "notes": "Packen und Heimreise."

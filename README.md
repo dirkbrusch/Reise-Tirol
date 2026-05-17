@@ -85,7 +85,7 @@ npm run build
 npm run preview
 ```
 
-`npm run build` kopiert `index.dev.html` → `index.html`, baut nach `dist/`.
+`npm run build` kopiert temporär `index.dev.html` → `index.html`, baut nach `dist/` und stellt die Production-`index.html` danach wieder her.
 
 ---
 
@@ -108,6 +108,8 @@ Pages: **Legacy**, Branch `main`, Ordner `/`. Nach Deploy: **Strg+Shift+R**.
 | `VITE_SUPABASE_ANON_KEY` | Anon Key |
 | `VITE_DEFAULT_TRIP_CODE` | z. B. `WILD2026` |
 
+Die Supabase-Werte werden im Workflow aus GitHub Secrets gelesen. Keine Projekt-URL oder Keys direkt in `.github/workflows/deploy.yml` eintragen.
+
 ---
 
 ## Inhalt pflegen
@@ -115,10 +117,19 @@ Pages: **Legacy**, Branch `main`, Ordner `/`. Nach Deploy: **Strg+Shift+R**.
 | Datei | Inhalt |
 |-------|--------|
 | `content/reiseplan.md` | Gesamtplan (Markdown) |
-| `content/days.json` | 17 Reisetage |
-| `content/places.json` | Karten-POIs |
+| `content/days.json` | 17 Reisetage, Tagesaufgaben, Hinweise, verknüpfte Orte |
+| `content/places.json` | Karten-POIs, Kategorien, Öffnungszeiten, Karten-/Planlinks |
 
 Tagesmarker: `<!-- day:YYYY-MM-DD -->` (Abschnitt M). Deep-Link: `?day=YYYY-MM-DD`
+
+### Strukturierte Tagesdaten
+
+`days.json` unterstützt neben `highlights`, `dinner`, `reservations` und `notes` auch:
+
+- `placeIds` – Orte aus `places.json`, die für den Tag auf Dashboard und Karte erscheinen
+- `tasks` – Tagesaufgaben für die Checkliste
+- `alerts` – wichtige Hinweise wie Bargeld, Reservierung oder Wetterrisiko
+- `timeline` – optionaler Ablauf mit `time`, `title`, `placeId`, `note`
 
 ---
 
@@ -156,6 +167,8 @@ Vor Build: `node scripts/use-dev-index.mjs` (in `npm run build` enthalten).
 **Stabil:** Breite, Lesbarkeit, Plan-Sidebar, Deploy-Workflow.
 
 **Offen:** Supabase/KI-Konfiguration, vollständiges QA, PWA-Offline.
+
+**Security-Hinweis:** Der Familien-Sync ist für ein privates Familienprojekt gedacht. Schreibende Supabase-RLS-Policies dürfen nicht öffentlich mit `using (true)` betrieben werden, wenn die App breiter geteilt wird; dann braucht der Sync einen echten Trip-/Member-Zugriffsschutz oder einen kleinen API-Proxy.
 
 ---
 

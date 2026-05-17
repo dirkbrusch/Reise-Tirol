@@ -38,8 +38,8 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          VITE_SUPABASE_URL: https://pbfxihksonxvfidpkjoy.supabase.co
-          VITE_SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBiZnhpaGtzb254dmZpZHBram95Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg4MzE1NjUsImV4cCI6MjA5NDQwNzU2NX0.7tpVcdAomoBBph9_lLmt5rOEU1XOy6a0gOoESmMzuKM
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
           VITE_DEFAULT_TRIP_CODE: WILD2026
 
       - name: Copy content for fetch paths

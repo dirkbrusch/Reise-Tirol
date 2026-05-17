@@ -1,34 +1,50 @@
 import { useEffect, useState } from 'react';
 import { useApp } from '@/context/AppContext';
+import { loadChecklistState, saveChecklistState } from '@/lib/storage';
 
 interface TaskRow {
   id: string;
   section: string;
   text: string;
   checked: boolean;
+  source: 'plan' | 'day';
 }
 
 export function ChecklistView() {
-  const { contentRef, refreshChecklistBadge } = useApp();
+  const { contentRef, selectedDay, refreshChecklistBadge } = useApp();
   const [tasks, setTasks] = useState<TaskRow[]>([]);
   const [filter, setFilter] = useState<'all' | 'open' | 'done'>('all');
 
   useEffect(() => {
     const root = contentRef.current;
-    if (!root) return;
+    const state = loadChecklistState();
     const rows: TaskRow[] = [];
-    root.querySelectorAll('li.task-item input[type="checkbox"]').forEach((cb) => {
+    const day = selectedDay;
+    if (day) {
+      (day.tasks ?? []).forEach((text, idx) => {
+        const id = `day-${day.date}-${idx}`;
+        rows.push({
+          id,
+          section: day.label,
+          text,
+          checked: !!state[id],
+          source: 'day'
+        });
+      });
+    }
+    root?.querySelectorAll('li.task-item input[type="checkbox"]').forEach((cb) => {
       const el = cb as HTMLInputElement;
       if (!el.dataset.taskId) return;
       rows.push({
         id: el.dataset.taskId,
         section: el.dataset.taskSection || 'Allgemein',
         text: el.dataset.taskText || '',
-        checked: el.checked
+        checked: el.checked,
+        source: 'plan'
       });
     });
     setTasks(rows);
-  }, [contentRef, refreshChecklistBadge]);
+  }, [contentRef, selectedDay, refreshChecklistBadge]);
 
   const shown = tasks.filter((t) => {
     if (filter === 'open') return !t.checked;
@@ -39,6 +55,15 @@ export function ChecklistView() {
   const done = tasks.filter((t) => t.checked).length;
 
   function toggleTask(task: TaskRow) {
+    if (task.source === 'day') {
+      const state = loadChecklistState();
+      if (task.checked) delete state[task.id];
+      else state[task.id] = { t: task.text, s: task.section, d: Date.now() };
+      saveChecklistState(state);
+      setTasks((prev) => prev.map((t) => (t.id === task.id ? { ...t, checked: !task.checked } : t)));
+      refreshChecklistBadge();
+      return;
+    }
     const root = contentRef.current;
     if (!root) return;
     const cb = root.querySelector(`input[data-task-id="${task.id}"]`) as HTMLInputElement | null;

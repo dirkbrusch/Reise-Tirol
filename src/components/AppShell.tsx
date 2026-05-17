@@ -1,10 +1,11 @@
-import { useState, type ReactNode } from 'react';
+import { lazy, Suspense, useState, type ReactNode } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useApp } from '@/context/AppContext';
 import { BottomNav } from './BottomNav';
 import { FamilyOverlay } from './FamilyOverlay';
-import { AiPanel } from './AiPanel';
 import { PlanContentHost } from './PlanContentHost';
+
+const AiPanel = lazy(() => import('./AiPanel').then((m) => ({ default: m.AiPanel })));
 
 export function AppShell({ children }: { children: ReactNode }) {
   const { loading, error, toast, theme, toggleTheme, checklistCount } = useApp();
@@ -55,7 +56,11 @@ export function AppShell({ children }: { children: ReactNode }) {
       {toast && <div className="toast" role="status">{toast}</div>}
 
       <FamilyOverlay open={familyOpen} onClose={() => setFamilyOpen(false)} />
-      <AiPanel open={aiOpen} onClose={() => setAiOpen(false)} />
+      {aiOpen && (
+        <Suspense fallback={null}>
+          <AiPanel open={aiOpen} onClose={() => setAiOpen(false)} />
+        </Suspense>
+      )}
     </div>
   );
 }

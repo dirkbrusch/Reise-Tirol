@@ -28,6 +28,7 @@ import {
 import { cycleDayDate, pickDay, resolveSelectedDay } from '@/lib/dayUtils';
 import { mergeRemoteChecks, mergeRemoteFeedback } from '@/lib/sync';
 import * as db from '@/lib/supabase';
+import { sanitizeHtml } from '@/lib/sanitize';
 marked.setOptions({ gfm: true, breaks: false });
 
 export interface NavLink {
@@ -265,7 +266,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       try {
         const [md, days, places] = await Promise.all([fetchMarkdown(), fetchDays(), fetchPlaces()]);
         if (cancelled) return;
-        const html = await marked.parse(md);
+        const html = sanitizeHtml(await marked.parse(md));
         setPlanHtml(html);
         setDaysData(days);
         setPlacesData(places);
