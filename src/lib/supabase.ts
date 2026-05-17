@@ -1,5 +1,5 @@
 import { createClient, type SupabaseClient } from '@supabase/supabase-js';
-import type { TripSession, Vote } from './types';
+import type { ContentKey, TripSession, Vote } from './types';
 
 const TRIP_KEY = 'rt:trip:v1';
 const PENDING_KEY = 'rt:sync:pending:v1';
@@ -121,6 +121,55 @@ export async function fetchNotes(scope?: string) {
   const { data, error } = await q;
   if (error) throw error;
   return data || [];
+}
+
+export async function fetchContentOverride(key: ContentKey) {
+  const c = getClient();
+  if (!c) return null;
+  const code = trip?.code || import.meta.env.VITE_DEFAULT_TRIP_CODE || 'WILD2026';
+  const row = await resolveTripCode(code);
+  const { data, error } = await c
+    .from('trip_content')
+    .select('key, content, content_type, version, updated_at, updated_by')
+    .eq('trip_id', row.id)
+    .eq('key', key)
+    .maybeSingle();
+  if (error) throw error;
+  return data as null | {
+    key: ContentKey;
+    content: string;
+    content_type: 'markdown' | 'json';
+    version?: number;
+    updated_at?: string;
+    updated_by?: string;
+  };
+}
+
+export async function saveContentOverride(key: ContentKey, content: string, contentType: 'markdown' | 'json') {
+  const c = getClient();
+  if (!c) throw new Error('Supabase nicht konfiguriert');
+  const code = trip?.code || import.meta.env.VITE_DEFAULT_TRIP_CODE || 'WILD2026';
+  const row = await resolveTripCode(code);
+  const { data: current } = await c
+    .from('trip_content')
+    .select('version')
+    .eq('trip_id', row.id)
+    .eq('key', key)
+    .maybeSingle();
+  const version = ((current as { version?: number } | null)?.version || 0) + 1;
+  const { error } = await c.from('trip_content').upsert(
+    {
+      trip_id: row.id,
+      key,
+      content,
+      content_type: contentType,
+      version,
+      updated_by: getMemberName(),
+      updated_at: new Date().toISOString()
+    },
+    { onConflict: 'trip_id,key' }
+  );
+  if (error) throw error;
 }
 
 async function upsertCheck(taskId: string, fields: { checked: boolean; section?: string; text?: string }) {

@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
 import * as db from '@/lib/supabase';
+import { useApp } from '@/context/AppContext';
 
 const DEFAULT_CODE = import.meta.env.VITE_DEFAULT_TRIP_CODE || 'WILD2026';
 
 export function FamilyOverlay({ open, onClose }: { open: boolean; onClose: () => void }) {
+  const { contentMeta } = useApp();
   const [code, setCode] = useState(DEFAULT_CODE);
   const [name, setName] = useState('');
   const [status, setStatus] = useState('');
@@ -54,6 +56,18 @@ export function FamilyOverlay({ open, onClose }: { open: boolean; onClose: () =>
           </button>
         </header>
         <p className="overlay-hint">Checklisten und Bewertungen mit der Familie teilen (Supabase).</p>
+        {contentMeta.length > 0 && (
+          <div className="content-source-list">
+            <h3>Reiseinhalte</h3>
+            {contentMeta.map((m) => (
+              <p key={m.key}>
+                <strong>{m.key}</strong>: {m.source === 'live' ? 'Live' : m.source === 'cache' ? 'Cache' : 'Datei'}
+                {m.updatedAt ? ' · ' + new Date(m.updatedAt).toLocaleString('de-DE') : ''}
+                {m.version ? ' · v' + m.version : ''}
+              </p>
+            ))}
+          </div>
+        )}
         {connected ? (
           <div>
             <p>

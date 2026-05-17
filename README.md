@@ -59,7 +59,8 @@ Reise-Tirol/
 │   └── styles/         (app.css, shell.css, vite-fixes.css)
 ├── index.dev.html      (Dev: /src/main.tsx)
 ├── index.html          (Production: /assets/index-*.js)
-├── scripts/use-dev-index.mjs
+├── scripts/build.mjs      (temporärer Dev-Index für Vite-Build)
+├── scripts/use-dev-index.mjs (lokaler Dev-Start)
 ├── .github/workflows/deploy.yml
 └── assets/             (gebaute Bundles im Root für Pages)
 ```
@@ -85,7 +86,7 @@ npm run build
 npm run preview
 ```
 
-`npm run build` kopiert temporär `index.dev.html` → `index.html`, baut nach `dist/` und stellt die Production-`index.html` danach wieder her.
+`npm run build` nutzt `scripts/build.mjs`: Es kopiert temporär `index.dev.html` → `index.html`, baut nach `dist/` und stellt die Production-`index.html` danach wieder her.
 
 ---
 
@@ -122,6 +123,16 @@ Die Supabase-Werte werden im Workflow aus GitHub Secrets gelesen. Keine Projekt-
 
 Tagesmarker: `<!-- day:YYYY-MM-DD -->` (Abschnitt M). Deep-Link: `?day=YYYY-MM-DD`
 
+### Hybrid-Content
+
+Die Repo-Dateien bleiben die robuste Offline-Basis. Optional kann Supabase Live-Overrides aus `trip_content` liefern:
+
+- `reiseplan.md` als Markdown
+- `days.json` und `places.json` als JSON
+- Bei Supabase-Fehlern oder ungültigem JSON fällt die App auf Cache oder Repo-Dateien zurück
+
+Schema: `supabase/content-schema.sql`
+
 ### Strukturierte Tagesdaten
 
 `days.json` unterstützt neben `highlights`, `dinner`, `reservations` und `notes` auch:
@@ -148,7 +159,7 @@ Routen: `/#/plan`. Links `href="#abschnitt"` zerstoeren die Route.
 | `index.dev.html` | Dev: `/src/main.tsx` |
 | `index.html` | Production: `/assets/index-*.js` |
 
-Vor Build: `node scripts/use-dev-index.mjs` (in `npm run build` enthalten).
+Der Production-Build läuft über `scripts/build.mjs`. `scripts/use-dev-index.mjs` ist nur für den lokalen Dev-Start gedacht.
 
 ### CSS
 
@@ -178,7 +189,7 @@ Vor Build: `node scripts/use-dev-index.mjs` (in `npm run build` enthalten).
 |---------|---------|
 | Alte Version | Hard-Reload, SW leeren |
 | Sidebar springt weg | Cache leeren |
-| Build fast leer | `use-dev-index.mjs` vor Build |
+| Build fast leer | `npm run build` nutzt `scripts/build.mjs`; bei manuellem Vite-Build vorher `index.dev.html` als Einstieg nutzen |
 | Weiss auf Weiss | `vite-fixes.css` UTF-8 prüfen |
 | fetch leer lokal | `npm run dev` nutzen |
 

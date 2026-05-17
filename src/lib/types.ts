@@ -1,4 +1,13 @@
 export type Vote = 'up' | 'down';
+export type ContentSource = 'file' | 'live' | 'cache';
+export type ContentKey = 'reiseplan.md' | 'days.json' | 'places.json';
+
+export interface ContentMeta {
+  key: ContentKey;
+  source: ContentSource;
+  version?: number;
+  updatedAt?: string;
+}
 
 export interface TripDay {
   date: string;

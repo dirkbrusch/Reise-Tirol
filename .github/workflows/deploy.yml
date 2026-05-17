@@ -32,9 +32,6 @@ jobs:
           node-version: '20'
           cache: npm
 
-      - name: Dev index for Vite entry
-        run: cp index.dev.html index.html
-
       - run: npm ci
       - run: npm run build
         env:

@@ -9,8 +9,8 @@ import {
   type ReactNode
 } from 'react';
 import { marked } from 'marked';
-import type { DaysData, PlacesData, TripDay, Vote } from '@/lib/types';
-import { fetchMarkdown, fetchDays, fetchPlaces } from '@/lib/content';
+import type { ContentMeta, DaysData, PlacesData, TripDay, Vote } from '@/lib/types';
+import { fetchTripContent } from '@/lib/content';
 import { loadWeather, type WxDay } from '@/lib/weather';
 import { enhanceContent, collectDayAnchors } from '@/lib/planEnhance';
 import { slugify, cleanHeadingText, getSectionLetter } from '@/lib/utils';
@@ -56,6 +56,7 @@ interface AppState {
   weatherLoading: boolean;
   theme: 'light' | 'dark';
   planHtml: string;
+  contentMeta: ContentMeta[];
   navGroups: NavGroup[];
   dayAnchors: Record<string, string>;
   sectionToId: Record<string, string>;
@@ -105,14 +106,21 @@ function persistCheckFromDom(content: HTMLElement) {
   saveChecklistState(state);
 }
 
-function countChecks(content: HTMLElement | null) {
-  if (!content) return { done: 0, total: 0 };
+function countChecks(content: HTMLElement | null, selectedDay: TripDay | null) {
+  const state = loadChecklistState();
+  const dayTasks = selectedDay?.tasks ?? [];
+  const dayTotal = dayTasks.length;
+  let dayDone = 0;
+  dayTasks.forEach((_, idx) => {
+    if (selectedDay && state[`day-${selectedDay.date}-${idx}`]) dayDone++;
+  });
+  if (!content) return { done: dayDone, total: dayTotal };
   const boxes = content.querySelectorAll('li.task-item input[type="checkbox"]');
   let done = 0;
   boxes.forEach((cb) => {
     if ((cb as HTMLInputElement).checked) done++;
   });
-  return { done, total: boxes.length };
+  return { done: done + dayDone, total: boxes.length + dayTotal };
 }
 
 export function AppProvider({ children }: { children: ReactNode }) {
@@ -126,6 +134,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [weatherLoading, setWeatherLoading] = useState(true);
   const [theme, setThemeState] = useState<'light' | 'dark'>(getTheme);
   const [planHtml, setPlanHtml] = useState('');
+  const [contentMeta, setContentMeta] = useState<ContentMeta[]>([]);
   const [navGroups, setNavGroups] = useState<NavGroup[]>([]);
   const [dayAnchors, setDayAnchors] = useState<Record<string, string>>({});
   const [sectionToId, setSectionToId] = useState<Record<string, string>>({});
@@ -140,9 +149,14 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setTimeout(() => setToast(null), 2800);
   }, []);
 
+  const selectedDay = useMemo(
+    () => daysData?.days.find((d) => d.date === selectedDate) ?? null,
+    [daysData, selectedDate]
+  );
+
   const refreshChecklistBadge = useCallback(() => {
-    setChecklistCount(countChecks(contentRef.current));
-  }, []);
+    setChecklistCount(countChecks(contentRef.current, selectedDay));
+  }, [selectedDay]);
 
   const onChecklistChange = useCallback(() => {
     const root = contentRef.current;
@@ -264,13 +278,14 @@ export function AppProvider({ children }: { children: ReactNode }) {
     let cancelled = false;
     (async () => {
       try {
-        const [md, days, places] = await Promise.all([fetchMarkdown(), fetchDays(), fetchPlaces()]);
+        const content = await fetchTripContent();
         if (cancelled) return;
-        const html = sanitizeHtml(await marked.parse(md));
+        const html = sanitizeHtml(await marked.parse(content.markdown.value));
         setPlanHtml(html);
-        setDaysData(days);
-        setPlacesData(places);
-        const date = resolveSelectedDay(days, window.location.search, window.location.hash);
+        setDaysData(content.days.value);
+        setPlacesData(content.places.value);
+        setContentMeta([content.markdown.meta, content.days.meta, content.places.meta]);
+        const date = resolveSelectedDay(content.days.value, window.location.search, window.location.hash);
         setSelectedDateState(date);
         setLoading(false);
       } catch (e) {
@@ -314,7 +329,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
     root.querySelectorAll('.day-block').forEach((el) => el.classList.remove('day-current'));
     const id = dayAnchors[selectedDate];
     if (id) document.getElementById(id)?.classList.add('day-current');
-  }, [dayFilter, selectedDate, dayAnchors, planHtml]);
+    refreshChecklistBadge();
+  }, [dayFilter, selectedDate, dayAnchors, planHtml, refreshChecklistBadge]);
 
   const setSelectedDate = useCallback(
     (date: string) => {
@@ -354,11 +370,6 @@ export function AppProvider({ children }: { children: ReactNode }) {
     [daysData, selectedDate, setSelectedDate]
   );
 
-  const selectedDay = useMemo(
-    () => daysData?.days.find((d) => d.date === selectedDate) ?? null,
-    [daysData, selectedDate]
-  );
-
   const value = useMemo<AppState>(
     () => ({
       loading,
@@ -372,6 +383,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       weatherLoading,
       theme,
       planHtml,
+      contentMeta,
       navGroups,
       dayAnchors,
       sectionToId,
@@ -408,6 +420,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       weatherLoading,
       theme,
       planHtml,
+      contentMeta,
       navGroups,
       dayAnchors,
       sectionToId,
