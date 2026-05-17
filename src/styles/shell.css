@@ -147,6 +147,9 @@
 
 /* Heute-View */
 .today-view .wx-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.55rem;
   margin-bottom: 1rem;
 }
 
@@ -160,7 +163,7 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 0.55rem 0.75rem;
-  min-width: 5.5rem;
+  min-width: 0;
   color: var(--text);
   box-shadow: var(--shadow-sm);
 }
@@ -422,6 +425,12 @@
 .today-line-note {
   grid-column: 2;
   font-size: 0.82rem;
+}
+
+.today-place-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
 }
 
 .today-line-note,
@@ -852,9 +861,10 @@
   margin-bottom: 0.75rem;
 }
 
-.map-view .map-canvas {
-  height: 55vh;
-  min-height: 280px;
+.map-view .map-canvas,
+#mapCanvas.map-canvas {
+  height: min(68vh, 720px);
+  min-height: 420px;
   border-radius: var(--radius);
   border: 1px solid var(--border);
   z-index: 1;
@@ -863,11 +873,16 @@
 .map-split {
   display: grid;
   gap: 1rem;
+  align-items: start;
+}
+
+.map-canvas-wrap {
+  min-width: 0;
 }
 
 @media (min-width: 768px) {
   .map-split {
-    grid-template-columns: 1fr 280px;
+    grid-template-columns: minmax(0, 1fr) 300px;
   }
 }
 
@@ -885,6 +900,12 @@
   border-radius: var(--radius);
   padding: 1rem;
   position: relative;
+}
+
+.map-filter-btn,
+.checklist-filters button,
+.btn.small {
+  min-height: 2rem;
 }
 
 .checklist-view .checklist-list {
@@ -941,4 +962,157 @@
   border-radius: var(--radius-sm);
   white-space: pre-wrap;
   font-size: 0.9rem;
+}
+
+@media (min-width: 900px) {
+  .today-view .wx-strip {
+    grid-template-columns: repeat(3, minmax(0, 180px));
+  }
+}
+
+@media (max-width: 640px) {
+  .app-header-inner {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .app-title {
+    font-size: 1.05rem;
+    letter-spacing: 0;
+  }
+
+  .app-header-actions {
+    gap: 0.25rem;
+  }
+
+  .app-header .icon-btn {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.95rem;
+  }
+
+  .app-main {
+    padding: 0.65rem 0.75rem calc(4.15rem + env(safe-area-inset-bottom));
+  }
+
+  .bottom-nav {
+    padding-top: 0.1rem;
+  }
+
+  .bottom-nav-item {
+    min-height: 2.75rem;
+    padding: 0.25rem 0.15rem;
+    font-size: 0.62rem;
+  }
+
+  .bottom-nav-icon {
+    font-size: 1.05rem;
+  }
+
+  .bottom-nav-badge {
+    top: 0.05rem;
+  }
+
+  .today-view .wx-strip {
+    gap: 0.4rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .today-view .wx-day {
+    padding: 0.42rem 0.35rem;
+    border-radius: var(--radius-sm);
+  }
+
+  .today-view .wx-label,
+  .today-view .wx-day-label {
+    font-size: 0.58rem;
+    letter-spacing: 0.03em;
+  }
+
+  .today-view .wx-icon,
+  .today-view .wx-day-icon {
+    font-size: 1.05rem;
+  }
+
+  .today-view .wx-temp,
+  .today-view .wx-day-temp {
+    font-size: 0.88rem;
+  }
+
+  .today-view .wx-rain,
+  .today-view .wx-day-rain {
+    font-size: 0.62rem;
+  }
+
+  .day-picker-wrap {
+    margin-bottom: 0.65rem;
+  }
+
+  .day-picker-wrap select {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.86rem;
+  }
+
+  .today-view .today-card {
+    padding: 0.85rem;
+    border-radius: var(--radius);
+  }
+
+  .today-view .today-card-title {
+    font-size: 1.18rem;
+    margin-bottom: 0.45rem;
+  }
+
+  .today-dashboard-grid {
+    gap: 0.55rem;
+    margin: 0.65rem 0;
+  }
+
+  .today-panel {
+    padding: 0.7rem;
+  }
+
+  .today-timeline li {
+    grid-template-columns: 4.25rem minmax(0, 1fr);
+    gap: 0.15rem 0.5rem;
+  }
+
+  .today-view .today-card-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.45rem;
+  }
+
+  .today-view .today-card-btn {
+    min-width: 0;
+    padding: 0.52rem 0.45rem;
+    font-size: 0.8rem;
+  }
+
+  .today-place-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-section h3 {
+    font-size: 0.98rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .map-controls,
+  .map-filters {
+    gap: 0.4rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .map-view .map-canvas,
+  #mapCanvas.map-canvas {
+    height: 58vh;
+    min-height: 360px;
+  }
+
+  #content a[href] {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+  }
 }

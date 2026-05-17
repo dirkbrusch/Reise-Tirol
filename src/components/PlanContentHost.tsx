@@ -25,7 +25,7 @@ export function PlanContentHost() {
       ref={hiddenRef}
       className="plan-content-hidden"
       aria-hidden={onPlan ? undefined : true}
-      hidden={onPlan}
+      hidden={!onPlan}
     >
       <article
         id="content"

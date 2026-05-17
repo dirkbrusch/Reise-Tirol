@@ -4,6 +4,10 @@ import { WeatherWidget } from '@/components/WeatherWidget';
 import { CATEGORY_META } from '@/lib/constants';
 import type { TripDay } from '@/lib/types';
 
+function normalizeInfo(value: string) {
+  return value.trim().toLowerCase().replace(/[.!?\s]+$/g, '');
+}
+
 export function TodayView() {
   const { daysData, placesData, selectedDay, selectedDate, setSelectedDate, cycleDay, jumpToPlanDay } = useApp();
   if (!daysData || !selectedDay) return null;
@@ -14,11 +18,15 @@ export function TodayView() {
   const places = placesData?.places ?? [];
   const dayPlaceIds = new Set([...(selectedDay.placeIds ?? []), selectedDay.dinner?.placeId].filter(Boolean) as string[]);
   const dayPlaces = places.filter((p) => dayPlaceIds.has(p.id) || p.dayRefs?.includes(selectedDay.date));
+  const note = selectedDay.notes?.trim() || '';
   const alerts = [
     ...(selectedDay.alerts ?? []),
     ...(selectedDay.reservations ?? []),
-    selectedDay.notes || ''
-  ].filter(Boolean);
+    note
+  ]
+    .filter(Boolean)
+    .filter((value, index, values) => values.findIndex((other) => normalizeInfo(other) === normalizeInfo(value)) === index);
+  const showNote = note && !alerts.some((value) => normalizeInfo(value) === normalizeInfo(note));
   const timeline: NonNullable<TripDay['timeline']> =
     selectedDay.timeline?.length
       ? selectedDay.timeline
@@ -84,7 +92,7 @@ export function TodayView() {
             <span key={r} className="pill">{'\ud83d\udcc5'} {r}</span>
           ))}
         </div>
-        {selectedDay.notes && <p className="today-notes">{selectedDay.notes}</p>}
+        {showNote && <p className="today-notes">{note}</p>}
         <div className="today-card-actions">
           <button type="button" className="today-card-btn" onClick={() => jumpToPlanDay(selectedDay.date)}>
             Zum Tag im Plan

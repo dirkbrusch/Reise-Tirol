@@ -11,9 +11,35 @@ function FitBounds({ places }: { places: Place[] }) {
   const map = useMap();
   useEffect(() => {
     if (!places.length) return;
-    const bounds = L.latLngBounds(places.map((p) => [p.lat, p.lon] as [number, number]));
-    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 12 });
+    const id = window.setTimeout(() => {
+      const container = map.getContainer();
+      if (!container.isConnected) return;
+      try {
+        map.invalidateSize();
+        const bounds = L.latLngBounds(places.map((p) => [p.lat, p.lon] as [number, number]));
+        map.fitBounds(bounds, { padding: [40, 40], maxZoom: 12 });
+      } catch {
+        // Leaflet can race layout during route transitions on mobile.
+      }
+    }, 0);
+    return () => window.clearTimeout(id);
   }, [map, places]);
+  return null;
+}
+
+function MapInvalidator() {
+  const map = useMap();
+  useEffect(() => {
+    const invalidate = () => {
+      if (map.getContainer().isConnected) map.invalidateSize();
+    };
+    const id = window.setTimeout(invalidate, 120);
+    window.addEventListener('resize', invalidate);
+    return () => {
+      window.clearTimeout(id);
+      window.removeEventListener('resize', invalidate);
+    };
+  }, [map]);
   return null;
 }
 
@@ -39,7 +65,16 @@ export function MapView() {
 
   const places = placesData?.places ?? [];
   const activeDay = requestedDay || selectedDate;
-  const activeDayPlaceIds = new Set([...(selectedDay?.date === activeDay ? selectedDay.placeIds ?? [] : []), selectedDay?.date === activeDay ? selectedDay.dinner?.placeId : undefined].filter(Boolean) as string[]);
+  const activeDayPlaceIds = useMemo(
+    () =>
+      new Set(
+        [
+          ...(selectedDay?.date === activeDay ? selectedDay.placeIds ?? [] : []),
+          selectedDay?.date === activeDay ? selectedDay.dinner?.placeId : undefined
+        ].filter(Boolean) as string[]
+      ),
+    [activeDay, selectedDay]
+  );
 
   const categories = useMemo(() => {
     const cats = new Set<string>(['all', 'today', 'cash']);
@@ -128,6 +163,7 @@ export function MapView() {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
               url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
+            <MapInvalidator />
             <FitBounds places={nearby} />
             {nearby.map((p) => {
               const meta = CATEGORY_META[p.category] || { icon: '📌' };
