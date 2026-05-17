@@ -1061,16 +1061,16 @@ Tagesausflug Kufstein. Festung mit Ritter-Fest 22.–25.05. Heldenorgel-Konzert 
 Markbachjochbahn nach oben. Wanderung Markbachjoch–Horlerstiegl–Halsgatterl–Holzalm Käsealm (8,2 km, 271 hm). Mittagseinkehr Holzalm mit Käse. Abends Sollererwirt Thierbach (reserviert, ab 4 Personen vorbestellen).
 
 <!-- day:2026-05-26 -->
-**Di 26.05. – Kragenjoch-Runde mit Achentalalm**
-Kragenjoch-Rundwanderung (7,8 km, 500 hm) – „perfekter Einstieg". Schmalznudeln auf der Achentalalm (Mi-Spezialität – Mittwoch tauschen). Abends Riedlhof (reserviert).
+**Di 26.05. – Homeoffice + kurzer Abend in Auffach**
+Homeoffice-Tag: mittags nichts planen. Kragenjoch/Achentalalm auf einen freien Vormittag oder Wochenendtag schieben. Nach Feierabend nur eine kurze Runde ab Auffach/Bachpromenade; abends selbst kochen.
 
 <!-- day:2026-05-27 -->
-**Mi 27.05. – Krautinger + Klamm**
-Vormittags Krautinger-Hofführung Steinerhof Oberau. Mittagessen Pizzeria Italia 90 (Mi prüfen, ggf. Tausch mit Di). Nachmittags Kundler Klamm + Bummelzug ab Mühltal. Abends MM Marius Auffach.
+**Mi 27.05. – Homeoffice + Krautinger/kurze Klamm-Option**
+Homeoffice-Tag: mittags nichts planen. Krautinger-Hofführung Steinerhof nur, wenn ein spätes Zeitfenster passt; Kundler Klamm eher als kurze Abendoption statt Tagesprogramm. Abends MM Marius Auffach oder flexibel selbst kochen.
 
 <!-- day:2026-05-28 -->
-**Do 28.05. – Achensee oder Rattenberg**
-Tagesausflug Achensee (Schifffahrt + Pertisau + Atoll Buchau) ODER Rattenberg + Glasbläserei + Augustinermuseum + Konditorei Hacker. Abends Thalmühle s'Wirtshaus Mühltal.
+**Do 28.05. – Homeoffice + Rattenberg/Auffach light**
+Homeoffice-Tag: mittags nichts planen. Achensee als Tagesausflug auf einen freien Tag schieben. Wenn nach der Arbeit noch Energie da ist: kurze Rattenberg-Runde oder einfach Auffach. Abends selbst kochen.
 
 ## 🗓️ Beispielplan 5 Tage (verlängertes Wochenende)
 
@@ -1092,10 +1092,11 @@ Vormittags Kundler Klamm (Bummelzug). Mittagessen Thalmühle Mühltal. Krautinge
 ## 🗓️ Woche 2 (29.05.–06.06.2026)
 
 > Ergänzungen zum 7-Tage-Plan oben. Die Anker hier verknüpfen jedes Datum mit dem Tageswähler. Inhalte vor Ort flexibel anpassen.
+> **Homeoffice-Block:** 26.–29.05. und 01.–03.06. sind Arbeitstage. Mittags keine Ausflüge, Restaurantbesuche oder fixen Programmpunkte planen; größere Touren auf freie Tage/Wochenende schieben. Unter der Woche bewusst mehrere Abende als Selbstkochen/Resteküche offen lassen.
 
 <!-- day:2026-05-29 -->
-**Fr 29.05. – Bummelzug-Tag**
-Kundler Klamm mit Bummelzug-Rückfahrt ab Färberwirt Mühltal. Mittags Thalmühle s'Wirtshaus. Nachmittags Bachpromenade Auffach. Abends Apparthotel Talhof (Auffach).
+**Fr 29.05. – Homeoffice + Bummelzug nur wenn früh frei**
+Homeoffice-Tag: mittags nichts planen. Der Bummelzug startet zwar ab 29.05., passt aber nur bei frühem Feierabend; sonst Bachpromenade/Auffach als kurzer Ausklang. Abendessen Talhof oder flexibel.
 
 <!-- day:2026-05-30 -->
 **Sa 30.05. – Wanderung Großer Beil oder Ruhetag**
@@ -1106,16 +1107,16 @@ Wenn Wetter und Schneelage passen: Großer Beil (2.309 m) als Gipfeltour. Sonst:
 Tagesausflug Achensee mit Schifffahrt + Pertisau. Mittags am See. Abends MM Marius Auffach.
 
 <!-- day:2026-06-01 -->
-**Mo 01.06. – Innsbruck**
-Tagesausflug Innsbruck (Altstadt, Goldenes Dachl, Bergisel). Abends Kellerwirt Oberau.
+**Mo 01.06. – Homeoffice + kurzer Abend in Oberau**
+Homeoffice-Tag: mittags nichts planen. Innsbruck als Tagesausflug auf einen freien Tag schieben. Nach Feierabend kurze Talrunde; Kellerwirt Oberau nur, wenn ihr raus wollt, sonst selbst kochen.
 
 <!-- day:2026-06-02 -->
-**Di 02.06. – Almenwanderung**
-Wahl zwischen Holzalm-Runde oder Schönangeralm-Detail. Mittags auf der Alm. Abends Sollererwirt Thierbach.
+**Di 02.06. – Homeoffice + Selbstkochen**
+Homeoffice-Tag: mittags nichts planen. Holzalm/Schönangeralm nicht als Mittagstour ansetzen; nur kurze Abendrunde oder Hallenbad. Abends bewusst selbst kochen/Resteküche.
 
 <!-- day:2026-06-03 -->
-**Mi 03.06. – Wilder Kaiser / SkiWelt-Region**
-Tagesausflug Söll-Hochsöll oder Going. Hexenwasser bei Söll. Abends Hotel Bergkristall Mühltal.
+**Mi 03.06. – Homeoffice + ruhiger Abend**
+Homeoffice-Tag: mittags nichts planen. Wilder Kaiser/SkiWelt auf freien Tag verschieben. Nach Feierabend nur kurze Talrunde oder Hallenbad; Bergkristall optional, sonst selbst kochen.
 
 <!-- day:2026-06-04 -->
 **Do 04.06. (Fronleichnam) – Schatzbergbahn-Eröffnung**
