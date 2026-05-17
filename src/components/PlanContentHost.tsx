@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useCallback, useLayoutEffect, useRef, type MutableRefObject } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useApp } from '@/context/AppContext';
 
@@ -9,7 +9,20 @@ export function PlanContentHost() {
   const loc = useLocation();
   const onPlan = loc.pathname === '/plan';
 
-  useEffect(() => {
+  const setContentNode = useCallback(
+    (node: HTMLDivElement | null) => {
+      (contentRef as MutableRefObject<HTMLDivElement | null>).current = node;
+    },
+    [contentRef]
+  );
+
+  useLayoutEffect(() => {
+    const node = contentRef.current;
+    if (!node || node.innerHTML === planHtml) return;
+    node.innerHTML = planHtml;
+  }, [contentRef, planHtml]);
+
+  useLayoutEffect(() => {
     const node = contentRef.current;
     const hidden = hiddenRef.current;
     if (!node || !hidden) return;
@@ -30,8 +43,7 @@ export function PlanContentHost() {
       <article
         id="content"
         className={'content' + (dayFilter ? ' day-filter-active' : '')}
-        ref={contentRef}
-        dangerouslySetInnerHTML={{ __html: planHtml }}
+        ref={setContentNode}
       />
     </div>
   );

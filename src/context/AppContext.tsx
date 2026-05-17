@@ -315,9 +315,10 @@ export function AppProvider({ children }: { children: ReactNode }) {
   }, []);
 
   useEffect(() => {
-    if (!planHtml || enhancedRef.current) return;
+    if (!planHtml) return;
     enhancedRef.current = false;
-    requestAnimationFrame(() => runEnhance());
+    const id = requestAnimationFrame(() => runEnhance());
+    return () => cancelAnimationFrame(id);
   }, [planHtml, runEnhance]);
 
   useEffect(() => {
