@@ -50,7 +50,7 @@ jobs:
           cp dist/index.html index.html
           rm -rf assets
           cp -r dist/assets assets
-          cp dist/registerSW.js dist/sw.js dist/manifest.webmanifest .
+          cp dist/sw.js dist/manifest.webmanifest .
           cp dist/workbox-*.js .
           cp dist/icon*.png dist/icon.svg . 2>/dev/null || true
 
@@ -58,7 +58,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html assets registerSW.js sw.js manifest.webmanifest workbox-*.js icon-192.png icon-512.png icon.svg
+          git add index.html assets sw.js manifest.webmanifest workbox-*.js icon-192.png icon-512.png icon.svg
           if git diff --staged --quiet; then
             echo "No changes to publish"
             exit 0
